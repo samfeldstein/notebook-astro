@@ -1,0 +1,60 @@
+---
+import Icons from "@components/Icons.astro";
+import OpenGraph from "@components/OpenGraph.astro";
+import { site } from "@data/config.js";
+
+import "@styles/global.css";
+
+const { title, description = title } = Astro.props;
+---
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Manifest -->
+  <meta name="apple-mobile-web-app-title" content="Sam Feldstein" />
+  <link rel="manifest" href="/site.webmanifest" />
+
+  <Icons />
+
+  <!-- Preload Fonts -->
+  <!-- <link
+    rel="preload"
+    href={`/static/fonts/${font}.woff2`}
+    as="font"
+    type="font/woff2"
+    crossorigin
+  /> -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wdth,wght@0,62.5..100,100..900;1,62.5..100,100..900&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Metadata -->
+  <meta name="generator" content={Astro.generator} />
+  <title>{`${title} | ${site.title}`}</title>
+  <meta name="author" content="Sam Feldstein" />
+  <meta name="description" content={description} />
+
+  <OpenGraph title={title} description={description} />
+
+  <!-- Other links -->
+  <link rel="sitemap" href="/sitemap-index.xml" />
+  <link
+    rel="alternate"
+    type="application/rss+xml"
+    title="Sam Feldstein's Notebook"
+    href={new URL("feed.xml", Astro.site)}
+  />
+  <link
+    rel="alternate"
+    type="application/rss+xml"
+    title="Sam Feldstein's Blog"
+    href="https://samfeldstein.xyz/feed.xml"
+  />
+</head>

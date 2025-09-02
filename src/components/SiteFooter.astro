@@ -1,0 +1,27 @@
+---
+import { links } from "@data/config";
+---
+
+<footer>
+  <ul>
+    <li><a href=`mailto:${links.email}`>Email</a></li>
+    <li><a href={links.github}>GitHub</a></li>
+    <li><a href={links.mainSite}>Main Site</a></li>
+  </ul>
+</footer>
+
+<style lang="scss">
+  @use "../styles/_utils.scss";
+
+  footer {
+    @extend .defer;
+    font-size: medium;
+    margin-top: 5rem;
+  }
+
+  ul {
+    @extend .unstyled-list;
+    display: grid;
+    gap: 0.5em;
+  }
+</style>

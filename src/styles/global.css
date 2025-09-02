@@ -1,0 +1,88 @@
+@import url(_reset.css);
+
+@view-transition {
+  navigation: auto;
+}
+
+:root {
+  --font-1: 'Noto Serif', serif;
+  --font-size-base: clamp(1rem, 4vw, 1.25rem);
+
+  /* Colors */
+  color-scheme: light dark;
+  --white: oklch(0.982 0 0);
+  --black: oklch(0.232 0 0);
+  --text-color: light-dark(var(--black), var(--white));
+  --background-color: light-dark(var(--white), var(--black));
+}
+
+html {
+  color: var(--text-color);
+  background-color: var(--background-color);
+}
+
+body {
+  font-family: var(--font-1);
+  font-size: var(--font-size-base);
+  font-optical-sizing: auto;
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+
+h1 {
+  font-weight: 100;
+  font-size: 4em;
+  font-variation-settings: "wdth" 70;
+}
+
+h2 {
+  font-style: italic;
+  font-weight: 300;
+  font-size: 2em;
+  text-align: right;
+  margin-top: 3em;
+  border-top: 0.1em solid;
+  padding-top: 0.25em;
+}
+
+nav a {
+  display: inline-block;
+  padding: 0.5em;
+}
+
+a,
+.a {
+  text-decoration: none;
+  color: currentColor;
+  text-transform: lowercase;
+  letter-spacing: 0.1em;
+}
+
+main {
+  max-width: 60rem;
+}
+
+main a:not(.tag) {
+  font-variant: small-caps;
+  font-size: 1.2em;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 0.1em;
+}
+
+a:focus-visible {
+  outline: 0.1em solid currentColor;
+}
+
+main p,
+main ul,
+main ol {
+  line-height: 1.3;
+}
+
+::selection {
+  color: var(--background-color);
+  background-color: var(--text-color);
+}

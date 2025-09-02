@@ -1,0 +1,63 @@
+---
+import Base from "@layouts/Base.astro";
+import Skiplink from "@components/Skiplink.astro";
+
+import { getCollection } from "astro:content";
+
+export async function getStaticPaths() {
+  // Filter drafts. Won't see the tag page in prod. Tried filtering them same way as notes so you can see them in prod, but doesn't work here.
+  const notes = await getCollection("notes");
+
+  const tags = [
+    ...new Set(
+      notes
+        .map((note) => note.data.tags)
+        .filter(Boolean) // Remove null/undefined values
+        .flat(),
+    ),
+  ];
+
+  return tags.map((tag) => {
+    const filteredNotes = notes.filter(
+      (note) => note.data.tags && note.data.tags.includes(tag),
+    );
+    return {
+      params: { tag },
+      props: { notes: filteredNotes },
+    };
+  });
+}
+
+const { tag } = Astro.params;
+const { notes } = Astro.props;
+---
+
+<Base title=`Notes tagged '${tag}'`>
+  <header>
+    <Skiplink/>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/notes/tags">All Tags</a>
+      <a href="/search">Search</a>
+    </nav>
+    <h1>Notes tagged ‘{tag}’</h1>
+  </header>
+  <main id="main">
+    <ul class="notes">
+      {
+        notes.map((note) => (
+          <li class="note">
+            <a href={`/notes/${note.id}/`}>{note.data.title}</a>
+          </li>
+        ))
+      }
+    </ul>
+  </main>
+</Base>
+
+<style lang="scss">
+  ul.notes {
+    display: grid;
+    gap: 0.5em;
+  }
+</style>

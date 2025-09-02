@@ -1,0 +1,19 @@
+---
+const ogType = "website";
+const ogImage =
+  "https://samfeldstein.xyz/static/images/sam-feldstein-open-graph-default.webp";
+
+  const {title, description} = Astro.props;
+---
+
+<!-- Open Graph -->
+<meta property="og:title" content={title} />
+<meta property="og:description" content={description} />
+<meta property="og:type" content={ogType} />
+<meta property="og:url" content={Astro.url.href} />
+<meta property="og:image" content={ogImage} />
+
+<!-- Twitter, etc -->
+<meta name="twitter:title" content={title} />
+<meta name="twitter:description" content={description} />
+<meta name="twitter:image" content={ogImage} />

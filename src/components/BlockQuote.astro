@@ -1,0 +1,34 @@
+---
+const { cite, author, work, medium } = Astro.props;
+
+const attribution = work
+  ? `${author}, <cite class=${medium}>${work}</cite>`
+  : author;
+---
+
+<blockquote cite={cite}>
+  <div class="quote">
+    <slot />
+  </div>
+  <p class="attribution" set:html={attribution} />
+</blockquote>
+
+<style>
+  blockquote {
+    border-radius: 0.15em;
+    background-color: var(--text-color);
+    color: var(--background-color);
+    padding: 1em;
+    margin: 0;
+  }
+
+  .quote {
+    font-size: larger;
+    font-weight: 300;
+    font-variation-settings: "wdth" 70;
+  }
+
+  .attribution {
+    font-size: medium;
+  }
+</style>

@@ -1,0 +1,50 @@
+---
+import Base from "@layouts/Base.astro";
+import Skiplink from "@components/Skiplink.astro";
+
+import { getCollection } from "astro:content";
+
+// Variables
+// Filter drafts when building for production
+const notes = await getCollection("notes");
+
+const tags = [
+  ...new Set(
+    notes
+      .map((note) => note.data.tags)
+      .filter(Boolean) // Remove null/undefined values
+      .flat(),
+  ),
+].sort((a, b) => a.localeCompare(b));
+---
+
+<Base title="Tags" description="Note categories.">
+  <header>
+    <Skiplink />
+    <nav>
+      <a href="/">Home</a>
+      <a href="/search">Search</a>
+    </nav>
+    <h1>Tags</h1>
+  </header>
+  <main id="main">
+    <ul class="tags">
+      {
+        tags.map((tag) => (
+          <li>
+            <a class="tag" href={`/notes/tags/${tag}`}>
+              {tag}
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </main>
+</Base>
+
+<style lang="scss">
+  ul.tags {
+    display: grid;
+    gap: 0.5em;
+  }
+</style>
