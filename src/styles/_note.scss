@@ -30,7 +30,7 @@ ul {
     display: flex;
     flex-wrap: wrap;
     gap: 1em;
-    font-size: medium;
+    font-size: var(--font-small);
     font-variation-settings: "wdth" 70;
     letter-spacing: 0.1em;
     font-weight: 200;

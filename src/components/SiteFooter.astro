@@ -2,8 +2,8 @@
 import { links } from "@data/config";
 ---
 
-<footer>
-  <ul>
+<footer class="defer">
+  <ul class="unstyled-list">
     <li><a href=`mailto:${links.email}`>Email</a></li>
     <li><a href={links.github}>GitHub</a></li>
     <li><a href={links.mainSite}>Main Site</a></li>
@@ -11,16 +11,12 @@ import { links } from "@data/config";
 </footer>
 
 <style lang="scss">
-  @use "../styles/_utils.scss";
-
   footer {
-    @extend .defer;
-    font-size: medium;
+    font-size: var(--font-small);
     margin-top: 5rem;
   }
 
   ul {
-    @extend .unstyled-list;
     display: grid;
     gap: 0.5em;
   }
