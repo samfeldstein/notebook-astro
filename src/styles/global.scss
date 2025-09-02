@@ -1,19 +1,8 @@
-@import url(_reset.css);
+@use 'reset';
+@use 'config';
 
 @view-transition {
   navigation: auto;
-}
-
-:root {
-  --font-1: 'Noto Serif', serif;
-  --font-size-base: clamp(1rem, 4vw, 1.25rem);
-
-  /* Colors */
-  color-scheme: light dark;
-  --white: oklch(0.982 0 0);
-  --black: oklch(0.232 0 0);
-  --text-color: light-dark(var(--black), var(--white));
-  --background-color: light-dark(var(--white), var(--black));
 }
 
 html {
