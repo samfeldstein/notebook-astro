@@ -1,6 +1,7 @@
 ---
 import Base from "@layouts/Base.astro";
 import Skiplink from "@components/Skiplink.astro";
+import {components}from "@components/global"
 
 import "@styles/_note.scss";
 
@@ -46,7 +47,7 @@ const tags = note.data.tags?.sort((a, b) => a.localeCompare(b)) || [];
         </ul>
       </header>
       <div class="note-body">
-        <Content />
+        <Content components={components}/>
       </div>
     </article>
   </main>
