@@ -19,27 +19,18 @@ const tags = [
 ---
 
 <Base title="Tags" description="Note categories.">
-  <header>
-    <Skiplink />
-    <nav>
-      <a href="/">Home</a>
-      <a href="/search">Search</a>
-    </nav>
-    <h1>Tags</h1>
-  </header>
-  <main id="main">
-    <ul class="tags">
-      {
-        tags.map((tag) => (
-          <li>
-            <a class="tag" href={`/notes/tags/${tag}`}>
-              {tag}
-            </a>
-          </li>
-        ))
-      }
-    </ul>
-  </main>
+  <h1>Tags</h1>
+  <ul class="tags">
+    {
+      tags.map((tag) => (
+        <li>
+          <a class="tag" href={`/notes/tags/${tag}`}>
+            {tag}
+          </a>
+        </li>
+      ))
+    }
+  </ul>
 </Base>
 
 <style lang="scss">

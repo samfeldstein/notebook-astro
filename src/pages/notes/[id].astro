@@ -1,7 +1,7 @@
 ---
 import Base from "@layouts/Base.astro";
 import Skiplink from "@components/Skiplink.astro";
-import {components}from "@components/global"
+import { components } from "@components/global";
 
 import "@styles/_note.scss";
 
@@ -22,33 +22,23 @@ const tags = note.data.tags?.sort((a, b) => a.localeCompare(b)) || [];
 ---
 
 <Base title={note.data.title} description={note.data.description}>
-  <header class="page">
-    <Skiplink />
-    <nav>
-      <a href="/">Home</a>
-      <a href="/notes/tags">Tags</a>
-      <a href="/search">Search</a>
-    </nav>
-  </header>
-  <main id="main" data-pagefind-body>
-    <article>
-      <header class="note">
-        <h1>{note.data.title}</h1>
-        <ul class="tags">
-          {
-            tags.map((tag) => (
-              <li>
-                <a class="tag" href={`/notes/tags/${tag}`}>
-                  {tag}
-                </a>
-              </li>
-            ))
-          }
-        </ul>
-      </header>
-      <div class="note-body">
-        <Content components={components}/>
-      </div>
-    </article>
-  </main>
+  <article data-pagefind-body>
+    <header class="note">
+      <h1>{note.data.title}</h1>
+      <ul class="tags">
+        {
+          tags.map((tag) => (
+            <li>
+              <a class="tag" href={`/notes/tags/${tag}`}>
+                {tag}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </header>
+    <div class="note-body">
+      <Content components={components} />
+    </div>
+  </article>
 </Base>

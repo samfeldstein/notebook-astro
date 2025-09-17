@@ -33,26 +33,16 @@ const { notes } = Astro.props;
 ---
 
 <Base title=`Notes tagged '${tag}'`>
-  <header>
-    <Skiplink/>
-    <nav>
-      <a href="/">Home</a>
-      <a href="/notes/tags">All Tags</a>
-      <a href="/search">Search</a>
-    </nav>
-    <h1>Notes tagged ‘{tag}’</h1>
-  </header>
-  <main id="main">
-    <ul class="notes">
-      {
-        notes.map((note) => (
-          <li class="note">
-            <a href={`/notes/${note.id}/`}>{note.data.title}</a>
-          </li>
-        ))
-      }
-    </ul>
-  </main>
+  <h1>Notes tagged ‘{tag}’</h1>
+  <ul class="notes">
+    {
+      notes.map((note) => (
+        <li class="note">
+          <a href={`/notes/${note.id}/`}>{note.data.title}</a>
+        </li>
+      ))
+    }
+  </ul>
 </Base>
 
 <style lang="scss">

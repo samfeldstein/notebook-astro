@@ -1,5 +1,9 @@
 :root {
-  --font-1: 'Noto Serif', serif;
+  --font-1: 'Noto Serif', 'Iowan Old Style',
+    'Palatino Linotype',
+    'URW Palladio L',
+    P052,
+    serif;
   --font-size-base: clamp(1rem, 4vw, 1.25rem);
   --font-small: calc(var(--font-size-base) * 0.8);
   --font-medium: calc(var(--font-size-base) * 1.2);

@@ -1,36 +1,29 @@
 ---
 import Base from "@layouts/Base.astro";
-import Skiplink from "@components/Skiplink.astro";
 import { site } from "@data/config";
-
-import "@styles/_home.scss";
 ---
 
 <Base title="Home" description={site.description}>
-	<header>
-		<Skiplink />
-		<nav>
-			<a href="/notes/tags">Tags</a>
-			<a href="/search">Search</a>
-		</nav>
-		<h1>Sam Feldstein’s Notebook</h1>
-	</header>
+	<h1>Sam Feldstein’s Notebook</h1>
+	<p>
+		Welcome to my digital notebook, also known as a <a
+			href="https://www.buildingasecondbrain.com">second brain</a
+		> or a
+		<a href="https://maggieappleton.com/garden-history">digital garden</a>. I
+		call it a notebook, because a notebook is something you write in and that’s
+		what I’m doing here.
+	</p>
 
-	<main id="main">
-			<p>
-				Welcome to my digital notebook, also known as a <a
-					href="https://www.buildingasecondbrain.com">second brain</a
-				> or a
-				<a href="https://maggieappleton.com/garden-history">digital garden</a>.
-				I call it a notebook, because a notebook is something you write in and
-				that’s what I’m doing here.
-			</p>
-
-			<p>
-				You can subscribe to my <a href="/feed.xml">rss feed</a> for updates. If
-				you prefer to subscribe by email, you can use <a
-					href="https://blogtrottr.com/">Blogtrottr</a
-				> to route the feed to your inbox.
-			</p>
-	</main>
+	<p>
+		You can subscribe to my <a href="/feed.xml">rss feed</a> for updates. If you
+		prefer to subscribe by email, you can use <a href="https://blogtrottr.com/"
+			>Blogtrottr</a
+		> to route the feed to your inbox.
+	</p>
 </Base>
+
+<style>
+	h1 {
+		margin-bottom: 0;
+	}
+</style>

@@ -7,12 +7,11 @@
 
 html {
   overflow-y: scroll;
-  scroll-behavior: smooth;
   font-size: 16px;
 }
 
 body {
-  min-height: 100vh;
+  margin: 0;
   padding: 10px;
 }
 
@@ -20,19 +19,10 @@ img {
   /* Make images responsive */
   max-width: 100%;
   height: auto;
-  animation: fadeIn .5s ease-in forwards;
 }
 
 figure {
   margin: 0;
-}
-
-/* Correct the inheritance and scaling of font size in all browsers */
-pre,
-code,
-kbd,
-samp {
-  font-family: ui-monospace, monospace;
 }
 
 /* Add the correct font weight in Chrome, Edge, and Safari */
@@ -41,10 +31,6 @@ strong {
   font-weight: bolder;
 }
 
-/* Inherit fonts for inputs and buttons */
-input,
-button,
-textarea,
-select {
-  font: inherit;
+pre {
+  font-size: 1em;
 }

@@ -1,6 +1,7 @@
 ---
 title: Movie Theaters in Los Angeles
 tags:
+  - movies
 created: 2025-06-11
 updated: 2025-06-11
 ---
@@ -15,6 +16,7 @@ updated: 2025-06-11
 - [TCL Chinese Theatre](https://www.tclchinesetheatres.com/imax)
 - [Academy Museum Theater]([The Frida](https://thefridacinema.org/))
 - [Gardena Cinema](https://ticketing.uswest.veezi.com/sessions/?siteToken=he5nsxynkgmw2w1wvfey3mvh64)
+- [American Cinematheque](https://www.americancinematheque.com/)
 
 ## Outdoor
 
