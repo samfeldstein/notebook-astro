@@ -25,6 +25,14 @@ const { title, description = title } = Astro.props;
   <meta name="author" content="Sam Feldstein" />
   <meta name="description" content={description} />
 
+  <link
+    rel="preload"
+    href=`/fonts/noto-serif.woff2`
+    as="font"
+    type="font/woff2"
+    crossorigin
+  />
+
   <OpenGraph title={title} description={description} />
 
   <!-- Other links -->
