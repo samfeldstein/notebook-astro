@@ -3,7 +3,10 @@ import Tags from "@components/Tags.astro";
 
 const { note } = Astro.props;
 
-const tags = note.data.tags.sort((a, b) => a.localeCompare(b)) || [];
+// Ensure tags is always an array before sorting
+const tags = Array.isArray(note.data.tags)
+  ? note.data.tags.sort((a, b) => a.localeCompare(b))
+  : [];
 ---
 
 <header>
