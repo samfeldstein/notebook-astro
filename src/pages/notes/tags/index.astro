@@ -1,11 +1,8 @@
 ---
 import Base from "@layouts/Base.astro";
-import Skiplink from "@components/Skiplink.astro";
 
 import { getCollection } from "astro:content";
 
-// Variables
-// Filter drafts when building for production
 const notes = await getCollection("notes");
 
 const tags = [

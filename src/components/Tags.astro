@@ -1,0 +1,32 @@
+---
+const { tags, path } = Astro.props;
+---
+
+<ul>
+  {
+    tags.map((tag) => (
+      <li>
+        <a class="tag" href={`/${path}/tags/${tag}`}>
+          {tag}
+        </a>
+      </li>
+    ))
+  }
+</ul>
+
+<style lang="scss">
+  @use "@styles/utils";
+
+  ul {
+    @extend .unstyled-list;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+
+    font-size: var(--font-small);
+    font-weight: 200;
+    font-style: italic;
+    font-variation-settings: "wdth" 70;
+    letter-spacing: 0.1em;
+  }
+</style>

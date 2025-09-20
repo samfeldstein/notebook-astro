@@ -1,4 +1,6 @@
 ---
+import Tags from "@components/Tags.astro";
+
 const { note } = Astro.props;
 
 const tags = note.data.tags.sort((a, b) => a.localeCompare(b)) || [];
@@ -6,44 +8,15 @@ const tags = note.data.tags.sort((a, b) => a.localeCompare(b)) || [];
 
 <header>
   <h1>{note.data.title}</h1>
-  <ul>
-    {
-      tags.map((tag) => (
-        <li>
-          <a class="tag" href={`/notes/tags/${tag}`}>
-            {tag}
-          </a>
-        </li>
-      ))
-    }
-  </ul>
+  <Tags tags={tags} path="notes" />
 </header>
 
 <style lang="scss">
-  @use "@styles/utils";
-
   header {
     margin-bottom: 5rem;
   }
 
   h1 {
     margin-bottom: 0;
-  }
-
-  ul {
-    @extend .unstyled-list;
-    padding-left: 0.5em;
-    margin: 0;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1em;
-    font-size: var(--font-small);
-    font-variation-settings: "wdth" 70;
-    letter-spacing: 0.1em;
-    font-weight: 200;
-  }
-
-  a {
-    font-style: italic;
   }
 </style>

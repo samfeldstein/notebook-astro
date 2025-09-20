@@ -1,6 +1,6 @@
 ---
-import Icons from "@components/Icons.astro";
-import OpenGraph from "@components/OpenGraph.astro";
+import Icons from "@components/head/Icons.astro";
+import OpenGraph from "@components/head/OpenGraph.astro";
 import { site } from "@data/config.js";
 
 import "@styles/global.scss";
@@ -13,9 +13,14 @@ const { title, description = title } = Astro.props;
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- Manifest -->
-  <meta name="apple-mobile-web-app-title" content="Sam Feldstein" />
-  <link rel="manifest" href="/site.webmanifest" />
+  <!-- Preloads -->
+  <link
+    rel="preload"
+    href=`/fonts/noto-serif.woff2`
+    as="font"
+    type="font/woff2"
+    crossorigin
+  />
 
   <Icons />
 
@@ -25,13 +30,9 @@ const { title, description = title } = Astro.props;
   <meta name="author" content="Sam Feldstein" />
   <meta name="description" content={description} />
 
-  <link
-    rel="preload"
-    href=`/fonts/noto-serif.woff2`
-    as="font"
-    type="font/woff2"
-    crossorigin
-  />
+  <!-- Manifest -->
+  <meta name="apple-mobile-web-app-title" content="Sam Feldstein" />
+  <link rel="manifest" href="/site.webmanifest" />
 
   <OpenGraph title={title} description={description} />
 
