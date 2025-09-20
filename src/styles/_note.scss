@@ -13,15 +13,6 @@ h1 {
   margin-bottom: 0;
 }
 
-.note-body {
-
-  ul,
-  ol {
-    display: grid;
-    gap: 0.5em;
-  }
-}
-
 ul {
   &.tags {
     @extend .unstyled-list;

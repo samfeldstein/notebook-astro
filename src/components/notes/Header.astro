@@ -1,0 +1,20 @@
+---
+const { note } = Astro.props;
+
+const tags = note.data.tags.sort((a, b) => a.localeCompare(b)) || [];
+---
+
+<header class="note">
+  <h1>{note.data.title}</h1>
+  <ul class="tags">
+    {
+      tags.map((tag) => (
+        <li>
+          <a class="tag" href={`/notes/tags/${tag}`}>
+            {tag}
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+</header>

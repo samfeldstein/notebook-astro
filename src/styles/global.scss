@@ -9,8 +9,9 @@
 
 h1 {
   font-weight: 100;
-  font-size: 4em;
+  font-size: clamp(3rem, 10vw, 7rem);
   font-variation-settings: "wdth" 70;
+  line-height: 1.2;
 }
 
 h2 {
@@ -28,7 +29,7 @@ a,
   text-decoration: none;
   color: currentColor;
   text-transform: lowercase;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.15em;
 }
 
 

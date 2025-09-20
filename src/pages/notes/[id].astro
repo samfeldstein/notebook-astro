@@ -1,6 +1,6 @@
 ---
 import Base from "@layouts/Base.astro";
-import Skiplink from "@components/Skiplink.astro";
+import Header from "@components/notes/Header.astro";
 import { components } from "@components/global";
 
 import "@styles/_note.scss";
@@ -23,22 +23,25 @@ const tags = note.data.tags?.sort((a, b) => a.localeCompare(b)) || [];
 
 <Base title={note.data.title} description={note.data.description}>
   <article data-pagefind-body>
-    <header class="note">
-      <h1>{note.data.title}</h1>
-      <ul class="tags">
-        {
-          tags.map((tag) => (
-            <li>
-              <a class="tag" href={`/notes/tags/${tag}`}>
-                {tag}
-              </a>
-            </li>
-          ))
-        }
-      </ul>
-    </header>
-    <div class="note-body">
-      <Content components={components} />
-    </div>
+    <Header note={note}/>
   </article>
+  <div class="body">
+    <Content components={components} />
+  </div>
 </Base>
+
+<style>
+  .body {
+    max-width: 60rem;
+  }
+</style>
+
+<style lang="scss" is:global>
+  .body {
+    ul,
+    ol {
+      display: grid;
+      gap: 0.5em;
+    }
+  }
+</style>

@@ -1,7 +1,7 @@
 ---
 import Head from "@components/Head.astro";
-import SiteHeader from "@components/SiteHeader.astro";
-import SiteFooter from "@components/SiteFooter.astro";
+import Header from "@components/Header.astro";
+import Footer from "@components/Footer.astro";
 import Main from "@components/Main.astro";
 
 const { title, description } = Astro.props;
@@ -11,9 +11,11 @@ const { title, description } = Astro.props;
 <html lang="en-us" prefix="og:https://ogp.me/ns#">
   <Head title={title} description={description} />
   <body>
-    <SiteHeader />
-    <Main><slot /></Main>
-    <SiteFooter />
+    <Header />
+    <Main>
+      <slot />
+    </Main>
+    <Footer />
   </body>
 </html>
 
@@ -25,6 +27,9 @@ const { title, description } = Astro.props;
 
   body {
     min-height: 100dvh;
+    
+    padding: 2vw;
+
     display: flex;
     flex-direction: column;
 
