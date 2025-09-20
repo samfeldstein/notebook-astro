@@ -5,20 +5,27 @@ import { site } from "@data/config";
 
 <Base title="Home" description={site.description}>
 	<h1>Sam Feldstein’s Notebook</h1>
-	<p>
-		Welcome to my digital notebook, also known as a <a
-			href="https://www.buildingasecondbrain.com">second brain</a
-		> or a
-		<a href="https://maggieappleton.com/garden-history">digital garden</a>. I
-		call it a notebook, because a notebook is something you write in and that’s
-		what I’m doing here.
-	</p>
+	<div>
+		<p>
+			Welcome to my digital notebook, also known as a <a
+				href="https://www.buildingasecondbrain.com">second brain</a
+			> or a
+			<a href="https://maggieappleton.com/garden-history">digital garden</a>. I
+			call it a notebook, because a notebook is something you write in and
+			that’s what I’m doing here.
+		</p>
 
-	<p>
-		You can subscribe to my <a href="/feed.xml">rss feed</a> for updates. If you
-		prefer to subscribe by email, you can use <a href="https://blogtrottr.com/"
-			>Blogtrottr</a
-		> to route the feed to your inbox.
-	</p>
+		<p>
+			You can subscribe to my <a href="/feed.xml">rss feed</a> for updates. If you
+			prefer to subscribe by email, you can use <a
+				href="https://blogtrottr.com/">Blogtrottr</a
+			> to route the feed to your inbox.
+		</p>
+	</div>
 </Base>
 
+<style>
+	div {
+		max-width: 60rem;
+	}
+</style>

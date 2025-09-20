@@ -1,6 +1,6 @@
 <main id="main"><slot /></main>
 
-<style lang="scss">
+<style>
   main {
     flex: 1;
   }
@@ -16,6 +16,15 @@
     ul,
     ol {
       line-height: 1.3;
+    }
+
+    @media screen and (max-width: 768px) {
+      p,
+      ul,
+      ol {
+        text-align: justify;
+        hyphens: auto;
+      }
     }
   }
 </style>

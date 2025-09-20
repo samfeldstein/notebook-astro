@@ -3,8 +3,6 @@ import Base from "@layouts/Base.astro";
 import Header from "@components/notes/Header.astro";
 import { components } from "@components/global";
 
-import "@styles/_note.scss";
-
 import { getCollection, render } from "astro:content";
 // 1. Generate a new path for every collection entry
 export async function getStaticPaths() {
@@ -14,20 +12,18 @@ export async function getStaticPaths() {
     props: { note },
   }));
 }
-// 2. For your template, you can get the entry directly from the prop
+
 const { note } = Astro.props;
 const { Content } = await render(note);
-
-const tags = note.data.tags?.sort((a, b) => a.localeCompare(b)) || [];
 ---
 
 <Base title={note.data.title} description={note.data.description}>
   <article data-pagefind-body>
-    <Header note={note}/>
+    <Header note={note} />
+    <div class="body">
+      <Content components={components} />
+    </div>
   </article>
-  <div class="body">
-    <Content components={components} />
-  </div>
 </Base>
 
 <style>
@@ -43,5 +39,17 @@ const tags = note.data.tags?.sort((a, b) => a.localeCompare(b)) || [];
       display: grid;
       gap: 0.5em;
     }
+  }
+
+  pre {
+    border-radius: 0.25em;
+    padding: 1em;
+  }
+
+  code {
+    font-family: var(--font-1);
+    font-weight: 700;
+    font-variation-settings: "wdth" 70;
+    letter-spacing: 0.1em;
   }
 </style>

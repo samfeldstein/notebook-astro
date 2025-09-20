@@ -12,7 +12,6 @@ html {
 
 body {
   margin: 0;
-  padding: 10px;
 }
 
 img {
@@ -21,16 +20,13 @@ img {
   height: auto;
 }
 
-figure {
-  margin: 0;
-}
-
 /* Add the correct font weight in Chrome, Edge, and Safari */
 b,
 strong {
   font-weight: bolder;
 }
 
-pre {
+pre,
+code {
   font-size: 1em;
 }

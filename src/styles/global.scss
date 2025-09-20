@@ -24,30 +24,24 @@ h2 {
   padding-top: 0.25em;
 }
 
-a,
-.a {
+a {
   text-decoration: none;
   color: currentColor;
   text-transform: lowercase;
   letter-spacing: 0.15em;
-}
 
+  &:hover,
+  &:focus {
+    background-color: var(--text-color);
+    color: var(--background-color);
+  }
 
-
-a:hover {
-  text-decoration: underline;
-  text-decoration-thickness: 0.1em;
-}
-
-a:focus-visible {
-  outline: 0.1em solid currentColor;
+  &:focus-visible {
+    outline: none;
+  }
 }
 
 ::selection {
   color: var(--background-color);
   background-color: var(--text-color);
-}
-
-pre, code {
-  font-family: inherit;
 }
