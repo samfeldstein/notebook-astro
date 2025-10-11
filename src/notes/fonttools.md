@@ -18,6 +18,6 @@ pyftsubset Oswald-VariableFont_wght.ttf \
   --layout-features='*'
 ```
 
-If you want diacritics, use `U+0020-007F,U+00A0-00FF`. Make sure the ranges are specified in your font file.
+If you want diacritics, use `U+0020-007F,U+00A0-00FF`. Make sure the ranges are specified in your `@font-face` rules.
 
 Read more in the [docs](https://fonttools.readthedocs.io/en/latest/index.html).

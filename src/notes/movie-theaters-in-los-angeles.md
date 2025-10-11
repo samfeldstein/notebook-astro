@@ -9,14 +9,13 @@ updated: 2025-06-11
 - [The Frida](https://thefridacinema.org/)
 - [The New Beverly](https://thenewbev.com/)
 - [The Vista](https://www.vistatheaterhollywood.com/)
-- [Los Feliz](https://www.vintagecinemas.com/losfeliz/)
-- [Secret Movie Club](https://www.secretmovieclub.com/)
-- [The Aero](https://www.americancinematheque.com/about/theatres/aero-theatre/)
-- [The Egyptian](https://www.americancinematheque.com/about/theatres/egyptian-theatre/)
 - [TCL Chinese Theatre](https://www.tclchinesetheatres.com/imax)
-- [Academy Museum Theater]([The Frida](https://thefridacinema.org/))
+- [Academy Museum Theater](https://www.academymuseum.org/en/calendar?programTypes=16i3uOYQwism7sMDhIQr2O)
 - [Gardena Cinema](https://ticketing.uswest.veezi.com/sessions/?siteToken=he5nsxynkgmw2w1wvfey3mvh64)
-- [American Cinematheque](https://www.americancinematheque.com/)
+- [American Cinematheque](https://www.americancinematheque.com/now-showing/)
+	- Aero
+	- Egyptian
+	- Loz Feliz
 
 ## Outdoor
 

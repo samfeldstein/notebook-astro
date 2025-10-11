@@ -25,4 +25,4 @@ export default defineConfig({
 
 ## Further reading
 
-- [Astro configuration](https://astro.build/config)
+- [Astro Runtime API Render Context](https://docs.astro.build/en/reference/api-reference/#url)

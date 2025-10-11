@@ -40,4 +40,4 @@ Check your work at [opengraph.xyz](https://www.opengraph.xyz/).
 
 ## Further reading
 
-- [Open Graph Protocol website](https://ogp.me/).
+- [Open Graph Protocol website](https://ogp.me/)

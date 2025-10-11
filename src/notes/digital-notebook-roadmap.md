@@ -8,6 +8,7 @@ created: 2025-05-28
 updated: 2025-05-28
 ---
 
+- Mobile search bar styles
 - Local fonts
 - Bookshop.org affiliate links
 - Colophon
