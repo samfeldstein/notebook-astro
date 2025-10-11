@@ -4,7 +4,7 @@
   window.addEventListener("DOMContentLoaded", (event) => {
     new PagefindUI({
       element: "#search",
-      showSubResults: true,
+      // showSubResults: true,
       autofocus: true,
     });
   });
@@ -38,6 +38,10 @@
     max-width: 40rem;
 
     font: inherit;
+
+    &:focus {
+      outline: 1px solid currentColor;
+    }
   }
 
   .pagefind-ui__result-inner
