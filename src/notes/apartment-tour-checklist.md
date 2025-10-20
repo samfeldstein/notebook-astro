@@ -8,12 +8,12 @@ created: 2025-10-11
 updated: 2025-10-11
 ---
 
-## Tour checklist
+Ultimately the right choice is the one that will be the most comfortable.
 
 - Noise
 	- Wall thickness
 	- Wind
-	- Dogs
+	- Dogs (neighbors?)
 - Appliances
 - AC/Heat
 - Utilities
@@ -26,4 +26,4 @@ updated: 2025-10-11
 
 ## Other things to consider
 
-- Landlord/management company rep
+- Landlord/management company reputation

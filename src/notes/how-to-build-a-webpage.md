@@ -15,8 +15,4 @@ tags:
 - Add [[open-graph-protocol|Open Graph Markup]]
 - [[web-performance-checklist|Improve performance]]
 - [Validate HTML](https://validator.w3.org)
-- Cross-browser-testing
-	- Desktop
-	- Phone
-
-[[browser-speculation-rules|Browser Speculation Rules]]
+- Cross-browser testing
