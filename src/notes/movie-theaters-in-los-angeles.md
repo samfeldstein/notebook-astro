@@ -6,9 +6,12 @@ created: 2025-06-11
 updated: 2025-06-11
 ---
 
+- [Revival Houses](https://www.revivalhouses.com/#2025-11-07) aggregates a bunch of screenings
+- [Revival Hub](https://revivalhub.com/) does the same thing
 - [The Frida](https://thefridacinema.org/)
 - [The New Beverly](https://thenewbev.com/)
 - [The Vista](https://www.vistatheaterhollywood.com/)
+- [Nuart](https://www.landmarktheatres.com/showtimes/)
 - [TCL Chinese Theatre](https://www.tclchinesetheatres.com/imax)
 - [Academy Museum Theater](https://www.academymuseum.org/en/calendar?programTypes=16i3uOYQwism7sMDhIQr2O)
 - [Gardena Cinema](https://ticketing.uswest.veezi.com/sessions/?siteToken=he5nsxynkgmw2w1wvfey3mvh64)
@@ -16,12 +19,15 @@ updated: 2025-06-11
 	- Aero
 	- Egyptian
 	- Loz Feliz
-
-## Outdoor
-
-- [Street Food Cinema](https://www.revivalhouses.com/theaters/street-food-cinema/)
+- [Secret Movie Club](https://www.secretmovieclub.com/)
+- [Street Food Cinema](https://www.streetfoodcinema.com/schedule)
+- Hollywood Bowl movies
 - [Cinespia](https://cinespia.org/)
-- [Hollywood Bowl](https://www.hollywoodbowl.com/)
+
+## Might see, multiple showtimes
+
+- Predator Badlands
+- Die My Love
 
 ## Further reading
 
