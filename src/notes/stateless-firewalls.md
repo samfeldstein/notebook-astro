@@ -1,5 +1,5 @@
 ---
-title: Firewalls
+title: Stateless Firewalls
 tags:
   - cybersecurity
 created: 2025-06-10

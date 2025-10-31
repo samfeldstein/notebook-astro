@@ -3,7 +3,7 @@ title: Routers
 aliases:
   - Routers
 tags:
-  - cybersecurity
+  - networking
 created: 2025-06-16
 updated: 2025-06-16
 ---
