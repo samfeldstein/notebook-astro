@@ -10,3 +10,4 @@ updated: 2025-10-21
 - Griffith Observatory
 - Walk of Fame
 - The Last Bookstore
+- Comedy store
