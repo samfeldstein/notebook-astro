@@ -11,9 +11,12 @@ updated: 2025-10-11
 Ultimately the right choice is the one that will be the most comfortable.
 
 - Noise
+	- No garden level
 	- Wall thickness
 	- Wind
 	- Dogs (neighbors?)
+	- Noisy roads
+	- Alleys/garbage trucks
 - Appliances
 - AC/Heat
 - Utilities

@@ -14,18 +14,23 @@ const attribution = work
 </blockquote>
 
 <style>
-  blockquote { 
-    background-color: var(--text-color);
-    color: var(--background-color);
+  blockquote {
+    color-scheme: light dark;
+    --accent: light-dark(#999, #595959);
+    --background: light-dark(#efefef, #252525);
+
+    background-color: var(--background);
+    border-color: var(--accent);
+    border-style: solid none;
+    border-width: 0.01em;
 
     margin: 2rem 0;
-    border-radius: 0.15em;
     padding: 1em;
     display: grid;
     grid-template-rows: 1fr;
   }
 
-  .quote {
+  div {
     font-size: var(--font-large);
     font-weight: 200;
     font-variation-settings: "wdth" 62.5;

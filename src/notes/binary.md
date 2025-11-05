@@ -16,7 +16,7 @@ $$d \times b^p$$
 
 ## Example
 
-Binary is the base-2 numbering system, so $b = 2$.  Given the binary number 011, we can calculate its value like so:
+Binary is the base-2 numbering system, so $b = 2$. Given the binary number 011, we can calculate its value like so:
 
 $$(0 \times 2^2) + (1 \times 2^1) + (1 \times 2^0) = 0 + 2 + 1 = 3$$
 
