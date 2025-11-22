@@ -1,0 +1,37 @@
+<aside>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"
+    ><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+    <path
+      d="M320 64c14.7 0 28.2 8.1 35.2 21l216 400c6.7 12.4 6.4 27.4-.8 39.5S550.1 544 536 544H104c-14.1 0-27.2-7.4-34.4-19.5s-7.5-27.1-.8-39.5l216-400c7-12.9 20.5-21 35.2-21m0 352c-17.7 0-32 14.3-32 32s14.3 32 32 32 32-14.3 32-32-14.3-32-32-32m0-192c-18.2 0-32.7 15.5-31.4 33.7l7.4 104c.9 12.5 11.4 22.3 23.9 22.3 12.6 0 23-9.7 23.9-22.3l7.4-104c1.3-18.2-13.1-33.7-31.4-33.7z"
+    ></path></svg
+  >
+  <div class="content">
+    <slot />
+  </div>
+</aside>
+
+<style>
+  aside {
+    color-scheme: light dark;
+    --accent: light-dark(#999, #595959);
+    --background: light-dark(#efefef, #252525);
+
+    background-color: var(--background);
+    border-color: var(--accent);
+    border-style: solid;
+    border-width: 0.01em;
+
+    margin: 2rem 0;
+    padding: 1em;
+
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 2em;
+  }
+
+  svg {
+    fill: var(--text-color);
+    height: 2em;
+  }
+</style>

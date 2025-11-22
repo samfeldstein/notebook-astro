@@ -2,6 +2,7 @@
 title: Winter Window Inserts
 aliases: Winter Window Inserts
 tags:
+  - home-improvement
 created: 2025-10-29
 updated: 2025-10-29
 ---
