@@ -2,7 +2,7 @@
 title: Things to Do When Traveling
 tags:
   - travel
-updated: 2025-05-24
+updated: 2025-11-23
 ---
 
 ## Explore
@@ -11,6 +11,7 @@ updated: 2025-05-24
 - Bookstores
 - Parks
 - Gardens
+- Views
 
 ## Entertainment
 
