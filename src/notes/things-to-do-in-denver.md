@@ -10,3 +10,4 @@ updated: 2025-05-24
 
 - [Colorado Directory](https://www.coloradodirectory.com/denverarea/)
 - [Secret Denver](https://secretdenver.com/)
+- Georgetown Christmas Market
