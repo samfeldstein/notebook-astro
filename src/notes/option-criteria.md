@@ -2,6 +2,7 @@
 title: Option Criteria
 aliases: Option Criteria
 tags:
+  - options-trading
 created: 2025-11-24
 updated: 2025-11-24
 ---
@@ -16,3 +17,8 @@ updated: 2025-11-24
 - Low break-even
 - High delta
 - High vega
+
+
+## Tools
+
+- [stockcharts.com](https://stockcharts.com/)
