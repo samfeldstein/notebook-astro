@@ -10,3 +10,4 @@ updated: 2025-12-10
 - [Instant Offer Furniture](https://instantofferfurniture.com/)
 - [Home Again](https://www.usedfurnitureindenver.com/)
 - [American Furniture Warehouse](https://www.afw.com/)
+- [The Other Side](https://www.tosafurniture.com/)

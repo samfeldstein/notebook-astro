@@ -17,6 +17,12 @@ Some people think Stein was lying when she said she wasn’t lesbian. And they a
 So what do you do? You go talk to a thousand people (increasingly less randomly sampled) and see if there are any patterns in who makes you feel excited and alive and true and heard. And then you start hanging out with people like that.
 </BlockQuote>
 
+<BlockQuote author="Henrik Karlsson" work="Relationships are coevolutionary loops" medium="essay" cite="https://www.henrikkarlsson.xyz/p/looking-for-alice">
+We need someone who gives us space to unfold.
+</BlockQuote>
+
+I need someone who makes me more confident, not less.
+
 
 ## Further reading
 
