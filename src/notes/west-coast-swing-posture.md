@@ -9,6 +9,4 @@ created: 2025-12-04
 updated: 2025-12-04
 ---
 
-Breath from your stomach, not your chest. Treat your stomach like a bellows. Engage your core muscles to pump the air in and out.
-
-This will help you relax. What we're looking for is the midpoint on the spectrum between rigid and limp. We want to be relaxed and fluid, but sturdy and receptive.
+Pretend your head is a balloon. [[how-to-breathe-in-west-coast-swing|inhale, exhale]]. Feel your neck lengthen and your head float toward the ceiling.
