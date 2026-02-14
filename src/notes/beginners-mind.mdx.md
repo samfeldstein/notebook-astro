@@ -1,0 +1,17 @@
+---
+title: Beginner's Mind
+aliases: Beginner's Mind
+tags:
+  - zen
+created: 2026-02-09
+updated: 2026-02-0
+---
+
+<BlockQuote work="Zen Mind, Beginner's Mind" author="Shunryu Suzuki" medium="book" page="xiv">
+The mind of the beginner is empty, free of the habits of the expert, ready to accept, to doubt, and open to all the possibilities.
+</BlockQuote>
+
+<BlockQuote work="Zen Mind, Beginner's Mind" author="Shunryu Suzuki" medium="book" page="xiv">
+The Zen way of calligraphy is to write in the most straightforward, simple way as if you were a beginner, not trying to make something skillful or beautiful, but simply writing with full attention, as if you were discovering what you were writing for the first time; then your full nature will be in your writing. This is the way of practice moment after moment.
+</BlockQuote>
+
