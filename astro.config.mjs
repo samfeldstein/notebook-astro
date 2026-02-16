@@ -1,10 +1,8 @@
-import { defineConfig } from 'astro/config';
+import { defineConfig } from 'astro/config'
 import remarkSmartypants from 'remark-smartypants'
-import remarkWikiLink from 'remark-wiki-link';
-
-import sitemap from '@astrojs/sitemap';
-
-import mdx from '@astrojs/mdx';
+import remarkWikiLink from 'remark-wiki-link'
+import sitemap from '@astrojs/sitemap'
+import mdx from '@astrojs/mdx'
 
 // https://astro.build/config
 export default defineConfig({

@@ -4,6 +4,7 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "astro dev",
+    "prebuild": "cp -r src/notes/assets public/notes/assets/",
     "build": "astro build && npx -y pagefind --site dist",
     "preview": "astro preview",
     "astro": "astro"
@@ -12,7 +13,7 @@
     "@astrojs/mdx": "^4.3.13",
     "@astrojs/rss": "^4.0.15",
     "@astrojs/sitemap": "^3.7.0",
-    "astro": "^5.16.15",
+    "astro": "^5.17.2",
     "remark-smartypants": "^3.0.2",
     "remark-wiki-link": "^2.0.1",
     "sass": "^1.91.0"
