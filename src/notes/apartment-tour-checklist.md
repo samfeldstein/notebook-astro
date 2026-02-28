@@ -25,7 +25,7 @@ Ultimately the right choice is the one that will be the most comfortable.
 - Parking
 - Move-in date
 - Lease length
-- Take video
+- Proximity to interstate
 
 ## Other things to consider
 

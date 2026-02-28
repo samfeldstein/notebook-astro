@@ -8,7 +8,7 @@ updated: 2025-05-24
 
 ## New books
 
-- [Bookshop.org](https://bookshop.org/). Supports local bookstores.
+[Bookshop.org](https://bookshop.org/) supports local bookstores.
 
 ## Used books
 

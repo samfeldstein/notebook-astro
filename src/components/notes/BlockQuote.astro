@@ -13,7 +13,7 @@ const attribution = work
   <p class="attribution" set:html={attribution} />
 </blockquote>
 
-<style>
+<style lang="scss">
   blockquote {
     color-scheme: light dark;
     --accent: light-dark(#999, #595959);
@@ -43,5 +43,20 @@ const attribution = work
     font-size: var(--font-small);
     font-weight: 100;
     text-align: right;
+  }
+</style>
+
+<style lang="scss" is:global>
+  cite.essay,
+  cite.article {
+    font-style: normal;
+
+    &::before {
+      content: "“";
+    }
+
+    &::after {
+      content: "”";
+    }
   }
 </style>
