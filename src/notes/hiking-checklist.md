@@ -9,5 +9,5 @@ updated: 2026-02-14
 - Hat
 - Sunscreen
 - Water
-- Snacks
+- [[hiking-snacks|Snacks]]
 - Book
