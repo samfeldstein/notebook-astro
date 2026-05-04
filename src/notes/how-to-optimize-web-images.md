@@ -7,7 +7,7 @@ created: 2024-12-27
 updated: 2024-12-27
 ---
 
-- Compress.
+- Compress
 	- [SVGOMG](https://jakearchibald.github.io/svgomg/)
 	- [Squoosh](https://squoosh.app)
 		- I'm not sure how necessary this is given the image components and plugins below.

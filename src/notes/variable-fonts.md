@@ -11,7 +11,7 @@ updated: 2025-07-29
 
 Variable fonts combine many variations of a typeface in a single file, so you don't need a separate font file for each variation.
 
-## Find fonts
+## Find variable fonts
 
 - [V-Fonts](https://v-fonts.com/)
 - [Google Fonts](https://fonts.google.com/?categoryFilters=Technology:%2FTechnology%2FVariable) (select **Variable** under **Technology**)

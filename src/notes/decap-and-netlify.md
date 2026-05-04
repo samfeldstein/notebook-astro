@@ -13,7 +13,7 @@ The [admin-only solution](https://decapcms.org/docs/choosing-a-backend/) says yo
 
 ## Pitfalls
 
-The docs imply you should [store `admin/` in your site's output folder directly](https://decapcms.org/docs/install-decap-cms/), but this is bad idea. If you ever delete the public folder, `admin/` will go with it. Better to pass `admin/` to the ouput as a static resource.
+The docs imply you should [store `admin/` in your site's output folder directly](https://decapcms.org/docs/install-decap-cms/), but this is bad idea. If you ever delete the public folder, `admin/` will go with it. Better to pass `admin/` to the output as a static resource.
 
 ## Help
 
