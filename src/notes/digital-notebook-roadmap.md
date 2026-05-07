@@ -21,3 +21,4 @@ updated: 2025-05-28
 - Compress pdfs at build
 - Get relative links to work without the transforms?
 - Build private notes on dev server
+- Make PWA

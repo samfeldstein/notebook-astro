@@ -28,14 +28,23 @@ h2 {
 a {
   text-decoration: none;
   color: currentColor;
-  text-transform: lowercase;
-  letter-spacing: 0.15em;
+
+  &:not(.blockquote) {
+    text-transform: lowercase;
+    letter-spacing: 0.15em;
+  }
+
 
   &:hover,
   &:focus {
-    text-decoration: underline;
     text-decoration-thickness: 0.1em;
-    text-underline-offset: 0.2em;
+      text-underline-offset: 0.2em;
+
+    &:not(.blockquote) {
+      text-decoration: underline;
+    }
+
+    
   }
 
   &:focus-visible {

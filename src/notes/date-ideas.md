@@ -2,6 +2,8 @@
 title: Date Ideas
 aliases: Date Ideas
 tags:
+  - relationships
+  - dating
 created: 2025-12-18
 updated: 2025-12-18
 ---

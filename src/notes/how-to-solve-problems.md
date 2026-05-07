@@ -11,14 +11,18 @@ updated: 2024-10-28
 3. Break the problem into [[problem-sizes|sub-problems]].
 4. For each sub-problem, rinse and repeat.
 
----
+Or this method, from [High Agency](https://www.highagency.com/):
+
+![[assets/high-agency-how-to-solve-any-problem.png]]
 
 > A problem well-put is a problem half-solved.
 > 
 > <cite>John Dewey</cite>
 
----
-
 > Make everything as simple as possible, and no simpler.
 > 
 > <cite>Albert Einstein</cite>
+
+## Further reading
+
+- [High Agency](https://www.highagency.com/)

@@ -1,19 +1,60 @@
 ---
 const { cite, author, work, medium } = Astro.props;
+medium.toLowerCase();
 
 const attribution = work
   ? `${author}, <cite class=${medium}>${work}</cite>`
   : author;
 ---
 
-<blockquote cite={cite}>
-  <div class="quote">
-    <slot />
-  </div>
-  <p class="attribution" set:html={attribution} />
-</blockquote>
+{
+  cite ? (
+    <a href={cite} class="blockquote">
+      <blockquote cite={cite}>
+        <div class="quote">
+          <slot />
+        </div>
+
+        <p class="attribution">
+          {author}
+          {work && (
+            <>
+              {", "}
+              <cite class={medium}>{work}</cite>
+            </>
+          )}
+        </p>
+      </blockquote>
+    </a>
+  ) : (
+    <blockquote>
+      <div class="quote">
+        <slot />
+      </div>
+
+      <p class="attribution">
+        {author}
+        {work && (
+          <>
+            {", "}
+            <cite class={medium}>{work}</cite>
+          </>
+        )}
+      </p>
+    </blockquote>
+  )
+}
 
 <style lang="scss">
+  // a {
+  //   text-transform: unset;
+  //   letter-spacing: unset;
+
+  //   &:hover,&:focus {
+  //     text-decoration: unset;
+  //   }
+  // }
+  
   blockquote {
     color-scheme: light dark;
     --accent: light-dark(#999, #595959);
