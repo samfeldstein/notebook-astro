@@ -5,7 +5,7 @@ tags:
   - projects
   - web-development
   - astro
-updated: 2025-02-27
+created: 2025-02-27
 ---
 
 I've rebuilt my [personal website](https://samfeldstein.xyz) at least four times, but the current version might be the one that's here to stay (from an architectural standpoint).

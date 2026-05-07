@@ -1,6 +1,10 @@
 ---
 const { cite, author, work, medium } = Astro.props;
-medium.toLowerCase();
+
+const mediumClass =
+  typeof medium === "string" && medium.length > 0
+    ? medium.toLowerCase()
+    : undefined;
 
 const attribution = work
   ? `${author}, <cite class=${medium}>${work}</cite>`
@@ -20,7 +24,7 @@ const attribution = work
           {work && (
             <>
               {", "}
-              <cite class={medium}>{work}</cite>
+              <cite class={mediumClass}>{work}</cite>
             </>
           )}
         </p>
@@ -37,7 +41,7 @@ const attribution = work
         {work && (
           <>
             {", "}
-            <cite class={medium}>{work}</cite>
+            <cite class={mediumClass}>{work}</cite>
           </>
         )}
       </p>
@@ -54,7 +58,7 @@ const attribution = work
   //     text-decoration: unset;
   //   }
   // }
-  
+
   blockquote {
     color-scheme: light dark;
     --accent: light-dark(#999, #595959);

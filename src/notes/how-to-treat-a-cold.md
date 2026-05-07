@@ -1,7 +1,8 @@
 ---
 title: How to Treat a Cold
-tags: ["health"]
-updated: 2025-01-06
+tags:
+  - health
+created: 2025-01-06
 ---
 
 For congestion:

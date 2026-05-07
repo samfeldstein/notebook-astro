@@ -2,7 +2,7 @@
 const { tags, path } = Astro.props;
 ---
 
-<ul>
+<ul class="unstyled-list">
   {
     tags.map((tag) => (
       <li>
@@ -15,10 +15,8 @@ const { tags, path } = Astro.props;
 </ul>
 
 <style lang="scss">
-  @use "@styles/utils";
 
   ul {
-    @extend .unstyled-list;
     display: flex;
     flex-wrap: wrap;
     gap: 1em;

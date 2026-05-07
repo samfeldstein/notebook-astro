@@ -2,6 +2,7 @@
 title: User-Centered Design
 tags:
   - design
+created: 2026-05-07
 ---
 
 User-centered design is about anticipating user needs and controlling the process so those needs are met.

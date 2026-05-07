@@ -2,7 +2,7 @@
 title: Voting
 tags:
   - politics
-updated: 2024-10-20
+created: 2024-10-20
 ---
 
 ## Efficacy

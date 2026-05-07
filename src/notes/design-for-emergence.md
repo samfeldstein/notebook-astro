@@ -1,6 +1,8 @@
 ---
 title: Design for Emergence
-tags: ["design"]
+tags:
+  - design
+created: 2026-05-07
 ---
 
 Design for emergence serves the [[long-tail-user-needs|"long-tail"]] of user needs.

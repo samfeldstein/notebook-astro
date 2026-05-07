@@ -5,6 +5,7 @@ tags:
   - netlify
   - decap
   - headless-cms
+created: 2026-05-07
 ---
 
 Decap uses the [Netlify Identity Widget](https://decapcms.org/docs/choosing-a-backend/#add-the-netlify-identity-widget) to manage users.

@@ -1,6 +1,8 @@
 ---
 title: Improvised D&D
-tags: ["dungeons-and-dragons"]
+tags:
+  - dungeons-and-dragons
+created: 2026-05-07
 ---
 
 **Problem:** Roleplaying sessions take a long time, so they happen rarely, if ever.

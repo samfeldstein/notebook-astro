@@ -3,6 +3,7 @@ title: Questions for Workaway Hosts
 tags:
   - travel
   - workaway
+created: 2026-05-07
 ---
 
 1. Living situation

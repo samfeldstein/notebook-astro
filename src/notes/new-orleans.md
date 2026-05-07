@@ -1,8 +1,8 @@
 ---
 title: New Orleans
-tags: 
+tags:
   - travel
-  - usa
+created: 2026-05-07
 ---
 
 ## Things to do

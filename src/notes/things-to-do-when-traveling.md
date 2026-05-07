@@ -2,7 +2,7 @@
 title: Things to Do When Traveling
 tags:
   - travel
-updated: 2025-11-23
+created: 2025-11-23
 ---
 
 ## Explore

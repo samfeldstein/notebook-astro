@@ -1,6 +1,8 @@
 ---
 title: Manual Until It Hurts
-tags: ["software"]
+tags:
+  - software
+created: 2026-05-07
 ---
 
 Don't automate anything until you really need to. Otherwise, you may spend more time solving and maintaining the "solution" than addressing the actual problem.

@@ -6,6 +6,7 @@ aliases:
 tags:
   - writing
   - blogging
+created: 2025-05-28
 updated: 2025-05-28
 ---
 

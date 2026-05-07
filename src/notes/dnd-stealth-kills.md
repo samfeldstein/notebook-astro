@@ -2,6 +2,7 @@
 title: D&D Stealth-Kills
 tags:
   - dungeons-and-dragons
+created: 2026-05-07
 ---
 
 - ***The Kill Zone.*** In order to stealth-kill a target, the attacker must strike the target’s vitals, known as the kill zone.

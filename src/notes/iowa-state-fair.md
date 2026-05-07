@@ -2,6 +2,7 @@
 title: Iowa State Fair
 tags:
   - iowa
+created: 2026-05-07
 ---
 
 ## Rules

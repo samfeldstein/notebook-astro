@@ -5,6 +5,7 @@ tags:
   - software
   - javascript
   - programming
+created: 2026-05-07
 ---
 
 I had a friend who taught theology at a Catholic school and needed a way to pair her students with a random saint for a project. She hadn't yet found a tool for the job, so I built one for her.

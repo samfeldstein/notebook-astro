@@ -3,6 +3,7 @@ title: Story Structure
 tags:
   - writing
   - storytelling
+created: 2026-05-07
 ---
 
 Stories have macro-beats and micro-beats. Macro-beats are like a skeleton. They lend a story shape and structure. Micro-beats are everything that covers the skeleton: muscles, ligaments, blood. They are what make the skeleton interesting. As [Stephen Sondheim](https://bookshop.org/p/books/finishing-the-hat-collected-lyrics-1954-1981-with-attendant-comments-principles-heresies-grudges-whines-and-anecdotes-stephen-sondheim/6716906?ean=9780679439073) says, "God is in the details."
