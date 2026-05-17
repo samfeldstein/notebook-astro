@@ -1,74 +1,79 @@
+- title: The Exorcist
+  author: William Peter Blatty
+  genre: Fiction
+  subgenre: Horror
+
 - title: "Werner Herzog: A Guide for the Perplexed"
   author: Paul Cronin
   genre: Nonfiction
   subgenre: Film
 
-- title: "21 Lessons for the 21st Century"
-  author: "Yuval Noah Harari"
-  genre: "Nonfiction"
-  subgenre: "History"
+- title: 21 Lessons for the 21st Century
+  author: Yuval Noah Harari
+  genre: Nonfiction
+  subgenre: History
 
-- title: "No Country for Old Men"
-  author: "Cormac McCarthy"
-  genre: "Fiction"
-  subgenre: "Thriller"
+- title: No Country for Old Men
+  author: Cormac McCarthy
+  genre: Fiction
+  subgenre: Thriller
 
-- title: "The Way of Shadows"
-  author: "Brent Weeks"
-  genre: "Fiction"
-  subgenre: "Fantasy"
+- title: The Way of Shadows
+  author: Brent Weeks
+  genre: Fiction
+  subgenre: Fantasy
 
-- title: "On Writing Well"
-  author: "William Zinsser"
-  genre: "Nonfiction"
-  subgenre: "Writing"
+- title: On Writing Well
+  author: William Zinsser
+  genre: Nonfiction
+  subgenre: Writing
 
-- title: "The Design of Everyday Things"
-  author: "Don Norman"
-  genre: "Nonfiction"
-  subgenre: "Design"
+- title: The Design of Everyday Things
+  author: Don Norman
+  genre: Nonfiction
+  subgenre: Design
 
-- title: "Saga of the Swamp Thing"
-  author: "Alan Moore"
-  genre: "Graphic Novel"
-  subgenre: "Horror"
+- title: Saga of the Swamp Thing
+  author: Alan Moore
+  genre: Graphic Novel
+  subgenre: Horror
 
-- title: "Watchmen"
-  author: "Alan Moore"
-  genre: "Graphic Novel"
-  subgenre: "Superhero"
+- title: Watchmen
+  author: Alan Moore
+  genre: Graphic Novel
+  subgenre: Superhero
 
-- title: "The Sandman"
-  author: "Neil Gaiman"
-  genre: "Graphic Novel"
-  subgenre: "Fantasy"
+- title: The Sandman
+  author: Neil Gaiman
+  genre: Graphic Novel
+  subgenre: Fantasy
 
 - title: "Batman: The Court of Owls"
-  author: "Scott Snyder"
-  genre: "Graphic Novel"
-  subgenre: "Superhero"
+  author: Scott Snyder
+  genre: Graphic Novel
+  subgenre: Superhero
 
-- title: "Misery"
-  author: "Stephen King"
-  genre: "Fiction"
-  subgenre: "Horror"
+- title: Misery
+  author: Stephen King
+  genre: Fiction
+  subgenre: Horror
 
-- title: "The Assassination of Jesse James by the Coward Robert Ford"
-  author: "Ron Hansen"
-  genre: "Fiction"
-  subgenre: "Western"
+- title: The Assassination of Jesse James by the Coward Robert Ford
+  author: Ron Hansen
+  genre: Fiction
+  subgenre: Western
 
-- title: "A Game of Thrones"
-  author: "George R. R. Martin"
-  genre: "Fiction"
-  subgenre: "Fantasy"
+- title: A Game of Thrones
+  author: George R. R. Martin
+  genre: Fiction
+  subgenre: Fantasy
 
-- title: "Rita Hayworth and the Shawshank Redemption"
-  author: "Stephen King"
-  genre: "Fiction"
-  subgenre: "Drama"
+- title: Rita Hayworth and the Shawshank Redemption
+  author: Stephen King
+  genre: Fiction
+  subgenre: Drama
 
-- title: "Pronto"
-  author: "Elmore Leonard"
-  genre: "Fiction"
-  subgenre: "Crime"
+- title: Pronto
+  author: Elmore Leonard
+  genre: Fiction
+  subgenre: Crime
