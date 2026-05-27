@@ -10,6 +10,7 @@ aliases:
 ---
 
 - [Anna's Archive](https://annas-archive.gl/) (VPN or Tor recommended; see also: [[how-to-read-books-downloaded-from-annas-archive|How to Read Books Downloaded from Anna's Archive]])
+- [Shadow Libraries](https://shadowlibraries.github.io/DirectDownloads/AnnasArchive/)
 - [WikiSource](https://en.wikisource.org/wiki/Main_Page)
 - [Project Gutenberg](https://www.gutenberg.org/)
 - [The Internet Archive](https://archive.org/)

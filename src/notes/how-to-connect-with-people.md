@@ -2,7 +2,6 @@
 title: How to Connect with People
 aliases:
   - How to Connect with People
-  - Things to Do With a Partner
 tags:
   - relationships
 created: 2026-05-07
@@ -21,6 +20,11 @@ There's this Instagram user. She's a mom and she's got little kids and she plays
 Take things you already like to do and see if you can make them more conducive to connecting.
 
 For example, I like to watch movies. How can we foster connection while watching a movie?
+
+## Activities
+
+- Cook/bake
+- Google Earth places you've been
 
 ## See also
 

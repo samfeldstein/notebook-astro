@@ -2,7 +2,6 @@
 title: Order Blocks
 aliases:
   - Order Blocks
-  - Supply and Demand Zones
 tags:
   - smart-money-concepts
   - price-action-trading

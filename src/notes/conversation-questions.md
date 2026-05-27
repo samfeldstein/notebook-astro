@@ -1,6 +1,6 @@
 ---
-title: Converation Questions
-aliases: Converation Questions
+title: Conversation Questions
+aliases: Conversation Questions
 tags:
 created: 2026-05-07
 updated: 2026-05-07
@@ -50,3 +50,7 @@ updated: 2026-05-07
 - What's your most embarassing memory?
 - What's a memory you treasure?
 - What's the worst thing you've ever done?
+
+## Also see
+
+- [Gottman Card Decks App](https://www.gottman.com/couples/apps/)
