@@ -1,3 +1,28 @@
+- title: I Am Legend
+  author: Richard Matheson
+  genre: Fiction
+  subgenre: Horror
+
+- title: True Grit
+  author: Charles Portis
+  genre: Fiction
+  subgenre: Western
+
+- title: The Body
+  author: Stephen King
+  genre: Fiction
+  subgenre: Horror
+
+- title: Salem's Lot
+  author: Stephen King
+  genre: Fiction
+  subgenre: Horror
+
+- title: Lonesome Dove
+  author: Larry McMurtry
+  genre: Fiction
+  subgenre: Western
+
 - title: Desert Solitaire
   author: Edward Abbey
   genre: Nonfiction

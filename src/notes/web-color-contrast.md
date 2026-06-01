@@ -2,7 +2,7 @@
 title: Web Color Contrast
 tags:
   - web-development
-  - Accessibility
+  - accessibility
 created: 2025-06-01
 updated: 2025-06-01
 ---
