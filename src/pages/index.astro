@@ -1,11 +1,14 @@
 ---
 import Base from "@layouts/Base.astro";
 import { site } from "@data/config";
+
+import "@styles/pages/_home.scss";
 ---
 
 <Base title="Home" description={site.description}>
 	<h1>Sam Feldstein’s Notebook</h1>
-	<div>
+
+	<div class="content">
 		<p>
 			Welcome to my digital notebook, also known as a <a
 				href="https://www.buildingasecondbrain.com">second brain</a
@@ -23,9 +26,3 @@ import { site } from "@data/config";
 		</p>
 	</div>
 </Base>
-
-<style>
-	div {
-		max-width: 60rem;
-	}
-</style>

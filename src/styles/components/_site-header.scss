@@ -1,0 +1,13 @@
+.site-header {
+  margin-bottom: 2rem;
+  
+  font-size: var(--font-small);
+
+  display: grid;
+  gap: 1em;
+}
+
+nav {
+  display: flex;
+  gap: 1em;
+}

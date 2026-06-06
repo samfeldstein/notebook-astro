@@ -1,8 +1,10 @@
 ---
 import Skiplink from "./Skiplink.astro";
+
+import "@styles/components/_site-header.scss";
 ---
 
-<header>
+<header class="site-header">
   <Skiplink />
   <nav>
     <a href="/">Home</a>
@@ -10,12 +12,3 @@ import Skiplink from "./Skiplink.astro";
     <a href="/search">Search</a>
   </nav>
 </header>
-
-<style lang="scss">
-  nav a {
-    display: inline-block;
-    padding: 0.5em;
-
-    font-size: var(--font-small);
-  }
-</style>

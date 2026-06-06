@@ -1,0 +1,21 @@
+.body {
+  max-width: 60rem;
+
+  ul,
+    ol {
+      display: grid;
+      gap: 0.5em;
+    }
+}
+
+pre {
+  border-radius: 0.25em;
+  padding: 1em;
+}
+
+code {
+  font-family: var(--font-1);
+  font-weight: 700;
+  font-variation-settings: "wdth" 70;
+  letter-spacing: 0.1em;
+}

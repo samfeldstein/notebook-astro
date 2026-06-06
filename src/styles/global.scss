@@ -8,8 +8,8 @@
 }
 
 h1 {
-  font-weight: 200;
-  font-size: clamp(3rem, 10vw, 7rem);
+  font-weight: 100;
+  font-size: clamp(4rem, 10vw, 7rem);
   font-variation-settings: "wdth" 70;
   line-height: 1.2;
   text-wrap: balance;
@@ -37,14 +37,14 @@ a {
 
   &:hover,
   &:focus {
-    text-decoration-thickness: 0.1em;
-      text-underline-offset: 0.2em;
+    text-underline-offset: 0.2em;
 
     &:not(.blockquote) {
       text-decoration: underline;
+      text-decoration-thickness: 0.1em;
     }
 
-    
+
   }
 
   &:focus-visible {

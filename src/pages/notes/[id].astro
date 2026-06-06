@@ -1,6 +1,9 @@
 ---
 import Base from "@layouts/Base.astro";
 import Header from "@components/notes/Header.astro";
+
+import "@styles/_note.scss";
+
 import { components } from "@components/global";
 
 import { getCollection, render } from "astro:content";
@@ -25,31 +28,3 @@ const { Content } = await render(note);
     </div>
   </article>
 </Base>
-
-<style>
-  .body {
-    max-width: 60rem;
-  }
-</style>
-
-<style lang="scss" is:global>
-  .body {
-    ul,
-    ol {
-      display: grid;
-      gap: 0.5em;
-    }
-  }
-
-  pre {
-    border-radius: 0.25em;
-    padding: 1em;
-  }
-
-  code {
-    font-family: var(--font-1);
-    font-weight: 700;
-    font-variation-settings: "wdth" 70;
-    letter-spacing: 0.1em;
-  }
-</style>
