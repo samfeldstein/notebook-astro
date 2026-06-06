@@ -6,4 +6,6 @@ created: 2026-06-01
 updated: 2026-06-01
 ---
 
+- Restore nightstand
 - Small modular shelf like the one you have
+- Wall mounts for records
