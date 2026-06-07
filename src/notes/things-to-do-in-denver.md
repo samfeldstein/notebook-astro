@@ -8,6 +8,7 @@ created: 2025-05-24
 updated: 2025-05-24
 ---
 
+- [Mile High on the Cheap](https://www.milehighonthecheap.com/)
 - [Colorado Directory](https://www.coloradodirectory.com/denverarea/)
 - [Secret Denver](https://secretdenver.com/)
 - Georgetown Christmas Market

@@ -1,0 +1,18 @@
+html {
+  color: var(--text-color);
+  background-color: var(--background-color);
+}
+
+body {
+  min-height: 100dvh;
+
+  padding: 2vh 4vw;
+
+  display: flex;
+  flex-direction: column;
+
+  font-family: var(--font-1);
+  font-size: var(--font-size-base);
+  font-weight: 400;
+  font-optical-sizing: auto;
+}
