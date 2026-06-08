@@ -1,3 +1,8 @@
+- title: On Writing
+  author: Stephen King
+  genre: Nonfiction
+  subgenre: Writing
+
 - title: I Am Legend
   author: Richard Matheson
   genre: Fiction
@@ -26,7 +31,7 @@
 - title: Desert Solitaire
   author: Edward Abbey
   genre: Nonfiction
-  subgenre: 
+  subgenre:
     - Memoir
     - Nature
 
