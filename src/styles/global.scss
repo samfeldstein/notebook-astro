@@ -18,10 +18,10 @@ h1 {
 h2 {
   font-style: italic;
   font-weight: 300;
-  font-size: 2em;
+  font-size: clamp(2rem, 4vw, 3rem);
   text-align: right;
   margin-top: 3em;
-  border-top: 0.1em solid;
+  border-top: 0.05em solid;
   padding-top: 0.25em;
 }
 
