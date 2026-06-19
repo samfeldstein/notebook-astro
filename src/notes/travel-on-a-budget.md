@@ -9,8 +9,9 @@ updated: 2026-06-02
 
 - [[find-flights|Find cheap flights]]
 
-## Accomodations
+## Accommodations
 
+- [Whimstay](https://www.whimstay.com/) (Airbnb, but cheaper)
 - [CoolWorks](https://www.coolworks.com/xanterra-glacier-national-park-lodges/profile) (seasonal jobs)
 - [Workaway](https://www.workaway.info/) (work exchange)
 - [Wwoof](https://wwoof.net/) (work exchange)
