@@ -1,6 +1,6 @@
 ---
-title: Who Am I?
-aliases: Who Am I?
+title: Who Am I? (Game)
+aliases: Who Am I? (Game)
 tags:
   - games
 created: 2026-05-07
