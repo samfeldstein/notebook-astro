@@ -1,14 +1,10 @@
 ---
-const { cite, author, work, medium } = Astro.props;
+const { work, author, medium, cite } = Astro.props;
 
 const mediumClass =
   typeof medium === "string" && medium.length > 0
     ? medium.toLowerCase()
     : undefined;
-
-const attribution = work
-  ? `${author}, <cite class=${medium}>${work}</cite>`
-  : author;
 ---
 
 {
