@@ -4,9 +4,8 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "astro dev",
-    "prebuild": "cp -r src/notes/assets public/notes/assets/",
     "postbuild": "pagefind --site dist",
-    "build": "astro build && npx -y pagefind --site dist",
+    "build": "node scripts/generate-sw.js && astro build",
     "preview": "astro preview",
     "astro": "astro"
   },

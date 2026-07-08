@@ -45,3 +45,9 @@ const { title, description = title } = Astro.props;
     href={new URL("feed.xml", Astro.site)}
   />
 </head>
+
+<script>
+  if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.register("/sw.js");
+  }
+</script>
