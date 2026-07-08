@@ -1,6 +1,24 @@
-const CACHE_NAME = "site-cache-1783535637479";
+const CACHE_NAME = "site-cache-1783536406188";
 
-self.addEventListener("install", () => {
+const ASSETS = [
+  "/",
+  "/tags/",
+  "/search/"
+];
+
+self.addEventListener("install", (event) => {
+  event.waitUntil(
+    caches.open(CACHE_NAME).then(async (cache) => {
+      for (const asset of ASSETS) {
+        try {
+          await cache.add(asset);
+        } catch (error) {
+          console.warn(`Failed to cache ${asset}`, error);
+        }
+      }
+    })
+  );
+
   self.skipWaiting();
 });
 
@@ -21,19 +39,27 @@ self.addEventListener("activate", (event) => {
 self.addEventListener("fetch", (event) => {
   const url = new URL(event.request.url);
 
-  if (url.pathname.startsWith("/notes")) {
-    event.respondWith(
-      fetch(event.request)
-        .then((response) => {
-          const copy = response.clone();
+  const shouldCache =
+    url.pathname.startsWith("/notes") ||
+    ASSETS.includes(url.pathname);
 
-          caches.open(CACHE_NAME).then((cache) => {
-            cache.put(event.request, copy);
-          });
-
-          return response;
-        })
-        .catch(() => caches.match(event.request))
-    );
+  if (!shouldCache) {
+    return;
   }
+
+  event.respondWith(
+    fetch(event.request)
+      .then((response) => {
+        const copy = response.clone();
+
+        caches.open(CACHE_NAME).then((cache) => {
+          cache.put(event.request, copy);
+        });
+
+        return response;
+      })
+      .catch(() => {
+        return caches.match(event.request);
+      })
+  );
 });
