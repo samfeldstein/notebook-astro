@@ -7,27 +7,13 @@ created: 2025-09-03
 updated: 2025-09-03
 ---
 
-[Ryan Trimble's solution](https://rimdev.io/automatically-import-components-in-astro-mdx) works perfectly. This specific method only works for `MDX` files. I'm not sure how you'd tweak it to work with `.astro` files.
-
-Make a file: `src/components/global.js'
-
-```js
-import Component from "./Component.astro";
-
-export const components = { Component }
-```
-
-In `[id].astro`, import the `components` object:
-
-```js
-import { components } from "path/to/components/global";
-```
-
-Then in the layout:
+For a content collection layout `[id].astro`, just do this:
 
 ```html
-`<Content components={components}/>
+<Content components={{ Backgrounds, StartingMoves, Advances, Drive, Gear }} />
 ```
+
+You can call any of those components in an MDX collection item without importing them explicitly.
 
 ## Further reading
 

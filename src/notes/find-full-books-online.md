@@ -16,3 +16,4 @@ aliases:
 - [The Internet Archive](https://archive.org/)
 - [Open Library](https://openlibrary.org/)
 - [Libby](https://libbyapp.com/shelf)
+- [FreeMediaHeckYeah](https://fmhy.net/) (not just books)

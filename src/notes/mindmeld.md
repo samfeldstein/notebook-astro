@@ -1,6 +1,7 @@
 ---
-title: "321 Game"
-aliases: "321 Game"
+title: Mindmeld
+aliases:
+  - Mindmeld
 tags:
   - games
 created: 2026-05-07

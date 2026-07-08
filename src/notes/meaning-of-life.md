@@ -1,15 +1,19 @@
 ---
-title: What Do We Talk About When We Talk About Meaning?
+title: Meaning of Life
 aliases:
-  - What Do We Talk About When We Talk About Meaning?
   - Purpose
+  - Meaning of Life
 tags:
   - life
 created: 2025-09-02
-updated: 2025-09-02
+updated: 2026-06-30
 ---
 
-Meaning means *purpose*. What gives life purpose? Doing purposeful things. 
+Finding your thing is about finding a way to participate in the world. For me, right now, that’s dance. Might be rpgs too.
+
+---
+
+What gives life meaning? Building things that work. Seeing problems and solving them. Wanting things, and getting them.
 
 All you have, in the end, is your time, and what you choose to do with it. How you spend your moments is how you spend your minutes. How you spend your minutes is how you spend your hours. How you spend your hours is how you spend your days. How you spend your days is how you spend your weeks. How you spend your weeks is how you spend your months. How you spend your months is how you spend your years, and how you spend your years is how you spend your life.
 

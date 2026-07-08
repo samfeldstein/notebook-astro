@@ -9,10 +9,12 @@ created: 2026-03-26
 updated: 2026-03-26
 ---
 
-A zone where institutions place large orders.
+A bearish candle[^1] followed by a bullish candle[^2] that closes above the bearish candle's **high**. And vice versa.
 
-Institutions often can't fill their whole position in one go. When price returns to that zone, they fill the remainder of their order. That's what makes the zone support/resistance.
+![[_private/assets/order-blocks.jpeg]]
 
-Look for an [[break-of-structure|MSS]]. The last opposing candle before that move is the order block.
+What if there's a group of candles and price closes past some of them but not all of them? Right now my rule is is must close past the entire group or it's not an OB.
 
-Not so different from regular support and resistance. Just treats them as zones instead of lines.
+[^1]: May be consecutive candles.
+
+[^2]: May be consecutive candles.
