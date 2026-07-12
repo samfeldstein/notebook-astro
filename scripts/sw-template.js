@@ -1,9 +1,9 @@
 const CACHE_NAME = "site-cache-__VERSION__";
 
 const ASSETS = [
-  "/",
-  "/tags",
-  "/search"
+  "index.html",
+  "/notes/tags/index.html",
+  "/search/index.html"
 ];
 
 self.addEventListener("install", (event) => {
