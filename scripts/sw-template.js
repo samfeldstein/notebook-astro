@@ -3,7 +3,11 @@ const CACHE_NAME = "site-cache-__VERSION__";
 const ASSETS = [
   "index.html",
   "/notes/tags/index.html",
-  "/search/index.html"
+  "/search/index.html",
+  "/fonts/noto-serif.woff2",
+  "/fonts/noto-serif-italic.woff2",
+  "site.webmanifest",
+  "favicon.svg",
 ];
 
 self.addEventListener("install", (event) => {
