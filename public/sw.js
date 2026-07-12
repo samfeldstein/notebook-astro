@@ -1,9 +1,13 @@
-const CACHE_NAME = "site-cache-1783536406188";
+const CACHE_NAME = "site-cache-1783889937390";
 
 const ASSETS = [
-  "/",
-  "/tags/",
-  "/search/"
+  "index.html",
+  "/notes/tags/index.html",
+  "/search/index.html",
+  "/fonts/noto-serif.woff2",
+  "/fonts/noto-serif-italic.woff2",
+  "site.webmanifest",
+  "favicon.svg",
 ];
 
 self.addEventListener("install", (event) => {
