@@ -25,6 +25,13 @@ h2 {
   padding-top: 0.25em;
 }
 
+main {
+  p, ul, ol {
+    text-align: justify;
+    hyphens: auto;
+  }
+}
+
 a {
   text-decoration: none;
   color: currentColor;
