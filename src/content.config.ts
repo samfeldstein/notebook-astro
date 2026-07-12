@@ -25,4 +25,12 @@ const notes = defineCollection({
   }),
 });
 
-export const collections = { notes };
+const letters = defineCollection({
+  loader: glob({ pattern: ['*.md', '*.mdx'], base: 'src/content/letters' }),
+  schema: z.object({
+    title: z.string(),
+    created: z.coerce.date(),
+  }),
+});
+
+export const collections = { notes, letters };
