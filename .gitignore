@@ -30,3 +30,6 @@ package-lock.json
 .vscode
 .obsidian
 _private
+_journal
+_letters
+_readwise

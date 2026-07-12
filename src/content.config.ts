@@ -4,9 +4,9 @@ import { glob } from 'astro/loaders';
 
 
 const notes = defineCollection({
-  loader: glob({ pattern: ['*.md', '*.mdx'], base: 'src/notes' }),
+  loader: glob({ pattern: ['**/*.md', '**/*.mdx'], base: 'src/content/notes' }),
   schema: z.object({
-    title: z.string(),
+    title: z.string().optional(),
     // Accent string or array
     aliases: z
       .union([z.string(), z.array(z.string())])
@@ -19,7 +19,7 @@ const notes = defineCollection({
         if (value == null) return [];
         return Array.isArray(value) ? value : [value];
       }),
-    created: z.coerce.date(),
+    created: z.coerce.date().optional(),
     updated: z.coerce.date().optional(),
     description: z.string().optional(),
   }),
