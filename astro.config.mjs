@@ -29,7 +29,7 @@ export default defineConfig({
           const pageName = name.split('|')[0].trim();
           return [pageName.replace(/ /g, '-').toLowerCase()];
         },
-        hrefTemplate: (permalink) => `/notes/${permalink}`,
+        hrefTemplate: (permalink) => `/${permalink}`,
         aliasDivider: '|',
       }],
       remarkSmartypants,

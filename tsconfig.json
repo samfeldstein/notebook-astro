@@ -10,6 +10,9 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
+      "@src/*": [
+        "src/*"
+      ],
       "@layouts/*": [
         "src/layouts/*"
       ],
