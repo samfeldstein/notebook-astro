@@ -11,4 +11,4 @@ updated: 2026-06-01
 - Wall mounts for records
 - Notch a thin board and lay it across the underside of your bench to make it a shoe rack
 - Shelves for closet
-- [[notes/_private/corner-spice-shelf|Corner Spice Shelf]]
+- [[notes/private/corner-spice-shelf|Corner Spice Shelf]]

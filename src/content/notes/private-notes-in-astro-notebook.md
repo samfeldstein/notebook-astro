@@ -6,6 +6,8 @@ created: 2026-07-12
 updated: 2026-07-12
 ---
 
-As long the folder containing the private notes is in `.gitignore`, we should be good. Cloudflare builds from the GitHub repo, so if the notes aren't there, it can't render them.
+As long as `dist` and the folder containing the private notes is in `.gitignore`, we should be good. Cloudflare builds from the GitHub repo, so if the notes aren't there, it can't render them.
 
-The `_` in `notes/_private` tells Astro not to build that folder in production. Because it is inside a folder that does build, Astro will still render the privates notes on the dev server.
+They will still build locally, so you can view them on the dev server.
+
+Using `_private` doesn't make sense, because it's not in the `pages` directory. See [Excluding Pages](https://docs.astro.build/en/guides/routing/#excluding-pages) in the Astro docs.

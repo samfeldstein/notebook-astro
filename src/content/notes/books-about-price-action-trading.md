@@ -7,4 +7,4 @@ created: 2026-06-20
 updated: 2026-06-20
 ---
 
-- *[[notes/_private/assets/understanding-price-action-volman.pdf|Understanding Price Action]]*, Volman
+- *[[notes/private/assets/understanding-price-action-volman.pdf|Understanding Price Action]]*, Volman

@@ -19,4 +19,4 @@ All you have, in the end, is your time, and what you choose to do with it. How y
 
 If you died right now, doing whatever it is you're doing, would you be satisfied? If not, is whatever it is you're doing really worth doing?
 
-When we ask about the meaning of life, we're really asking how we should spend our time. Our time is all we have. The only question is [[notes/_private/how-should-we-spend-our-time|how to spend it]].
+When we ask about the meaning of life, we're really asking how we should spend our time. Our time is all we have. The only question is [[notes/private/how-should-we-spend-our-time|how to spend it]].

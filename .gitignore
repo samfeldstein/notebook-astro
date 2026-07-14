@@ -29,7 +29,7 @@ pnpm-debug.log*
 package-lock.json
 .vscode
 .obsidian
-_private
+private
 journal
 letters
 readwise

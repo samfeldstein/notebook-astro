@@ -6,5 +6,5 @@ created: 2026-06-28
 updated: 2026-06-28
 ---
 
-- [[notes/_private/assets/homebrew-world.pdf|Homebrew world]]
+- [[notes/private/assets/homebrew-world.pdf|Homebrew world]]
 - [Dungeon World Adventure Builder](https://rpgalchemy.com/dungeon-world-adventure-builder/)

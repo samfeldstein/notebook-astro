@@ -11,6 +11,6 @@ aliases:
 
 The gist: develop mobility, strength, and [locomotion](https://gmb.io/locomotion/). Do everything daily, or as often as you can.
 
-- [[notes/_private/mobility-routine|Mobility Routine]]
+- [[notes/private/mobility-routine|Mobility Routine]]
 - Animal exercises
 - [[notes/hilf-strength-training|HILF]]

@@ -13,7 +13,7 @@ updated: 2024-10-28
 
 Or this method, from [High Agency](https://www.highagency.com/):
 
-![[notes/_private/assets/high-agency-how-to-solve-any-problem.png]]
+![[notes/private/assets/high-agency-how-to-solve-any-problem.png]]
 
 > A problem well-put is a problem half-solved.
 > 
