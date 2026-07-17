@@ -7,6 +7,7 @@ updated: 2026-06-20
 ---
 
 - [[notes/double-pressure.mdx|Double Pressure]]
+- [[notes/double-pressure.mdx|double-pressure]]
 - Support and resistance
 - False breaks, tease breaks and proper breaks
 - False highs and lows
@@ -15,3 +16,5 @@ updated: 2026-06-20
 - Round number effect
 
 ![Price action principles](assets/price-action-principles.webp)
+
+[price-action-core-principles](notes/price-action-core-principles.md)

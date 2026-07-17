@@ -10,15 +10,24 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@astrojs/markdown-remark": "^7.2.1",
     "@astrojs/mdx": "^5.0.4",
     "@astrojs/rss": "^4.0.18",
     "@astrojs/sitemap": "^3.7.2",
     "astro": "^6.3.1",
+    "mdast-util-to-string": "^4.0.0",
     "remark-smartypants": "^3.0.2",
     "remark-wiki-link": "^2.0.1",
-    "sass": "^1.91.0"
+    "sass": "^1.91.0",
+    "unist-util-visit": "^5.1.0"
   },
   "devDependencies": {
     "pagefind": "^1.5.2"
+  },
+  "allowScripts": {
+    "@parcel/watcher@2.5.1": true,
+    "esbuild@0.27.7": true,
+    "fsevents@2.3.3": true,
+    "sharp@0.34.5": true
   }
 }

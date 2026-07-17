@@ -26,8 +26,15 @@ export default defineConfig({
     remarkPlugins: [
       [remarkWikiLink, {
         pageResolver: (name) => {
-          const pageName = name.split('|')[0].trim();
-          return [pageName.replace(/ /g, '-').toLowerCase()];
+          const rawTarget = name.split('|')[0].trim()
+          const targetWithoutHash = rawTarget.split('#')[0].trim()
+
+          const permalink = targetWithoutHash
+            .replace(/\.md$/i, '')
+            .replace(/ /g, '-')
+            .toLowerCase()
+
+          return [permalink]
         },
         hrefTemplate: (permalink) => `/${permalink}`,
         aliasDivider: '|',
