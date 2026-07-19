@@ -13,4 +13,5 @@ updated: 2026-06-07
 - [Nextdoor](https://nextdoor.com/for_sale_and_free/?isFree=true)
 - Craigslist **free stuff** tab
 - Buy Nothing FB groups
+- [FreeCycle](https://www.freecycle.org/town/DenverCO)
 - [Trash Nothing](https://trashnothing.com/browse?latitude=39.7327&longitude=-104.9717)

@@ -11,7 +11,8 @@ updated: 2025-12-18
 - [Spectra](https://spectraartspace.com/)
 - [Upstairs Circus](https://upstairscircus.com/)
 - [Prismajic](https://prismajic.com/)
+- Celestial Seasonings’ Tea Factory Tour
 
-## Further reading
+## Also see
 
-- [This Reddit thread](https://www.reddit.com/r/Denver/comments/1idts25/comment/ma3gt3o/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
+- [Mile High on the Cheap](https://www.milehighonthecheap.com/)

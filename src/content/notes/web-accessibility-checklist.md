@@ -2,7 +2,7 @@
 title: Web Accessibility Checklist
 tags:
   - web-development
-  - accessibility
+  - web-accessibility
 created: 2025-01-01
 updated: 2025-01-01
 ---
@@ -14,5 +14,3 @@ updated: 2025-01-01
 - Check Chrome **Lighthouse**
 - Check Firefox **Accessibility** tab
 - [Audit](https://wave.webaim.org)
-
-[[notes/private/heikin-order-blocks|Heikin Order Blocks]]
