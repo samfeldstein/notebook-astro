@@ -20,7 +20,7 @@ const notes = defineCollection({
         return Array.isArray(value) ? value : [value];
       }),
     private: z.boolean(),
-    created: z.coerce.date().optional(),
+    created: z.coerce.date(),
     updated: z.coerce.date().optional(),
     description: z.string().optional(),
   }),
@@ -30,7 +30,6 @@ const letters = defineCollection({
   loader: glob({ pattern: ['*.md', '*.mdx'], base: 'src/content/letters' }),
   schema: z.object({
     title: z.string(),
-    private: z.boolean(),
     created: z.coerce.date(),
     location: z.string(),
   }),
