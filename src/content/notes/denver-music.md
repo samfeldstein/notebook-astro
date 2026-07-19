@@ -2,6 +2,7 @@
 title: Denver Music
 aliases: Denver Music
 tags:
+private: false
 created: 2025-10-31
 updated: 2025-10-31
 ---

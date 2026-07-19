@@ -2,6 +2,7 @@
 title: Porwered by the Apocalypse
 aliases: Porwered by the Apocalypse
 tags:
+private: false
 created: 2026-06-27
 updated: 2026-06-27
 ---

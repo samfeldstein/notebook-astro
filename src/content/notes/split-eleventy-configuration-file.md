@@ -2,6 +2,7 @@
 title: Split Eleventy Configuration File
 tags:
   - eleventy
+private: false
 created: 2025-05-28
 updated: 2025-05-28
 ---

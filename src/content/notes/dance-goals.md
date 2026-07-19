@@ -3,6 +3,7 @@ title: Dance Goals
 aliases: Dance Goals
 tags:
   - dance
+private: false
 created: 2025-11-25
 updated: 2025-11-25
 ---

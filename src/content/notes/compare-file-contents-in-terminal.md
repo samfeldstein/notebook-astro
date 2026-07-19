@@ -2,6 +2,7 @@
 title: Compare File Contents in the Terminal
 tags:
   - command-line
+private: false
 created: 2025-05-22
 updated: 2025-05-22
 ---

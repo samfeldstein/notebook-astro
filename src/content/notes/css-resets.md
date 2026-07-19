@@ -4,6 +4,7 @@ aliases: CSS Resets
 tags:
   - web-development
   - css
+private: false
 created: 2025-09-17
 ---
 

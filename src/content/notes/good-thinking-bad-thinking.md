@@ -1,6 +1,7 @@
 ---
 title: Good Thinking and Bad Thinking
 tags: 
+private: false
 created: 2025-01-25
 updated: 2025-01-25
 ---

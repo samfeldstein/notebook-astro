@@ -5,6 +5,7 @@ aliases:
 tags:
   - web-development
   - typography
+private: false
 created: 2025-07-29
 updated: 2025-07-29
 ---

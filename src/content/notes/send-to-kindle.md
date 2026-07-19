@@ -2,6 +2,7 @@
 title: Send to Kindle
 aliases: Send to Kindle
 tags:
+private: false
 created: 2026-06-28
 updated: 2026-06-28
 ---

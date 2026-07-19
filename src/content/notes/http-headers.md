@@ -2,6 +2,7 @@
 title: HTTP Headers
 alias: HTTP Headers
 tags:
+private: false
 created: 2025-06-16
 updated: 2025-06-16
 ---

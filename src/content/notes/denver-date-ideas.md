@@ -2,6 +2,7 @@
 title: Denver Date Ideas
 aliases: Denver Date Ideas
 tags:
+private: false
 created: 2025-12-18
 updated: 2025-12-18
 ---

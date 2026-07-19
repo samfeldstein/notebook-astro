@@ -5,6 +5,7 @@ aliases:
   - West Coast Swing Breathing
 tags:
   - west-coast-swing
+private: false
 created: 2025-12-04
 updated: 2025-12-04
 ---

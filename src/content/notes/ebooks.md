@@ -2,6 +2,7 @@
 title: Buy Ebooks
 tags:
   - books
+private: false
 created: 2025-04-17
 updated: 2025-04-17
 ---

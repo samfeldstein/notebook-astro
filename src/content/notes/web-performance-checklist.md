@@ -5,6 +5,7 @@ aliases:
 tags:
   - web-performance
   - web-development
+private: false
 created: 2025-07-26
 updated: 2025-07-26
 ---

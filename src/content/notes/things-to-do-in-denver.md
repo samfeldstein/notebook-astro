@@ -4,6 +4,7 @@ aliases: Things to Do in Denver
 tags:
   - travel
   - colorado
+private: false
 created: 2025-05-24
 updated: 2025-05-24
 ---

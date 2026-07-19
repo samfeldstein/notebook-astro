@@ -2,6 +2,7 @@
 title: DIY Dance Shoes
 tags:
   - dance
+private: false
 created: 2024-12-11
 updated: 2024-12-11
 ---

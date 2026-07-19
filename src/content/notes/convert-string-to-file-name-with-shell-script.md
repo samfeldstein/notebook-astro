@@ -2,6 +2,7 @@
 title: Convert String to File Name with Shell Script
 aliases: Convert String to File Name with Shell Script
 tags:
+private: false
 created: 2025-09-02
 updated: 2026-03-25
 ---

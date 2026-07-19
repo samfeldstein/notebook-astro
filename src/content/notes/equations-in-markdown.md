@@ -5,6 +5,7 @@ aliases:
   - Math in Markdown
 tags:
   - markdown
+private: false
 created: 2025-05-24
 updated: 2025-05-24
 ---

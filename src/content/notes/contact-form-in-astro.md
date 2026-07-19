@@ -2,6 +2,7 @@
 title: Contact Form in Astro
 aliases: Contact Form in Astro
 tags:
+private: false
 created: 2026-05-13
 updated: 2026-05-13
 ---

@@ -1,5 +1,6 @@
 ---
 title: Do More with Less
+private: false
 created: 2024-10-12
 updated: 2024-10-12
 tags:

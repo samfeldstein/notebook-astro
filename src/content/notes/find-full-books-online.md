@@ -2,6 +2,7 @@
 title: Find Full Books Online
 tags:
   - books
+private: false
 created: 2025-06-10
 updated: 2026-05-02
 aliases:

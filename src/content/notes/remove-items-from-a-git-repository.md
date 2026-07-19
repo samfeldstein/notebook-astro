@@ -5,6 +5,7 @@ aliases:
   - Remove Items from Git Cache
 tags:
   - git
+private: false
 created: 2025-06-13
 updated: 2025-06-13
 ---

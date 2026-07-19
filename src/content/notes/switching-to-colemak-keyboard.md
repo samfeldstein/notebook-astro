@@ -3,6 +3,7 @@ title: Switching to the Colemak Keyboard Layout
 tags:
   - health
   - hardware
+private: false
 created: 2025-03-06
 updated: 2025-09-02
 ---

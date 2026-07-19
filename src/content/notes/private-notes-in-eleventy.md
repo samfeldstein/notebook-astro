@@ -2,6 +2,7 @@
 title: Private Notes in Eleventy
 tags:
   - eleventy
+private: false
 created: 2025-05-28
 ---
 

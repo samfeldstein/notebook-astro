@@ -2,6 +2,7 @@
 title: How to Make French Press Coffee
 aliases: How to Make French Press Coffee
 tags:
+private: false
 created: 2025-10-19
 updated: 2025-10-19
 ---

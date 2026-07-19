@@ -1,6 +1,7 @@
 ---
 title: Glasses
 tags:
+private: false
 created: 2025-06-03
 updated: 2025-06-03
 ---

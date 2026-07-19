@@ -2,6 +2,7 @@
 title: Web Icons
 tags:
   - web-development
+private: false
 created: 2025-06-05
 updated: 2025-06-05
 ---

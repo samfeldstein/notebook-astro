@@ -2,6 +2,7 @@
 title: D&D Stealth-Kills
 tags:
   - dungeons-and-dragons
+private: false
 created: 2026-05-07
 ---
 

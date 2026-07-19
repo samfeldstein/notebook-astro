@@ -4,6 +4,7 @@ aliases:
   - OkLCH CSS Colors
 tags:
   - css
+private: false
 created: 2025-08-07
 updated: 2025-08-07
 ---

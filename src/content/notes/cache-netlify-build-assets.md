@@ -2,6 +2,7 @@
 title: Cache Netlify Build Assets
 alias: Cache Netlify Build Assets
 tags:
+private: false
 created: 2025-08-12
 updated: 2025-08-12
 ---

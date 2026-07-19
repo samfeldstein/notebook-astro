@@ -5,6 +5,7 @@ tags:
   - projects
   - web-development
   - astro
+private: false
 created: 2025-02-27
 ---
 

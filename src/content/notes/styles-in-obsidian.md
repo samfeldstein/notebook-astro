@@ -4,6 +4,7 @@ aliases:
   - Styles in Obsidian
 tags:
   - obsidian
+private: false
 created: 2025-06-17
 updated: 2025-06-17
 ---

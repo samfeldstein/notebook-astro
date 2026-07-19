@@ -2,6 +2,7 @@
 title: Vue Composables
 aliases: Vue Composables
 tags:
+private: false
 created: 2025-09-12
 updated: 2025-09-12
 ---

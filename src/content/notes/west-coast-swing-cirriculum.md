@@ -2,6 +2,7 @@
 title: West Coast Swing Cirriculum
 tags:
   - dance
+private: false
 created: 2025-02-02
 updated: 2025-02-02
 ---

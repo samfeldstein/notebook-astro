@@ -4,6 +4,7 @@ aliases:
   - Connect to Astro Dev Server with Phone
   - Astro Mobile Development
 tags:
+private: false
 created: 2026-05-11
 updated: 2026-05-11
 ---

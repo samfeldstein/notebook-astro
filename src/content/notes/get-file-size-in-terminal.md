@@ -4,6 +4,7 @@ aliases:
   - Get File Size in Terminal
 tags:
   - command-line
+private: false
 created: 2025-06-22
 updated: 2025-06-22
 ---

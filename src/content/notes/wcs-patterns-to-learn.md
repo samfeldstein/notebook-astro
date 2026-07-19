@@ -2,6 +2,7 @@
 title: WCS Patterns to Learn
 aliases: WCS Patterns to Learn
 tags:
+private: false
 created: 2025-11-22
 updated: 2025-11-22
 ---

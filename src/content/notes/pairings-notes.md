@@ -5,6 +5,7 @@ tags:
   - software
   - javascript
   - programming
+private: false
 created: 2026-05-07
 ---
 

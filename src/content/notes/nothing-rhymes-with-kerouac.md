@@ -2,6 +2,7 @@
 title: Nothing Rhymes with Kerouac
 aliases: Nothing Rhymes with Kerouac
 tags:
+private: false
 created: 2024-02-13
 updated: 2026-05-28
 ---

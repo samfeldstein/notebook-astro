@@ -2,6 +2,7 @@
 title: E-readers
 tags:
   - books
+private: false
 created: 2025-05-29
 updated: 2025-05-29
 ---

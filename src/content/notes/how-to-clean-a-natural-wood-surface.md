@@ -2,6 +2,7 @@
 title: How to Clean a Natural Wood Surface
 aliases: How to Clean a Natural Wood Surface
 tags:
+private: false
 created: 2026-06-06
 updated: 2026-06-06
 ---

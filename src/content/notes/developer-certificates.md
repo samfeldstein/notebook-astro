@@ -4,6 +4,7 @@ aliases:
   - Developer Certificates
 tags:
   - career
+private: false
 created: 2025-06-24
 updated: 2025-06-24
 ---

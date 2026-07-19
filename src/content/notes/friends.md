@@ -2,6 +2,7 @@
 title: Friends
 alias: Friends
 tags:
+private: false
 created: 2025-08-24
 updated: 2025-08-24
 ---

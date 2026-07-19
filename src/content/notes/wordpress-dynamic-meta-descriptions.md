@@ -1,5 +1,6 @@
 ---
 title: Dynamic Meta Descriptions in WordPress
+private: false
 created: 2025-02-22
 updated: 2025-02-22
 tags:

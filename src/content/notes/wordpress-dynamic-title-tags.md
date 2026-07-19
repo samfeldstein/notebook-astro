@@ -1,5 +1,6 @@
 ---
 title: Dynamic Title Tags in WordPress Theme
+private: false
 created: 2025-02-22
 updated: 2025-02-22
 tags:

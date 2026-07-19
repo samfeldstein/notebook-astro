@@ -3,6 +3,7 @@ title: Option Criteria
 aliases: Option Criteria
 tags:
   - options-trading
+private: false
 created: 2025-11-24
 updated: 2025-11-24
 ---

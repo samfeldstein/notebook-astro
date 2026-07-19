@@ -2,6 +2,7 @@
 title: Hugo Head CSS Partial
 aliases: Hugo Head CSS Partial
 tags:
+private: false
 created: 2025-09-14
 updated: 2025-09-14
 ---

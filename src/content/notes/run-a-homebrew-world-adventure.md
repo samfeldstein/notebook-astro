@@ -2,6 +2,7 @@
 title: Run a Homebrew World Adventure
 aliases: Run a Homebrew World Adventure
 tags:
+private: false
 created: 2026-06-28
 updated: 2026-06-28
 ---

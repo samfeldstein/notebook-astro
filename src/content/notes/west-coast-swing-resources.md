@@ -2,6 +2,7 @@
 title: West Coast Swing Resources
 tags:
   - dance
+private: false
 created: 2024-11-16
 updated: 2025-02-02
 ---

@@ -2,6 +2,7 @@
 title: How to Get Gorilla Glue off Fingers
 aliases: How to Get Gorilla Glue off Fingers
 tags:
+private: false
 created: 2025-11-25
 updated: 2025-11-25
 ---

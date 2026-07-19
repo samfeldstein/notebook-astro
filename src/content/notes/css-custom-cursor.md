@@ -4,6 +4,7 @@ aliases:
   - CSS Custom Cursor
 tags:
   - css
+private: false
 created: 2025-08-14
 updated: 2025-08-14
 ---

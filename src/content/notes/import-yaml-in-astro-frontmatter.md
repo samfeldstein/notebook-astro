@@ -4,6 +4,7 @@ aliases:
   - Import YAML in Astro Frontmatter
 tags:
   - astro
+private: false
 created: 2025-07-23
 updated: 2025-07-23
 ---

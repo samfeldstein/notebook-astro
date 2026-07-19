@@ -3,6 +3,7 @@ title: Build a Wordpress Contact Form
 tags:
   - web-development
   - wordpress
+private: false
 created: 2025-02-24
 updated: 2025-02-25
 ---

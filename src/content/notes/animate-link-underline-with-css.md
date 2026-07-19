@@ -5,6 +5,7 @@ aliases:
 tags:
   - css
   - web-development
+private: false
 created: 2025-07-11
 updated: 2025-07-11
 ---

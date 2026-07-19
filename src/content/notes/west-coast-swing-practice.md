@@ -3,6 +3,7 @@ title: West Coast Swing Practice
 tags:
   - dance
   - west-coast-swing
+private: false
 created: 2024-12-01
 ---
 

@@ -3,6 +3,7 @@ title: Travel on a Budget
 aliases: Travel on a Budget
 tags:
   - travel
+private: false
 created: 2026-06-02
 updated: 2026-06-02
 ---

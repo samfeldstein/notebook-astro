@@ -1,5 +1,6 @@
 ---
 title: Service a Fridge
+private: false
 created: 2026-05-07
 ---
 

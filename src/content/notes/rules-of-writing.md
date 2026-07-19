@@ -3,6 +3,7 @@ title: Rules of Writing
 alias: Rules of Writing
 tags:
   - writing
+private: false
 created: 2025-08-21
 updated: 2025-08-21
 ---

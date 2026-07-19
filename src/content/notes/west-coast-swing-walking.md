@@ -3,6 +3,7 @@ title: West Coast Swing Walking
 aliases: West Coast Swing Walking
 tags:
   - west-coast-swing
+private: false
 created: 2026-03-30
 updated: 2026-03-30
 ---

@@ -3,6 +3,7 @@ title: Group Activities for a Night In
 aliases: Group Activities for a Night In
 tags:
   - relationships
+private: false
 created: 2026-05-07
 updated: 2026-05-07
 ---

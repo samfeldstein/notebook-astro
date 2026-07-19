@@ -2,6 +2,7 @@
 title: Easy Hard Work
 tags: 
   - work
+private: false
 created: 2025-01-16
 updated: 2025-01-16
 ---

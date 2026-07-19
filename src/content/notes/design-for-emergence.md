@@ -2,6 +2,7 @@
 title: Design for Emergence
 tags:
   - design
+private: false
 created: 2026-05-07
 ---
 

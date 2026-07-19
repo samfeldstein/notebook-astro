@@ -5,6 +5,7 @@ aliases:
   - How to Clean a Butcher Block
 tags:
   - home-improvement
+private: false
 created: 2026-06-06
 updated: 2026-06-06
 ---

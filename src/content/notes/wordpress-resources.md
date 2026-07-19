@@ -3,6 +3,7 @@ title: WordPress Resources
 tags:
   - wordpress
   - web-development
+private: false
 created: 2025-02-01
 ---
 

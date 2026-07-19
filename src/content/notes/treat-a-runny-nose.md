@@ -2,6 +2,7 @@
 title: Treat a Runny Nose
 aliases: Treat a Runny Nose
 tags:
+private: false
 created: 2026-04-18
 updated: 2026-04-18
 ---

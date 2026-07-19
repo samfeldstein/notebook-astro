@@ -3,6 +3,7 @@ title: Run a Zsh Script
 tags:
   - zsh
   - command-line
+private: false
 created: 2025-05-22
 updated: 2025-05-23
 ---

@@ -2,6 +2,7 @@
 title: How to Solve Problems
 tags:
   - cognition
+private: false
 created: 2024-10-27
 updated: 2024-10-28
 ---

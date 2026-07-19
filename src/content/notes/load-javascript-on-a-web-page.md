@@ -5,6 +5,7 @@ aliases:
 tags:
   - javascript
   - web-development
+private: false
 created: 2025-06-21
 updated: 2025-06-21
 ---

@@ -3,6 +3,7 @@ title: Traps Mobility
 aliases: Traps Mobility
 tags:
   - fitness
+private: false
 created: 2026-05-07
 updated: 2026-05-07
 ---

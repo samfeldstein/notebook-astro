@@ -5,6 +5,7 @@ aliases:
 tags:
   - zsh
   - command-line
+private: false
 created: 2025-06-17
 updated: 2025-06-17
 ---

@@ -4,6 +4,7 @@ aliases:
   - Math
 tags:
   - math
+private: false
 created: 2025-06-20
 updated: 2025-06-20
 ---

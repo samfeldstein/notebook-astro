@@ -2,6 +2,7 @@
 title: E-Ink Screens
 alias: E-Ink Screens
 tags:
+private: false
 created: 2025-08-02
 updated: 2025-08-02
 ---

@@ -3,6 +3,7 @@ title: What Are Stories For?
 aliases: What Are Stories For?
 tags:
   - storytelling
+private: false
 created: 2026-06-30
 updated: 2026-06-30
 ---

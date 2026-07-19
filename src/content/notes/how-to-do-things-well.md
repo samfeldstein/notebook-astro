@@ -2,6 +2,7 @@
 title: How to Do Things Well
 alias: How to Do Things Well
 tags: 
+private: false
 created: 2025-02-04
 updated: 2025-02-04
 ---

@@ -5,6 +5,7 @@ aliases:
 tags:
   - css
   - frontend-development
+private: false
 created: 2025-07-16
 updated: 2025-07-16
 ---

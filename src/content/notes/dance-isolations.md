@@ -2,6 +2,7 @@
 title: Dance Isolations
 aliases: Dance Isolations
 tags:
+private: false
 created: 2026-05-11
 updated: 2026-05-11
 ---

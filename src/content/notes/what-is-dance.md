@@ -2,6 +2,7 @@
 title: What is Dance?
 tags:
   - dance
+private: false
 created: 2024-11-16
 updated: 2025-06-06
 ---

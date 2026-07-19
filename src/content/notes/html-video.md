@@ -2,6 +2,7 @@
 title: HTML Video
 tags:
   - web-development
+private: false
 created: 2024-12-03
 updated: 2024-12-04
 ---

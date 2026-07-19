@@ -2,6 +2,7 @@
 title: Buy Furniture in Denver
 aliases: Buy Furniture in Denver
 tags:
+private: false
 created: 2025-12-10
 updated: 2025-12-10
 ---

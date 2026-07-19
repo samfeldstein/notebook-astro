@@ -3,6 +3,7 @@ title: Hugo Partials
 aliases: Hugo Partials
 tags:
   - hugo
+private: false
 created: 2025-09-14
 updated: 2025-09-14
 ---

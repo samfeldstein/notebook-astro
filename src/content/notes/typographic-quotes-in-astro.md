@@ -4,6 +4,7 @@ aliases:
   - Typographic Quotes in Astro
   - Curly Quotes in Astro
 tags: 
+private: false
 created: 2025-07-24
 updated: 2025-07-24
 ---

@@ -2,6 +2,7 @@
 title: Problem Sizes
 tags:
   - work
+private: false
 created: 2024-10-28
 updated: 2024-10-28
 ---

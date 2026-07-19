@@ -2,6 +2,7 @@
 title: Find Free Stuff
 aliases: Find Free Stuff
 tags:
+private: false
 created: 2026-06-07
 updated: 2026-06-07
 ---

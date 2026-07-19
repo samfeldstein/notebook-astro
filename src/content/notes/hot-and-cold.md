@@ -3,6 +3,7 @@ title: Hot and Cold
 aliases: Hot and Cold
 tags:
   - games
+private: false
 created: 2026-05-07
 updated: 2026-05-07
 ---

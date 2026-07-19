@@ -2,6 +2,7 @@
 title: How to Make Decisions
 aliases: How to Make Decisions
 tags:
+private: false
 created: 2026-06-19
 updated: 2026-06-19
 ---

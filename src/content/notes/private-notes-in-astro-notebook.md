@@ -2,6 +2,7 @@
 title: Private Notes in Astro Notebook
 aliases: Private Notes in Astro Notebook
 tags:
+private: false
 created: 2026-07-12
 updated: 2026-07-12
 ---

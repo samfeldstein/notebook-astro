@@ -2,6 +2,7 @@
 title: Dungeons and Dragons Kind of Sucks
 aliases: Dungeons and Dragons Kind of Sucks
 tags:
+private: false
 created: 2026-06-30
 updated: 2026-06-30
 ---

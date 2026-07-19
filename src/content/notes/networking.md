@@ -4,6 +4,7 @@ aliases:
   - Networking
 tags:
   - networking
+private: false
 created: 2025-06-29
 updated: 2025-06-29
 ---

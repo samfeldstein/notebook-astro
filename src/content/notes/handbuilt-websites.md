@@ -3,6 +3,7 @@ title: Handbuilt Websites
 tags:
   - web-development
   - programming
+private: false
 created: 2024-10-24
 updated: 2024-10-24
 ---

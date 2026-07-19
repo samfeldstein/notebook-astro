@@ -3,6 +3,7 @@ title: Personal Philosophies
 alias: Personal Philosophies
 tags:
   - life
+private: false
 created: 2025-08-24
 updated: 2025-08-24
 ---

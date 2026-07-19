@@ -3,6 +3,7 @@ title: Community-Built-Lore
 aliases: Community-Built-Lore
 tags:
   - tabletop-rpgs
+private: false
 created: 2026-07-04
 updated: 2026-07-04
 ---

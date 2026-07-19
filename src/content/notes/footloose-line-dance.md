@@ -2,6 +2,7 @@
 title: Footloose Line Dance
 aliases: Footloose Line Dance
 tags:
+private: false
 created: 2025-11-18
 updated: 2025-11-18
 ---

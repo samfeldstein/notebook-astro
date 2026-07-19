@@ -6,6 +6,7 @@ aliases:
 tags:
   - frontend-development
   - web-development
+private: false
 created: 2025-06-25
 updated: 2025-06-25
 ---

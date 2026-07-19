@@ -4,6 +4,7 @@ aliases:
   - Text Shadow
 tags:
   - css
+private: false
 created: 2025-08-05
 updated: 2025-08-05
 ---

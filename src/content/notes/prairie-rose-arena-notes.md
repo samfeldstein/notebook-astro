@@ -4,6 +4,7 @@ tags:
   - projects
   - web-development
   - eleventy
+private: false
 created: 2024-10-10
 ---
 

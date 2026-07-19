@@ -2,6 +2,7 @@
 title: Teachers
 tags:
   - education
+private: false
 created: 2025-02-07
 ---
 

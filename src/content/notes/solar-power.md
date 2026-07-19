@@ -1,5 +1,6 @@
 ---
 title: Solar Power
+private: false
 created: 2026-05-07
 ---
 

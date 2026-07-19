@@ -3,6 +3,7 @@ title: Murder Wink 'Em
 aliases: Murder Wink 'Em
 tags:
   - games
+private: false
 created: 2026-05-07
 updated: 2026-05-07
 ---

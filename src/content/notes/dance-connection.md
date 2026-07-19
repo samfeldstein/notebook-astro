@@ -2,6 +2,7 @@
 title: Dance Connection
 aliases: Dance Connection
 tags:
+private: false
 created: 2026-06-30
 updated: 2026-06-30
 ---

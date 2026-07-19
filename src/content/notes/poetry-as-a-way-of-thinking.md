@@ -4,6 +4,7 @@ aliases: Poetry as a Way of Thinking
 tags:
   - poetry
   - essays
+private: false
 created: 2024-03-16
 updated: 2026-05-28
 ---

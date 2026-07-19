@@ -3,6 +3,7 @@ title: Trends
 tags:
   - research
   - tools
+private: false
 created: 2025-05-04
 updated: 2025-05-04
 ---

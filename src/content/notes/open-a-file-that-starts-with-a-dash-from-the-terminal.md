@@ -4,6 +4,7 @@ aliases:
   - Open a File That Starts With a Dash From the Terminal
 tags:
   - command-line
+private: false
 created: 2025-06-21
 updated: 2025-06-21
 ---

@@ -3,6 +3,7 @@ title: Get Down, Mr. President
 aliases: Get Down, Mr. President
 tags:
   - games
+private: false
 created: 2026-05-07
 updated: 2026-05-07
 ---

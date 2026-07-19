@@ -3,6 +3,7 @@ title: How to Chop Basil
 aliases: How to Chop Basil
 tags:
   - cooking
+private: false
 created: 2025-11-25
 updated: 2025-11-25
 ---

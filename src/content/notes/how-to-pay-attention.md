@@ -4,6 +4,7 @@ aliases:
   - How to Pay Attention
 tags:
   - cognition
+private: false
 created: 2025-02-04
 updated: 2025-06-18
 ---

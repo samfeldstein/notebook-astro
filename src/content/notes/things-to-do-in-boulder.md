@@ -3,6 +3,7 @@ title: Things to Do in Boulder
 tags:
   - travel
   - colorado
+private: false
 created: 2025-05-24
 updated: 2025-05-24
 ---

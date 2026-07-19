@@ -2,6 +2,7 @@
 title: Manual Until It Hurts
 tags:
   - software
+private: false
 created: 2026-05-07
 ---
 

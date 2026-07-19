@@ -2,6 +2,7 @@
 title: What is a Story
 tags:
   - storytelling
+private: false
 created: 2025-05-22
 updated: 2026-05-09
 ---

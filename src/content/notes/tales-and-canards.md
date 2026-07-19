@@ -3,6 +3,7 @@ title: Tales and Canards
 aliases: Tales and Canards
 tags:
   - poetry
+private: false
 created: 2026-05-16
 updated: 2026-05-16
 ---

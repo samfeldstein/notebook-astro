@@ -4,6 +4,7 @@ aliases:
   - Cache Build Assets in Cloudflare Workers
 tags:
   - cloudflare
+private: false
 created: 2025-07-26
 updated: 2025-07-26
 ---

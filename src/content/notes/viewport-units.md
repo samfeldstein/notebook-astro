@@ -5,6 +5,7 @@ aliases:
 tags:
   - css
   - responsive-design
+private: false
 created: 2025-07-31
 updated: 2025-07-31
 ---

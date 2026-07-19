@@ -1,6 +1,7 @@
 ---
 title: Friction and Meaning
 tags: 
+private: false
 created: 2025-06-06
 updated: 2025-06-06
 ---

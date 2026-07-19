@@ -4,6 +4,7 @@ aliases:
   - CSS Circle Border
 tags:
   - css
+private: false
 created: 2025-07-17
 updated: 2025-07-17
 ---

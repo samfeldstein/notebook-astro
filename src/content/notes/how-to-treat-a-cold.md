@@ -2,6 +2,7 @@
 title: How to Treat a Cold
 tags:
   - health
+private: false
 created: 2025-01-06
 ---
 

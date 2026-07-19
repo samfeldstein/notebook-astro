@@ -2,6 +2,7 @@
 title: Update Software from the Command Line
 tags:
   - command-line
+private: false
 created: 2025-06-01
 updated: 2025-06-01
 ---

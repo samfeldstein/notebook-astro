@@ -4,6 +4,7 @@ aliases:
   - Duplicate a Folder the Terminal
   - Copy a Folder in the Terminal
 tags:
+private: false
 created: 2026-04-11
 updated: 2026-04-11
 ---

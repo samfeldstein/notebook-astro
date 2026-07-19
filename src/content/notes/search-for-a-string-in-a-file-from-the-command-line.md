@@ -2,6 +2,7 @@
 title: Search for a String in a File from the Command Line
 tags:
   - command-line
+private: false
 created: 2025-05-23
 updated: 2025-05-23
 ---

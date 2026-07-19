@@ -4,6 +4,7 @@ aliases:
   - Passing Classes to Components in Astro
 tags:
   - astro
+private: false
 created: 2025-07-31
 updated: 2025-07-31
 ---

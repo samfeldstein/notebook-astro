@@ -6,6 +6,7 @@ aliases:
   - System Fonts
 tags:
   - fonts
+private: false
 created: 2025-07-30
 updated: 2025-07-30
 ---

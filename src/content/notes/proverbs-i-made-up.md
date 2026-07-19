@@ -2,6 +2,7 @@
 title: Proverbs I Made Up
 tags:
   - nonsense
+private: false
 created: 2025-06-10
 updated: 2025-06-10
 ---

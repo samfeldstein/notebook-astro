@@ -2,6 +2,7 @@
 title: Email Form in Astro
 aliases: Email Form in Astro
 tags:
+private: false
 created: 2025-11-30
 updated: 2025-11-30
 ---

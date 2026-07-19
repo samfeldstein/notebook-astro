@@ -3,6 +3,7 @@ title: Web Accessibility Checklist
 tags:
   - web-development
   - web-accessibility
+private: false
 created: 2025-01-01
 updated: 2025-01-01
 ---

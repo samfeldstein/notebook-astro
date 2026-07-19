@@ -3,6 +3,7 @@ title: Add a Zsh Script to Your PATH
 tags:
   - zsh
   - command-line
+private: false
 created: 2025-05-23
 updated: 2025-05-23
 ---

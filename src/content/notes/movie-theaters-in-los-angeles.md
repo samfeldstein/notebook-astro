@@ -2,6 +2,7 @@
 title: Movie Theaters in Los Angeles
 tags:
   - movies
+private: false
 created: 2025-06-11
 updated: 2025-06-11
 ---

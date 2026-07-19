@@ -2,6 +2,7 @@
 title: The Border of Reality
 tags:
   - physics
+private: false
 created: 2026-05-07
 ---
 

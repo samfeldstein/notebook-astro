@@ -2,6 +2,7 @@
 title: How to Do a Squat
 aliases: How to Do a Squat
 tags:
+private: false
 created: 2026-06-30
 updated: 2026-06-30
 ---

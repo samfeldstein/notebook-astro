@@ -2,6 +2,7 @@
 title: Images in Astro
 aliases: Images in Astro
 tags:
+private: false
 created: 2026-07-17
 updated: 2026-07-17
 ---

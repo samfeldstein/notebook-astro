@@ -2,6 +2,7 @@
 title: How to Breathe in West Coast Swing
 aliases: How to Breathe in West Coast Swing
 tags:
+private: false
 created: 2026-01-16
 updated: 2026-01-16
 ---

@@ -2,6 +2,7 @@
 title: High Class Line Dance Tutorial
 aliases: High Class Line Dance Tutorial
 tags:
+private: false
 created: 2026-01-07
 updated: 2026-01-07
 ---

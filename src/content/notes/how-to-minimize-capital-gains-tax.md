@@ -2,6 +2,7 @@
 title: How to Minimize Capital Gains Tax
 aliases: How to Minimize Capital Gains Tax
 tags:
+private: false
 created: 2025-10-31
 updated: 2025-10-31
 ---

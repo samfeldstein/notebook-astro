@@ -3,6 +3,7 @@ title: Things to Do in Colorado
 tags:
   - travel
   - colorado
+private: false
 created: 2024-12-25
 updated: 2025-01-13
 ---

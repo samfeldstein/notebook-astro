@@ -4,6 +4,7 @@ aliases:
   - Apartment Tour Checklist
   - Rental Tour Checklist
 tags:
+private: false
 created: 2025-10-11
 updated: 2025-10-11
 ---

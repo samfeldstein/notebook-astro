@@ -3,6 +3,7 @@ title: Hacking
 alias: Hacking
 tags:
   - hacking
+private: false
 created: 2025-06-11
 updated: 2025-06-11
 ---

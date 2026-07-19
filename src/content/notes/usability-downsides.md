@@ -3,6 +3,7 @@ title: The Downsides of Usability
 tags:
   - design
   - psychology
+private: false
 created: 2024-10-24
 updated: 2024-10-27
 ---

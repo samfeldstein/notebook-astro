@@ -5,6 +5,7 @@ aliases:
   - Meaning of Life
 tags:
   - life
+private: false
 created: 2025-09-02
 updated: 2026-06-30
 ---

@@ -2,6 +2,7 @@
 title: User-Centered Design
 tags:
   - design
+private: false
 created: 2026-05-07
 ---
 

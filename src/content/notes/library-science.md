@@ -2,6 +2,7 @@
 title: Library Science
 alias: Library Science
 tags:
+private: false
 created: 2025-06-15
 updated: 2025-06-15
 ---

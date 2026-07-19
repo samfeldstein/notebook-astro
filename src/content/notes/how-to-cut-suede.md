@@ -2,6 +2,7 @@
 title: How to Cut Suede
 aliases: How to Cut Suede
 tags:
+private: false
 created: 2025-09-03
 updated: 2025-09-03
 ---

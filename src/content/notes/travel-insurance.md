@@ -2,6 +2,7 @@
 title: Travel Insurance
 tags:
   - travel
+private: false
 created: 2026-05-07
 ---
 

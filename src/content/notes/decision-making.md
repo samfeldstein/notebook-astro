@@ -2,6 +2,7 @@
 title: Decision Making
 tags:
   - psychology
+private: false
 created: 2024-10-20
 updated: 2024-10-20
 ---

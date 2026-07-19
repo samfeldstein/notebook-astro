@@ -3,6 +3,7 @@ title: The Gift God Left
 aliases: The Gift God Left
 tags:
   - poetry
+private: false
 created: 2024-03-05
 updated: 2026-05-28
 ---

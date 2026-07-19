@@ -3,6 +3,7 @@ title: The First
 aliases: The First
 tags:
   - poetry
+private: false
 created: 2024-02-27
 updated: 2026-05-28
 ---

@@ -3,6 +3,7 @@ title: West Coast Swing History
 aliases: West Coast Swing History
 tags:
   - west-coast-swing
+private: false
 created: 2026-02-03
 updated: 2026-02-03
 ---

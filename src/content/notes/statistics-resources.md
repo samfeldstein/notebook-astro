@@ -2,6 +2,7 @@
 title: Statistics Resources
 tags:
   - statistics
+private: false
 created: 2024-11-03
 updated: 2024-11-03
 ---

@@ -2,6 +2,7 @@
 title: Examples
 tags:
   - cognition
+private: false
 created: 2024-10-28
 updated: 2024-10-28
 ---

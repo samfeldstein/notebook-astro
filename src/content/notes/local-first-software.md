@@ -2,6 +2,7 @@
 title: Local-First Software
 tags:
   - software
+private: false
 created: 2026-05-07
 ---
 

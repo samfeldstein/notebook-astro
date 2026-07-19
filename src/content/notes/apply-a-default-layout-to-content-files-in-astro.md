@@ -2,6 +2,7 @@
 title: Apply a Default Layout to Content Files in Astro
 aliases: Apply a Default Layout to Content Files in Astro
 tags:
+private: false
 created: 2026-04-11
 updated: 2026-04-11
 ---

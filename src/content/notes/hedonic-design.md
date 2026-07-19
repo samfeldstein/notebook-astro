@@ -1,6 +1,7 @@
 ---
 title: Hedonic Design
 tags: 
+private: false
 created: 2024-11-05
 updated: 2024-11-05
 ---

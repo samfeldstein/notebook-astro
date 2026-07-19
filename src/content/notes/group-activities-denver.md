@@ -2,6 +2,7 @@
 title: Group Activities Denver
 aliases: Group Activities Denver
 tags:
+private: false
 created: 2025-12-18
 updated: 2025-12-18
 ---

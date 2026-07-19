@@ -2,6 +2,7 @@
 title: Price Action Core Principles
 aliases: Price Action Core Principles
 tags:
+private: false
 created: 2026-06-20
 updated: 2026-06-20
 ---

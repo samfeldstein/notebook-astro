@@ -2,6 +2,7 @@
 title: Learn Music
 tags:
   - music
+private: false
 created: 2024-12-02
 updated: 2024-12-02
 ---

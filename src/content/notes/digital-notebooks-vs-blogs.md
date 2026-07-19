@@ -2,6 +2,7 @@
 title: Digital Notebooks vs Blogs
 tags:
   - digital-notebooks
+private: false
 created: 2025-05-28
 updated: 2025-05-28
 ---

@@ -3,6 +3,7 @@ title: Search in Micro
 tags:
   - micro
   - command-line
+private: false
 created: 2025-06-03
 updated: 2025-06-03
 ---

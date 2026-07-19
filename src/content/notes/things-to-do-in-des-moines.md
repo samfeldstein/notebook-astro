@@ -2,6 +2,7 @@
 title: Things to Do in Des Moines
 aliases: Things to Do in Des Moines
 tags:
+private: false
 created: 2025-12-25
 updated: 2025-12-25
 ---

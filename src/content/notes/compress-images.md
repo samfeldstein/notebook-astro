@@ -2,6 +2,7 @@
 title: Compress Images
 aliases: Compress Images
 tags:
+private: false
 created: 2026-06-20
 updated: 2026-06-20
 ---

@@ -2,6 +2,7 @@
 title: Fonts I Like
 alias: Fonts I Like
 tags:
+private: false
 created: 2025-08-02
 updated: 2025-08-02
 ---

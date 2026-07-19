@@ -3,6 +3,7 @@ title: Digital Notebook Deployment Process
 tags:
   - eleventy
   - cloudflare
+private: false
 created: 2025-05-28
 updated: 2025-05-28
 ---

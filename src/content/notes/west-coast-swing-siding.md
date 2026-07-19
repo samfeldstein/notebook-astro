@@ -2,6 +2,7 @@
 title: West Coast Swing Siding
 aliases: West Coast Swing Siding
 tags:
+private: false
 created: 2026-07-06
 updated: 2026-07-06
 ---

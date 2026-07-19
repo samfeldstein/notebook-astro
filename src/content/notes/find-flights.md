@@ -2,6 +2,7 @@
 title: Find Flights
 tags:
   - travel
+private: false
 created: 2025-05-28
 updated: 2026-05-05
 aliases:

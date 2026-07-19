@@ -2,6 +2,7 @@
 title: Woodworking Project Ideas
 aliases: Woodworking Project Ideas
 tags:
+private: false
 created: 2026-06-01
 updated: 2026-06-01
 ---

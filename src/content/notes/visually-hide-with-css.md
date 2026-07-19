@@ -3,6 +3,7 @@ title: Visually Hide With CSS
 aliases: Visually Hide With CSS
 tags:
   - css
+private: false
 created: 2025-10-08
 updated: 2025-10-08
 ---

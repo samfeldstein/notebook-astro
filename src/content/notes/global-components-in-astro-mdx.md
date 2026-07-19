@@ -3,6 +3,7 @@ title: Global Components in Astro MDX
 aliases: Global Components in Astro MDX
 tags:
   - astro
+private: false
 created: 2025-09-03
 updated: 2025-09-03
 ---

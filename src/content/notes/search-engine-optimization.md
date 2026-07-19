@@ -2,6 +2,7 @@
 title: Search Engine Optimization
 tags: 
   - web-development
+private: false
 created: 2025-01-02
 updated: 2025-01-10
 ---

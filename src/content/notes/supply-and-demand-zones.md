@@ -2,6 +2,7 @@
 title: Supply and Demand Zones
 aliases: Supply and Demand Zones
 tags:
+private: false
 created: 2026-05-22
 updated: 2026-05-22
 ---

@@ -2,6 +2,7 @@
 title: Fitness Routine
 tags:
   - fitness
+private: false
 created: 2026-01-07
 updated: 2026-01-07
 aliases:

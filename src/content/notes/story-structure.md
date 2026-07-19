@@ -3,6 +3,7 @@ title: Story Structure
 tags:
   - writing
   - storytelling
+private: false
 created: 2026-05-07
 ---
 

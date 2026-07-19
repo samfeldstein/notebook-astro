@@ -2,6 +2,7 @@
 title: The Upsides of Usability
 tags:
   - design
+private: false
 created: 2024-10-26
 updated: 2024-10-27
 ---
