@@ -1,6 +1,5 @@
 ---
 title: Basic Nutrition
-aliases: Basic Nutrition
 tags:
 private: false
 created: 2026-03-25

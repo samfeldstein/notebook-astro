@@ -1,17 +1,16 @@
 ---
 title: Fitness Routine
+alias: Workout Routine
 tags:
   - fitness
 private: false
 created: 2026-01-07
-updated: 2026-01-07
-aliases:
-  - Fitness Routine
-  - Workout Routine
+updated: 2026-07-20
 ---
 
-The gist: develop mobility, strength, and [locomotion](https://gmb.io/locomotion/). Do everything daily, or as often as you can.
+The gist: develop mobility, strength, and [locomotion](https://gmb.io/locomotion/).
 
-- [[notes/private/mobility-routine|Mobility Routine]]
+- [[notes/mobility-routine|Mobility]]
 - Animal exercises
-- [[notes/hilf-strength-training|HILF]]
+- [[notes/hilf-strength-training|HILF]] pistol squats
+- HILF pushups
