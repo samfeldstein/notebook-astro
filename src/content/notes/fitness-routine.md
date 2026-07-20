@@ -12,5 +12,8 @@ The gist: develop mobility, strength, and [locomotion](https://gmb.io/locomotion
 
 - [[notes/mobility-routine|Mobility]]
 - Animal exercises
+- Lat pullups
 - [[notes/hilf-strength-training|HILF]] pistol squats
+- Bicep pullups
+- Hanging leg lifts
 - HILF pushups

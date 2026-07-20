@@ -31,7 +31,6 @@ const letters = defineCollection({
   schema: z.object({
     title: z.string(),
     created: z.coerce.date(),
-    location: z.string(),
   }),
 });
 

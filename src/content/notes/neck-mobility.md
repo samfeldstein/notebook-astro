@@ -1,6 +1,5 @@
 ---
 title: Neck Mobility
-aliases: Neck Mobility
 tags:
   - fitness
 private: false
