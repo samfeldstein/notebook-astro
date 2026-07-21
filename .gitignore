@@ -31,5 +31,5 @@ package-lock.json
 .obsidian
 private
 journal
-letters
+src/content/letters
 readwise

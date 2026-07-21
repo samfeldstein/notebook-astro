@@ -1,0 +1,27 @@
+---
+import Base from "@layouts/Base.astro";
+
+import "@styles/layouts/_letter.scss";
+
+import { components } from "@components/global.js";
+
+import { getCollection, render } from "astro:content";
+// 1. Generate a new path for every collection entry
+export async function getStaticPaths() {
+  const letters = await getCollection("letters");
+  return letters.map((letter) => ({
+    params: { id: letter.id },
+    props: { letter },
+  }));
+}
+
+const { letter } = Astro.props;
+
+const { Content } = await render(letter);
+---
+
+<Base title={letter.data.title}>
+  <article>
+    <Content components={components} />
+  </article>
+</Base>

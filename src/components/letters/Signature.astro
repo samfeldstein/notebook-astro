@@ -1,0 +1,24 @@
+---
+const { date } = Astro.props;
+
+const parsedDate = new Date(date);
+
+const datetime = parsedDate.toISOString();
+
+const readableDate = parsedDate.toLocaleDateString("en-US", {
+  year: "numeric",
+  month: "long",
+  day: "numeric",
+});
+---
+
+<div>
+  <slot />
+  <time datetime={datetime}>{readableDate}</time>
+</div>
+
+<style lang="scss">
+  div {
+    text-align: right;
+  }
+</style>
