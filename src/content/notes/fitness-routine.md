@@ -1,6 +1,6 @@
 ---
 title: Fitness Routine
-alias: Workout Routine
+aliases: Workout Routine
 tags:
   - fitness
 private: false

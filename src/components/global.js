@@ -1,3 +1,4 @@
+import Salutation from "./letters/Salutation.astro";
 import Signature from "./letters/Signature.astro";
 import BlockQuote from "./notes/BlockQuote.astro";
 import Callout from "./notes/Callout.astro";
@@ -9,5 +10,6 @@ export const components = {
   Callout,
   GoogleSearch,
   Image,
-  Signature
+  Signature,
+  Salutation,
 }

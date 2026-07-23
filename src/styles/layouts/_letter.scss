@@ -1,7 +1,19 @@
-#signature {
-  font-style: italic;
-  font-size: 0.75em;
-  text-align: right;
+@media print {
+  body {
+    font-size: 15.75px;
+    font-family: 'EB Garamond';
+  }
+  .site-header,
+  footer {
+    display: none;
+  }
+}
 
-  margin-top: 4em;
+@page {
+  margin: 0.5in 1in;
+
+  @bottom-center {
+    content: counter(page)" of " counter(pages);
+    font-size: 0.5em;
+  }
 }
