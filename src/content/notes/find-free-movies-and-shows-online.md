@@ -7,4 +7,4 @@ created: 2026-06-21
 updated: 2026-06-21
 ---
 
-- [FreeMediaHeckYeah ](https://fmhy.net/)
+- [FreeMediaHeckYeah ](https://fmhy.net/video)

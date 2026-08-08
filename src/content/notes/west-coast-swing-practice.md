@@ -5,6 +5,13 @@ tags:
   - west-coast-swing
 private: false
 created: 2024-12-01
+aliases:
+  - Dance Practice Routine
 ---
 
-- [Partner Practice 101: Co-op Mode](https://floortimewcs.blogspot.com/2025/02/partner-practice-101-co-op-mode.html)
+- Watch dance videos
+- Relax upper body; put center in lower core
+- [[notes/west-coast-swing-box-drills|Box drills]]
+- [[notes/west-coast-swing-post|Posting]]
+- [[notes/west-coast-swing-anchor-step|Anchor]]
+- Review new patterns

@@ -1,24 +1,23 @@
 ---
 title: fonttools
 aliases:
-  - fonttools
+  - Font Subsetting
 tags:
-  - fonts
 private: false
 created: 2025-07-30
-updated: 2025-07-30
+updated: 2026-07-30
 ---
 
-This command converts a font file to `woff` format and selects a basic Latin subset.
+This command converts a font file to `woff2` format and selects a basic Latin subset + diacritics.
 
 ```bash
 pyftsubset Oswald-VariableFont_wght.ttf \
   --output-file=oswald.woff2 \
   --flavor=woff2 \
-  --unicodes="U+0020-007F" \
+  --unicodes="U+0020-007F,U+00A0-00FF" \
   --layout-features='*'
 ```
 
-If you want diacritics, use `U+0020-007F,U+00A0-00FF`. Make sure the ranges are specified in your `@font-face` rules.
+Make sure the ranges are specified in your `@font-face` rules.
 
-Read more in the [docs](https://fonttools.readthedocs.io/en/latest/index.html).
+Read more in the [fonttools docs](https://fonttools.readthedocs.io/en/latest/index.html).

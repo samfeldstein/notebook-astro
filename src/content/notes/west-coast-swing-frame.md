@@ -1,5 +1,5 @@
 ---
-title: West Coast Swing Posture
+title: West Coast Swing Frame
 aliases:
   - West Coast Swing Posture
   - West Coast Swing Breathing
@@ -21,3 +21,9 @@ Put your hips over your heels. This is how you stay over your weight while strik
 Activate your glutes and thighs. Bend your knees a little more than you think you need to. Notice how stable you are. Notice the power in your driving.
 
 Breathe. This is the only way to stay relaxed enough to move as a unit.
+
+Frame but that doesn’t mean carry yourself in your shoulders. You want to carry yourself in your core. (Move the ball to your core.)
+
+
+The frame is more like a rising into yourself. Letting your bones fall into place instead of slouching on your muscles. The floating analogy is a good one because it implies a lightness, which is what we want in the upper body.
+
