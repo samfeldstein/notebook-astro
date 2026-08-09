@@ -1,6 +1,7 @@
 import { defineConfig } from 'astro/config'
 import remarkSmartypants from 'remark-smartypants'
 import remarkWikiLink from 'remark-wiki-link'
+import remarkMath from "remark-math"
 import sitemap from '@astrojs/sitemap'
 import mdx from '@astrojs/mdx'
 
@@ -24,6 +25,7 @@ export default defineConfig({
 
   markdown: {
     remarkPlugins: [
+      remarkMath,
       [remarkWikiLink, {
         pageResolver: (name) => {
           const rawTarget = name.split('|')[0].trim()
