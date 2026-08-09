@@ -7,13 +7,6 @@ tags:
   - astro
   - web-development
   - static-site-generators
-links:
-  - title: Astro.build
-    url: https://astro.build/
-    type: external
-  - title: SupportSquid
-    url: https://get.supportsquid.ink
-    type: external
 ---
 
 - [Astro.build](https://astro.build/)
