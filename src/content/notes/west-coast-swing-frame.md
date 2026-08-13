@@ -24,6 +24,7 @@ Breathe. This is the only way to stay relaxed enough to move as a unit.
 
 Frame but that doesn’t mean carry yourself in your shoulders. You want to carry yourself in your core. (Move the ball to your core.)
 
-
 The frame is more like a rising into yourself. Letting your bones fall into place instead of slouching on your muscles. The floating analogy is a good one because it implies a lightness, which is what we want in the upper body.
+
+Hinge at the hips and put your [chest over your toes](https://youtube.com/shorts/H6cd_KemBaE?si=XJgfND6KFQiFueVY).
 

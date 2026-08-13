@@ -11,6 +11,6 @@ As long as `dist` and the folder containing the private notes is in `.gitignore`
 
 They will still build locally, so you can view them on the dev server.
 
-I also add a `private` key in note frontmatter and filtered them that way, just for extra protection. But al
+I also added a `private` key in note frontmatter and filtered them that way, just for extra protection. But that alone won't do because then they'll end up in GitHub.
 
-Using `_private` doesn't make sense, because it's not in the `pages` directory. See [Excluding Pages](https://docs.astro.build/en/guides/routing/#excluding-pages) in the Astro docs.
+You can use `_private` which tells Astro to exclude the folder from build, but then you can't see private notes on the dev server.
