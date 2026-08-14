@@ -26,7 +26,6 @@ pnpm-debug.log*
 .idea/
 
 # Other
-package-lock.json
 .vscode
 .obsidian
 private

@@ -1,8 +1,5 @@
 ---
 title: How to Build a Webpage
-description: A very not-comprehensive checklist.
-aliases:
-  - How to Build a Webpage
 private: false
 created: 2025-02-20
 updated: 2025-07-26
