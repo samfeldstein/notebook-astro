@@ -24,10 +24,6 @@ updated: 2025-07-26
 - Cache assets in the browser using HTTP headers
 - [[notes/measure-web-performance|Measure]]
 
-## Tools
-
-- [Jampack](https://jampack.divriots.com/) optimizes static websites
-
 ## Further reading
 
 - [Web Performance](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Performance) on MDN

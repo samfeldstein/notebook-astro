@@ -7,6 +7,8 @@ created: 2026-06-30
 updated: 2026-06-30
 ---
 
-Arms straight out in front. Helps balance and keep your back straight.
+Keep heels flat on the floor. Shouldn't have to throw your hips way back. Usually points to a mobility or strength limitation.
 
-Keep your feet planted, but make like you're trying to pull them together. Weight shifts to inner sole. Activates inner hip.
+## Further reading
+
+- [How to Squat Deep](https://gmb.io/squat/), GMB Fitness

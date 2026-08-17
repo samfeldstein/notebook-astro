@@ -26,5 +26,4 @@ Frame but that doesn’t mean carry yourself in your shoulders. You want to carr
 
 The frame is more like a rising into yourself. Letting your bones fall into place instead of slouching on your muscles. The floating analogy is a good one because it implies a lightness, which is what we want in the upper body.
 
-Hinge at the hips and put your [chest over your toes](https://youtube.com/shorts/H6cd_KemBaE?si=XJgfND6KFQiFueVY).
-
+[[notes/west-coast-swing-pitch|Pitch]].

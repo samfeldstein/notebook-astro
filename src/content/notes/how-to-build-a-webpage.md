@@ -11,6 +11,7 @@ tags:
 - Choose [body font](https://practicaltypography.com/body-text.html)
 - [[notes/web-accessibility-checklist|Make it accessible]]
 - Add [[notes/open-graph-protocol|Open Graph Markup]]
+- [[notes/search-engine-optimization|SEO]]
 - [[notes/web-performance-checklist|Improve performance]]
 - [Validate HTML](https://validator.w3.org)
 - Cross-browser testing
