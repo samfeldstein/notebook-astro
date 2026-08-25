@@ -10,11 +10,7 @@ aliases:
   - Dance Practice Routine
 ---
 
-- Watch dance videos
-- Free movement
-- Practice one skill or pattern
-- Review new patterns
-- Ghost dance
+Watch dance videos, then pick one skill or pattern and work on it.
 
 ## Skills
 
@@ -23,3 +19,5 @@ aliases:
 - [[notes/west-coast-swing-box-drills|Delayed weight transfers]]
 - [[notes/west-coast-swing-post|Posting]]
 - [[notes/west-coast-swing-anchor-step|Anchor]]
+- Breathe while moving
+- Swivels

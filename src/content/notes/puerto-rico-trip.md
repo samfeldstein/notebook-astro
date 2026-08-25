@@ -12,7 +12,7 @@ I read in *Lonely Planet that* the best place to watch the sunset is [Punta Hig√
 
 Drive through the [Central Mountains](https://www.discoverpuertorico.com/).
 
-Visit the [[notes/hacienda-san-pedro-puerto-rico|Hacienda San Pedro coffee plantation]] in Jayuya.
+Visit the [[notes/hacienda-san-pedro-puerto-rico|Hacienda San Pedro coffee plantation]] in Jayuya. See also [Discover Puerto Rico](https://www.discoverpuertorico.com/article/visit-working-coffee-hacienda-puerto-rico).
 
 Kayak a [[notes/puerto-ricos-bioluminescent-bays|bioluminescent bay]].
 

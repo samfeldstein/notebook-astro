@@ -19,6 +19,10 @@ Thinking in bets starts with recognizing that there are exactly two things that 
 Pete Carroll was a victim of our tendency to equate the quality of a decision with the quality of its outcome. Poker players have a word for this: “resulting.” When I started playing poker, more experienced players warned me about the dangers of resulting, cautioning me to resist the temptation to change my strategy just because a few hands didn’t turn out well in the short run.
 </BlockQuote>
 
+<BlockQuote work="Thinking in Bets" author="Annie Duke">
+Being right feels really good. “I was right,” “I knew it,” “I told you so”—those are all things that we say, and they all feel very good to us. Should we be willing to give up the good feeling of “right” to get rid of the anguish of “wrong”? Yes.
+</BlockQuote>
+
 ## Further reading
 
 - *Thinking in Bets*, Duke

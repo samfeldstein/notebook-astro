@@ -9,7 +9,7 @@ tags:
 
 Go on a new moon if possible. Mosquito Bay is the brightest. It's on [[notes/vieques-puerto-rico|Vieques]].
 
-A friend mentioned glass-bottomed kayaks.
+A friend mentioned clear-bottomed kayaks. Try [Jak Water Sports](https://jakwatersports.com/).
 
 ## Further reading
 
