@@ -1,0 +1,55 @@
+---
+import type { MarkdownHeading } from "astro";
+
+interface Props {
+  headings: MarkdownHeading[];
+}
+
+const { headings } = Astro.props;
+---
+
+<!-- filepath: /Users/Samfeld/projects/dev/sites/notebook/src/components/TableOfContents.astro -->{
+  headings.length > 0 && (
+    <nav class="table-of-contents" aria-labelledby="toc-heading">
+      {/* <h2 id="toc-heading">On this page</h2> */}
+
+      <ol>
+        {headings.map((heading) => (
+          <li class={`depth-${heading.depth}`}>
+            <a href={`#${heading.slug}`}>{heading.text}</a>
+          </li>
+        ))}
+      </ol>
+    </nav>
+  )
+}
+
+<style lang="scss">
+  .table-of-contents {
+    margin-block: 1.5rem;
+  }
+
+  ol {
+    display: grid;
+    gap: 0.35em;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .depth-3 {
+    padding-inline-start: 1em;
+  }
+
+  .depth-4 {
+    padding-inline-start: 2em;
+  }
+
+  .depth-5 {
+    padding-inline-start: 3em;
+  }
+
+  .depth-6 {
+    padding-inline-start: 4em;
+  }
+</style>

@@ -1,7 +1,7 @@
 ---
 import Base from "@layouts/Base.astro";
 import Header from "@components/notes/Header.astro";
-import DevSearch from "@components/DevSearch.astro";
+import Toc from "@src/components/notes/Toc.astro";
 
 import "@styles/layouts/_note.scss";
 
@@ -25,14 +25,29 @@ export async function getStaticPaths() {
 }
 
 const { note } = Astro.props;
-const { Content } = await render(note);
+const { Content, headings } = await render(note);
 ---
 
 <Base title={note.data.title} description={note.data.description}>
   <article data-pagefind-body>
     <Header note={note} />
-    <div class="body">
-      <Content components={components} />
+    <!-- The component renders only when this note has at least one heading. -->
+
+    <div id="note-body-wrapper">
+      <div class="body">
+        <Content components={components} />
+      </div>
+      <Toc headings={headings} />
     </div>
   </article>
 </Base>
+
+<style>
+  #note-body-wrapper {
+    @media screen and (min-width: 1024px) {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 4em;
+    }
+  }
+</style>

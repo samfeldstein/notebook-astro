@@ -28,17 +28,23 @@ export default defineConfig({
       remarkMath,
       [remarkWikiLink, {
         pageResolver: (name) => {
-          const rawTarget = name.split('|')[0].trim()
-          const targetWithoutHash = rawTarget.split('#')[0].trim()
+          const rawTarget = name.split('|')[0].trim();
+          const targetWithoutHash = rawTarget.split('#')[0].trim();
 
           const permalink = targetWithoutHash
-            .replace(/\.md$/i, '')
+            // Note IDs do not include the route prefix.
+            .replace(/^notes\//i, '')
+            // Support wikilinks written with either Markdown extension.
+            .replace(/\.mdx?$/i, '')
             .replace(/ /g, '-')
-            .toLowerCase()
+            .toLowerCase();
 
-          return [permalink]
+          return [permalink];
         },
-        hrefTemplate: (permalink) => `/${permalink}`,
+
+        // `permalink` is now e.g. `private/how-should-we-spend-our-time`.
+        hrefTemplate: (permalink) => `/notes/${permalink}`,
+
         aliasDivider: '|',
       }],
       remarkSmartypants,
