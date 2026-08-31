@@ -31,23 +31,46 @@ const { Content, headings } = await render(note);
 <Base title={note.data.title} description={note.data.description}>
   <article data-pagefind-body>
     <Header note={note} />
-    <!-- The component renders only when this note has at least one heading. -->
 
-    <div id="note-body-wrapper">
-      <div class="body">
-        <Content components={components} />
-      </div>
-      <Toc headings={headings} />
-    </div>
+    {
+      headings.length > 0 ? (
+        <div id="note-body-wrapper">
+          <Toc headings={headings} />
+          <div class="body">
+            <Content components={components} />
+          </div>
+        </div>
+      ) : (
+        <div class="body">
+          <Content components={components} />
+        </div>
+      )
+    }
   </article>
 </Base>
 
 <style>
   #note-body-wrapper {
+    max-width: 90rem;
+    margin: 0 auto;
+
     @media screen and (min-width: 1024px) {
       display: grid;
-      grid-template-columns: 1fr auto;
-      gap: 4em;
+      grid-template-columns: 1fr 4fr;
+      gap: 2em;
+    }
+  }
+
+  div.body {
+    max-width: 60rem;
+    margin: 0 auto;
+    display: grid;
+  }
+
+  @media screen and (min-width: 1024px) {
+    /* Remove top margin on first element in the body to align with toc. Global because the :first-child is not in the html here */
+    :global(div.body > :first-child) {
+      margin-top: 0;
     }
   }
 </style>

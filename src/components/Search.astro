@@ -24,6 +24,10 @@
 
 <style lang="scss" is:global>
   search {
+    display: grid;
+    width: min(100%, 40rem);
+    margin-inline: auto;
+
     button {
       /* Hide clear button */
       display: none;
@@ -38,8 +42,10 @@
     border: 1px solid currentColor;
     border-radius: 4px;
     padding: 0.5em;
+
+    box-sizing: border-box;
     width: 100%;
-    max-width: 40rem;
+    max-width: none;
 
     font: inherit;
 

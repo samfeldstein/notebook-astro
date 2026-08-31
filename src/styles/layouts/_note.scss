@@ -1,11 +1,10 @@
 .body {
-  max-width: 60rem;
 
   ul,
-    ol {
-      display: grid;
-      gap: 0.5em;
-    }
+  ol {
+    display: grid;
+    gap: 0.5em;
+  }
 }
 
 pre {
@@ -18,4 +17,8 @@ code {
   font-weight: 700;
   font-variation-settings: "wdth" 70;
   letter-spacing: 0.1em;
+}
+
+h2 {
+  margin-top: 10rem;
 }

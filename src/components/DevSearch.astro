@@ -18,14 +18,22 @@
 </search>
 
 <style>
+  search {
+    display: grid;
+    width: min(100%, 40rem);
+    margin-inline: auto;
+  }
+
   p[data-dev-search-status] {
     font-style: italic;
   }
 
   input {
-    font: inherit;
+    box-sizing: border-box;
     width: 100%;
-    max-width: 40rem;
+    max-width: none;
+
+    font: inherit;
     border: 1px solid;
     border-radius: 4px;
     padding: 0.5em;
