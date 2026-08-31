@@ -17,3 +17,7 @@ aliases:
 	- Google
 	- Bing
 - [Request indexing](https://developers.google.com/search/docs/crawling-indexing/ask-google-to-recrawl) from Google.
+
+## Further reading
+
+- [Search Engine Optimization Guide](https://developers.google.com/search/docs/fundamentals/seo-starter-guide), Google

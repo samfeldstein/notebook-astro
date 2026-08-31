@@ -7,7 +7,7 @@ tags:
   - west-coast-swing
 private: false
 created: 2025-12-04
-updated: 2025-12-04
+updated: 2026-08-30
 ---
 
 Pretend your head is a balloon. [[notes/how-to-breathe-in-west-coast-swing|inhale, exhale]]. Feel your neck lengthen, and your head float toward the ceiling.
@@ -27,3 +27,7 @@ Frame but that doesn’t mean carry yourself in your shoulders. You want to carr
 The frame is more like a rising into yourself. Letting your bones fall into place instead of slouching on your muscles. The floating analogy is a good one because it implies a lightness, which is what we want in the upper body.
 
 [[notes/west-coast-swing-pitch|Pitch]].
+
+## Further reading
+
+- [[notes/private/assets/frame-matching-and-pted.pdf|Frame Matching and PTED]]

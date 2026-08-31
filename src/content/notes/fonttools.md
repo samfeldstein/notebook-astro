@@ -3,6 +3,7 @@ title: fonttools
 aliases:
   - Font Subsetting
 tags:
+  - web-development
 private: false
 created: 2025-07-30
 updated: 2026-07-30

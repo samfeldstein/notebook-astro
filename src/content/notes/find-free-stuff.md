@@ -1,7 +1,7 @@
 ---
 title: Find Free Stuff
-aliases: Find Free Stuff
 tags:
+  - frugality
 private: false
 created: 2026-06-07
 updated: 2026-06-07

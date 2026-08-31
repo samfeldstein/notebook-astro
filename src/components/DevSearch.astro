@@ -1,0 +1,109 @@
+<!-- filepath: /Users/Samfeld/projects/dev/sites/notebook/src/components/devSearch.astro -->
+<div class="dev-note-search">
+  <label>
+    <span>Development search</span>
+    <input
+      type="search"
+      placeholder="Search notes…"
+      autocomplete="off"
+      data-dev-search-input
+    />
+  </label>
+
+  <!-- Shows loading, error, and no-results messages. -->
+  <p data-dev-search-status aria-live="polite">Loading notes…</p>
+
+  <!-- JavaScript inserts matching note links here. -->
+  <ul data-dev-search-results aria-live="polite"></ul>
+</div>
+
+<script>
+  import Fuse from "fuse.js";
+
+  type Note = {
+    id: string;
+    title: string;
+    description: string;
+    body: string;
+  };
+
+  const input = document.querySelector<HTMLInputElement>(
+    "[data-dev-search-input]",
+  );
+  const results = document.querySelector<HTMLUListElement>(
+    "[data-dev-search-results]",
+  );
+  const status = document.querySelector<HTMLParagraphElement>(
+    "[data-dev-search-status]",
+  );
+
+  if (!input || !results || !status) {
+    throw new Error("Development search elements could not be found.");
+  }
+
+  let fuse: Fuse<Note>;
+
+  try {
+    // BASE_URL supports Astro sites configured to run below a subdirectory.
+    const endpoint = `${import.meta.env.BASE_URL}api/dev-note-search.json`;
+    const response = await fetch(endpoint);
+
+    if (!response.ok) {
+      throw new Error(`Search endpoint returned HTTP ${response.status}.`);
+    }
+
+    const notes: Note[] = await response.json();
+
+    fuse = new Fuse(notes, {
+      ignoreLocation: true,
+      threshold: 0.35,
+      keys: [
+        { name: "title", weight: 0.7 },
+        { name: "description", weight: 0.2 },
+        { name: "body", weight: 0.1 },
+      ],
+    });
+
+    status.textContent = `${notes.length} notes loaded.`;
+  } catch (error) {
+    console.error("Could not load the development search index:", error);
+    status.textContent =
+      "Could not load the development search index. Check the browser console.";
+  }
+
+  function render(matches: Note[]) {
+    results.replaceChildren();
+
+    for (const note of matches) {
+      const item = document.createElement("li");
+      const link = document.createElement("a");
+
+      link.href = `${import.meta.env.BASE_URL}notes/${note.id}`;
+      link.textContent = note.title;
+
+      item.append(link);
+      results.append(item);
+    }
+  }
+
+  input.addEventListener("input", () => {
+    // Do nothing if the index failed to load.
+    if (!fuse) return;
+
+    const query = input.value.trim();
+
+    if (!query) {
+      results.replaceChildren();
+      status.textContent = "Start typing to search notes.";
+      return;
+    }
+
+    const matches = fuse.search(query, { limit: 10 }).map(({ item }) => item);
+
+    render(matches);
+    status.textContent =
+      matches.length === 1
+        ? "1 matching note."
+        : `${matches.length} matching notes.`;
+  });
+</script>

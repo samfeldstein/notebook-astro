@@ -1,6 +1,7 @@
 ---
 import Base from "@layouts/Base.astro";
 import Header from "@components/notes/Header.astro";
+import DevSearch from "@components/DevSearch.astro";
 
 import "@styles/layouts/_note.scss";
 
@@ -9,10 +10,12 @@ import { components } from "@components/global";
 import { getCollection, render } from "astro:content";
 // 1. Generate a new path for every collection entry
 
+// Generate a route for every note.
+// Private notes are included on the dev server, but omitted from production builds.
 export async function getStaticPaths() {
   const notes = await getCollection(
     "notes",
-    ({ data }) => data.private !== true,
+    ({ data }) => import.meta.env.DEV || data.private !== true,
   );
 
   return notes.map((note) => ({
