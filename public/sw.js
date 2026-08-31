@@ -1,4 +1,4 @@
-const CACHE_NAME = "site-cache-1786991004326";
+const CACHE_NAME = "site-cache-1788187842536";
 
 const ASSETS = [
   "index.html",

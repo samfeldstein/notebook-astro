@@ -1,11 +1,11 @@
 <!-- filepath: /Users/Samfeld/projects/dev/sites/notebook/src/components/devSearch.astro -->
-<div class="dev-note-search">
+<search class="dev-note-search">
   <label>
-    <span>Development search</span>
     <input
       type="search"
       placeholder="Search notes…"
       autocomplete="off"
+      autofocus
       data-dev-search-input
     />
   </label>
@@ -15,7 +15,37 @@
 
   <!-- JavaScript inserts matching note links here. -->
   <ul data-dev-search-results aria-live="polite"></ul>
-</div>
+</search>
+
+<style>
+  p[data-dev-search-status] {
+    font-style: italic;
+  }
+
+  input {
+    font: inherit;
+    width: 100%;
+    max-width: 40rem;
+    border: 1px solid;
+    border-radius: 4px;
+    padding: 0.5em;
+
+    &:focus {
+      outline: 1px solid currentColor;
+    }
+  }
+
+  ul[data-dev-search-results] {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    gap: 1em;
+
+    li {
+      border: none;
+    }
+  }
+</style>
 
 <script>
   import Fuse from "fuse.js";
@@ -64,7 +94,7 @@
       ],
     });
 
-    status.textContent = `${notes.length} notes loaded.`;
+    status.textContent = `${notes.length} notes loaded`;
   } catch (error) {
     console.error("Could not load the development search index:", error);
     status.textContent =
@@ -103,7 +133,7 @@
     render(matches);
     status.textContent =
       matches.length === 1
-        ? "1 matching note."
-        : `${matches.length} matching notes.`;
+        ? "1 matching note"
+        : `${matches.length} matching notes`;
   });
 </script>
