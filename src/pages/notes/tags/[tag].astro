@@ -33,15 +33,17 @@ const { notes } = Astro.props;
 
 <Base title=`Notes tagged '${tag}'`>
   <h1>Notes tagged ‘{tag}’</h1>
-  <ul class="notes">
-    {
-      notes.map((note) => (
-        <li class="note">
-          <a href={`/notes/${note.id}/`}>{note.data.title}</a>
-        </li>
-      ))
-    }
-  </ul>
+  <div id="body">
+    <ul class="notes">
+      {
+        notes.map((note) => (
+          <li class="note">
+            <a href={`/notes/${note.id}/`}>{note.data.title}</a>
+          </li>
+        ))
+      }
+    </ul>
+  </div>
 </Base>
 
 <style lang="scss">

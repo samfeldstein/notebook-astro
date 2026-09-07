@@ -7,8 +7,11 @@
 
   /* Colors */
   color-scheme: light dark;
-  --white: oklch(0.982 0 0);
-  --black: oklch(0.232 0 0);
+  --white: oklch(0.980 0 0);
+  --black: oklch(0.250 0 0);
+  --black-contrast: oklch(0.220 0 0);
+  --white-contrast: oklch(0.950 0 0);
   --text-color: light-dark(var(--black), var(--white));
   --background-color: light-dark(var(--white), var(--black));
+  --background-contrast: light-dark(var(--white-contrast), var(--black-contrast));
 }

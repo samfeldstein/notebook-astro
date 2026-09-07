@@ -17,17 +17,19 @@ const tags = [
 
 <Base title="Tags" description="Note categories.">
   <h1>Tags</h1>
-  <ul class="tags">
-    {
-      tags.map((tag) => (
-        <li>
-          <a class="tag" href={`/notes/tags/${tag}`}>
-            {tag}
-          </a>
-        </li>
-      ))
-    }
-  </ul>
+  <div id="body">
+    <ul class="tags">
+      {
+        tags.map((tag) => (
+          <li>
+            <a class="tag" href={`/notes/tags/${tag}`}>
+              {tag}
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </div>
 </Base>
 
 <style lang="scss">

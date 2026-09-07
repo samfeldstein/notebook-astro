@@ -25,14 +25,28 @@ h2 {
   padding-top: 0.25em;
 }
 
+#body {
+
+  a {
+    font-variant: small-caps;
+    text-transform: lowercase;
+  }
+
+
+
+  ul {
+    list-style-type: '\27E1';
+  }
+
+  li {
+    padding-inline-start: 0.35em;
+  }
+
+}
+
 a {
   text-decoration: none;
   color: currentColor;
-
-  &:not(.blockquote) {
-    text-transform: lowercase;
-    letter-spacing: 0.1em;
-  }
 
 
   &:hover,
@@ -41,14 +55,25 @@ a {
 
     &:not(.blockquote) {
       text-decoration: underline;
-      text-decoration-thickness: 0.1em;
+      text-decoration-thickness: 0.05em;
     }
 
 
   }
 
+
+
   &:focus-visible {
     outline: none;
+  }
+}
+
+a[href^='http://'],
+a[href^='https://'] {
+
+  &:hover,
+  &:focus {
+    text-decoration-style: dotted;
   }
 }
 
