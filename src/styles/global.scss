@@ -21,13 +21,14 @@ h2 {
   font-weight: 300;
   font-size: clamp(2rem, 4vw, 3rem);
   text-align: right;
-  border-top: 0.05em solid;
-  padding-top: 0.25em;
+  border-top: 0.025em solid;
+  margin-top: 6rem;
+  margin-bottom: 0.5em;
 }
 
 #body {
 
-  a {
+  a:not(.blockquote) {
     font-variant: small-caps;
     text-transform: lowercase;
   }
