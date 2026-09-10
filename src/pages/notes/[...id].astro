@@ -51,7 +51,7 @@ const { Content, headings } = await render(note);
 
 <style>
   #note-body-wrapper {
-    max-width: 90rem;
+    max-width: 80rem;
     margin: 0 auto;
 
     @media screen and (min-width: 1024px) {
@@ -59,11 +59,6 @@ const { Content, headings } = await render(note);
       grid-template-columns: 1fr 4fr;
       gap: 2em;
     }
-  }
-
-  #body {
-    max-width: 60rem;
-    margin: 0 auto;
   }
 
   @media screen and (min-width: 1024px) {
