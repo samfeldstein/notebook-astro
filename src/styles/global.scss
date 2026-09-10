@@ -18,12 +18,20 @@ h1 {
 
 h2 {
   font-style: italic;
-  font-weight: 300;
-  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 400;
+  font-size: 2em;
   text-align: right;
   border-top: 0.025em solid;
   margin-top: 6rem;
   margin-bottom: 0.5em;
+}
+
+h3 {
+  margin-top: 2em;
+  font-weight: 600;
+  font-variation-settings: "wdth" 80;
+  text-transform: uppercase;
+
 }
 
 #body {
@@ -31,6 +39,7 @@ h2 {
   a:not(.blockquote) {
     font-variant: small-caps;
     text-transform: lowercase;
+    letter-spacing: 0.05rem;
   }
 
 
@@ -45,10 +54,14 @@ h2 {
 
 }
 
+p {
+  text-align: justify;
+  hyphens: auto;
+}
+
 a {
   text-decoration: none;
   color: currentColor;
-
 
   &:hover,
   &:focus {
@@ -61,8 +74,6 @@ a {
 
 
   }
-
-
 
   &:focus-visible {
     outline: none;

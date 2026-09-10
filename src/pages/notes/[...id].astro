@@ -64,10 +64,13 @@ const { Content, headings } = await render(note);
   #body {
     max-width: 60rem;
     margin: 0 auto;
-    display: grid;
   }
 
   @media screen and (min-width: 1024px) {
+    #note-body-wrapper {
+      position: relative;
+    }
+    
     /* Remove top margin on first element in the body to align with toc. Global because the :first-child is not in the html here */
     :global(#body > :first-child) {
       margin-top: 0;
