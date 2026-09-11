@@ -51,19 +51,31 @@ const { Content, headings } = await render(note);
 
 <style>
   #note-body-wrapper {
-    max-width: 80rem;
+    max-width: 75rem;
     margin: 0 auto;
 
     @media screen and (min-width: 1024px) {
       display: grid;
-      grid-template-columns: 1fr 4fr;
-      gap: 2em;
+      grid-template-columns: 1fr 3fr;
+      gap: 4em;
     }
+  }
+
+  #body {
+    max-width: 60rem;
+    width: 100%;
+    margin: 0 auto;
+    
   }
 
   @media screen and (min-width: 1024px) {
     #note-body-wrapper {
       position: relative;
+
+      #body {
+        max-width: unset;
+        margin: unset;
+      }
     }
     
     /* Remove top margin on first element in the body to align with toc. Global because the :first-child is not in the html here */

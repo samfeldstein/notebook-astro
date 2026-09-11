@@ -1,0 +1,13 @@
+<!-- Takes input wrapped in $<>$ or $$<>$$. Astro handles the formatting. This component just for styles -->
+<slot />
+
+<style is:global>
+  code.language-math {
+    font-weight: 100;
+  }
+
+  pre:has(.language-math) {
+    display: flex;
+    justify-content: center;
+  }
+</style>
