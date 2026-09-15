@@ -1,13 +1,11 @@
 ---
 title: CSS Content Visibility
-aliases:
-  - CSS Content Visibility
 tags:
   - css
   - web-performance
 private: false
 created: 2025-07-25
-updated: 2025-07-25
+updated: 2026-09-14
 ---
 
 `content-visibility` lets you defer elements so they won't be rendered until the user needs them.
@@ -22,6 +20,10 @@ Example:
 	contain-intrinsic-size: auto 300px auto 100vh;
 }
 ```
+
+## Issues
+
+I've had issues with anchor links. Content may not be rendered yet so it jumps to the wrong part of the page.
 
 ## Further reading
 

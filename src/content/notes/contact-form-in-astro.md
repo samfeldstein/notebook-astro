@@ -13,9 +13,8 @@ Used a Vue component instead and I think we're in business.
 
 Using [Resend](https://resend.com/astro). Configure send action in `src/actions/index.ts`.
 
-```txt
-Error: You can only send testing emails to your own email address (samfeld95@gmail.com). To send emails to other recipients, please verify a domain at resend.com/domains, and change the `from` address to an email using this domain.
-```
+*Error: You can only send testing emails to your own email address (samfeld95@gmail.com). To send emails to other recipients, please verify a domain at resend.com/domains, and change the `from` address to an email using this domain.*
+
 
 ## Issues
 
