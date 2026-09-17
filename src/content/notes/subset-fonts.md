@@ -1,9 +1,8 @@
 ---
-title: fonttools
-aliases:
-  - Font Subsetting
+title: Subset Fonts
 tags:
   - web-development
+  - web-performance
 private: false
 created: 2025-07-30
 updated: 2026-07-30

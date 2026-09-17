@@ -1,0 +1,29 @@
+---
+title: Bayesian Formula Via Odds Ratios
+private: false
+created: 2026-09-15
+updated: 2026-09-15
+tags:
+  - bayes
+---
+
+
+ $$
+ Prior odds × Relative likelihoods = Posterior odds
+ $$
+
+The likelihood ratio tells you how much to shift your odds once you condition on the evidence.
+
+Multiplying combines *how common is each scenario* with *how likely is each scenario to produce this evidence*.
+
+## Example
+
+(From [LessWrong](https://www.lesswrong.com/w/waterfall-diagram?pathId=62c&lens=waterfall-diagrams-and-relative-odds).)
+
+**90% of widgets are good and 10% are bad. 12% of bad widgets emit sparks. Only 4% of good widgets emit sparks. What percentage of sparking widgets are bad?**
+
+90% vs 10% tells us that there are 10 bad widgets for every 90 good widgets. Translates to odds of 10:90 or 1:9. That's our prior.
+
+12% vs 4% translates to 12:4 odds or 3:1. That's our likelihood ratio. It tells us that bad widgets are 3x more likely to spark than good widgets.
+
+$1:9 x 3:1 = 3:9 = 1:3$. So the odds of finding a bad sparking widget are 1:3. As a probability, that's 1/4 or 25%.

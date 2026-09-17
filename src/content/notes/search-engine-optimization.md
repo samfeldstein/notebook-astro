@@ -16,7 +16,7 @@ aliases:
 - Submit a [sitemap](https://developers.google.com/search/docs/crawling-indexing/sitemaps/overview) to search engines
 	- Google
 	- Bing
-- [Request indexing](https://developers.google.com/search/docs/crawling-indexing/ask-google-to-recrawl) from Google.
+- [Request indexing](https://developers.google.com/search/docs/crawling-indexing/ask-google-to-recrawl) of the homepage
 
 ## Further reading
 

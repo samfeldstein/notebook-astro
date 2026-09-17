@@ -14,7 +14,7 @@ If using a [CDN](https://web.dev/articles/content-delivery-networks) (like [Clou
 
 ## Self-hosting
 
-- Use [[notes/font-subsetting|subsets]]
+- Use [[notes/subset-fonts|subsets]]
 - Use [[notes/fallback-fonts|fallback fonts]] with [`size-adjust`](https://web.dev/articles/css-size-adjust)
 - [[notes/preload-fonts|Preload]] critical fonts
 

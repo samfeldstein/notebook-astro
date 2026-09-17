@@ -1,6 +1,5 @@
 ---
 title: Hacking
-alias: Hacking
 tags:
   - hacking
 private: false
@@ -16,6 +15,10 @@ updated: 2025-06-11
 
 - [OverTheWire](https://overthewire.org/wargames/)
 - [HackTheBox](https://academy.hackthebox.com/dashboard)
+
+## See also
+
+- [[notes/unseeing.mdx|Unseeing]]
 
 ## Resources
 
