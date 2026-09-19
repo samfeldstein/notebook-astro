@@ -8,10 +8,9 @@ const notes = (await getCollection('notes'))
 
 export function GET(context) {
   return rss({
-    // `<title>` field in output xml
     title: `${site.title}`,
-    // `<description>` field in output xml
     description: `${site.description}`,
+    
     // Pull in your project "site" from the endpoint context
     // https://docs.astro.build/en/reference/api-reference/#site
     site: context.site,

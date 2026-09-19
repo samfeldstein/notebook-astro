@@ -1,12 +1,13 @@
 ---
 title: Dance Connection
-aliases: Dance Connection
 tags:
+  - dance
+  - west-coast-swing
 private: false
 created: 2026-06-30
-updated: 2026-06-30
+updated: 2026-09-19
 ---
 
-In photography, you unfocus your eyes so that all you see are lines and shading. Dance is similar. "Unfocus" your mind (and your eyes). Feel your partner as just a feeling that you're connected to.
+Attend to your partner. [[notes/private/assets/frame-matching-and-pted.pdf|Match their frame]]. Don't lead until they're ready.
 
-Point your spotlight of attention at the feeling in your hand.
+If you want your connection to feel warm, like a hug, then try to actually feel warmth toward your partner.

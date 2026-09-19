@@ -4,7 +4,10 @@ import { glob } from 'astro/loaders';
 
 
 const notes = defineCollection({
-  loader: glob({ pattern: ['**/*.md', '**/*.mdx'], base: 'src/content/notes' }),
+  loader: glob({
+    pattern: ['**/*.md', '**/*.mdx', '!private/agent-skills/**'],
+    base: 'src/content/notes',
+  }),
   schema: z.object({
     title: z.string().optional(),
     // Accent string or array
