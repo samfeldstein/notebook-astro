@@ -1,9 +1,8 @@
 ---
 import Base from "@layouts/Base.astro";
+import { getPublicNotes } from "@src/lib/notes";
 
-import { getCollection } from "astro:content";
-
-const notes = await getCollection("notes");
+const notes = await getPublicNotes();
 
 const tags = [
   ...new Set(

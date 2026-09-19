@@ -10,11 +10,9 @@ updated: 2026-09-19
 
 Trying out [Foam](https://foam.md/) for my notebook. Reason was that [[use-mdx-with-obsidian|Obsidian doesn't play nice with MDX files]]. Costs nothing to switch so worth a shot.
 
-## Obsidian pros
+## Readwise sync
 
-Syncs with Readwise. I think Obsidian has to be open for sync to work.
-
-Alternative is to find or write a local app or VS Code plugin to sync my notes locally.
+Was doing this with Obsidian before. Now doing it with a local script. `readwise` folder is not in `notes/private` because it would have to match collection schema.
 
 ## Issues
 

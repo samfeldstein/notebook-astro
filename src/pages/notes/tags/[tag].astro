@@ -1,11 +1,9 @@
 ---
 import Base from "@layouts/Base.astro";
-
-import { getCollection } from "astro:content";
+import { getPublicNotes } from "@src/lib/notes";
 
 export async function getStaticPaths() {
-  // Filter drafts. Won't see the tag page in prod. Tried filtering them same way as notes so you can see them in prod, but doesn't work here.
-  const notes = await getCollection("notes");
+  const notes = await getPublicNotes();
 
   const tags = [
     ...new Set(

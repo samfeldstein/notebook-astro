@@ -5,7 +5,7 @@ import { glob } from 'astro/loaders';
 
 const notes = defineCollection({
   loader: glob({
-    pattern: ['**/*.md', '**/*.mdx', '!private/agent-skills/**'],
+    pattern: ['**/*.md', '**/*.mdx', '!_private/agent-skills/**'],
     base: 'src/content/notes',
   }),
   schema: z.object({
@@ -22,7 +22,7 @@ const notes = defineCollection({
         if (value == null) return [];
         return Array.isArray(value) ? value : [value];
       }),
-    private: z.boolean(),
+    private: z.boolean().default(false),
     created: z.coerce.date(),
     updated: z.coerce.date().optional(),
     description: z.string().optional(),

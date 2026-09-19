@@ -3,11 +3,12 @@
   "type": "module",
   "version": "0.0.1",
   "scripts": {
-    "dev": "astro dev",
+    "dev": "npm run sync:readwise && astro dev",
     "postbuild": "pagefind --site dist",
     "build": "node scripts/generate-sw.js && astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "sync:readwise": "node scripts/sync-readwise.mjs"
   },
   "dependencies": {
     "@astrojs/markdown-remark": "^7.2.2",
