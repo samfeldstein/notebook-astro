@@ -5,7 +5,7 @@ import { glob } from 'astro/loaders';
 
 const notes = defineCollection({
   loader: glob({
-    pattern: ['**/*.md', '**/*.mdx', '!_private/agent-skills/**'],
+    pattern: ['**/*.md', '**/*.mdx', '!private/agent-skills/**'],
     base: 'src/content/notes',
   }),
   schema: z.object({

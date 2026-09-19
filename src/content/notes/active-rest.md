@@ -1,6 +1,5 @@
 ---
 title: Active Rest
-aliases: Active Rest
 tags:
   - health
 private: false

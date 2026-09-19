@@ -28,9 +28,9 @@ pnpm-debug.log*
 # Other
 .vscode
 .obsidian
-_private
-_journal
-_letters
-_readwise
-_Clippings
+private
+journal
+letters
+readwise
+Clippings
 .readwise-last-sync
