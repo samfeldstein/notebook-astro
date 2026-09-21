@@ -1,12 +1,10 @@
 ---
-title: Human Anatomy
-aliases:
-  - Human Anatomy
+title: Anatomy
 tags:
 private: false
 created: 2026-02-03
 updated: 2026-02-03
 ---
 
-- [KenHub](https://www.kenhub.com/en/library/)
-- [KenHub YouTube](https://www.youtube.com/@Kenhub)
+- [Kenhub](https://www.kenhub.com/en/library/)
+- [Kenhub YouTube](https://www.youtube.com/@Kenhub)

@@ -2,7 +2,7 @@ import Salutation from "./letters/Salutation.astro";
 import Signature from "./letters/Signature.astro";
 import BlockQuote from "./notes/BlockQuote.astro";
 import Callout from "./notes/Callout.astro";
-import Equation from "./notes/Equation.astro";
+import Math from "./notes/Math.astro";
 import GoogleSearch from "./notes/GoogleSearch.astro";
 import { Image } from 'astro:assets';
 
@@ -13,5 +13,5 @@ export const components = {
   Image,
   Signature,
   Salutation,
-  Equation
+  Math
 }
