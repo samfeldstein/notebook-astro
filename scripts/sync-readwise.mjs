@@ -2,7 +2,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 
 const TOKEN = process.env.READWISE_TOKEN;
-const OUT = './src/content/notes/private/readwise';
+const OUT = './src/content/readwise';
 const STATE = './.readwise-last-sync';
 
 if (!TOKEN) throw new Error('READWISE_TOKEN is not set');

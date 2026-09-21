@@ -7,7 +7,7 @@ created: 2024-09-01
 updated: 2026-09-20
 ---
 
-Notebooks, but digital. The site you're on right now is my notebook. Note (ha) that digital notebooks don't have to be published on the web. Presumably, most of them aren't.
+Notebooks, but digital. The site you're on right now is my digital notebook. Note (ha) that digital notebooks don't have to be published on the web. Presumably, most of them aren't.
 
 ## See also
 
