@@ -15,5 +15,4 @@ Can constitute an [[notes/private/market-structure-shift|MSS]] if the FVG candle
 
 Does the formation of an FVG candle in the bottom or top of a range then signal an MSS as well, as in this photo?
 
-
 ![[notes/private/assets/fvg-reversal.png]]
