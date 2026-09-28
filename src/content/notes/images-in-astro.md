@@ -2,7 +2,7 @@
 title: Images in Astro
 tags:
   - web-development
-  - astro
+  - Astro
 private: false
 created: 2026-07-17
 updated: 2026-07-17

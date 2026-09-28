@@ -4,7 +4,7 @@ created: 2025-02-02
 updated: 2025-03-03
 private: false
 tags:
-  - astro
+  - Astro
   - web-development
   - static-site-generators
 aliases:

@@ -1,8 +1,6 @@
 ---
 title: Math Resources
-tags:
-  - math
-private: false
+tags: [math]
 created: 2025-06-20
 updated: 2026-08-25
 ---
@@ -11,4 +9,5 @@ updated: 2026-08-25
 - [Wolfram U](https://www.wolfram.com/wolfram-u/courses/mathematics/)
 - [Wolfram MathWorld](https://mathworld.wolfram.com/) glossary
 - [WolframAlpha](https://www.wolframalpha.com/) calculator
+- [3Blue1Brown](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw) YouTube channel
 - [Crowdsourcing a list of general resources on the purpose, value, and nature of mathematics](https://terrytao.wordpress.com/2026/09/12/crowdsourcing-a-list-of-general-resources-on-the-purpose-value-and-nature-of-mathematics/), Terry Tao

@@ -1,9 +1,9 @@
 ---
-title: Space Repetition
+title: Spaced Repetition
 private: false
 created: 2026-09-24
 updated: 2026-09-24
-tags: [augmented-learning spaced-repetition]
+tags: [augmented-learning, spaced-repetition]
 ---
 
 - [Can We Develop Transformative Tools for Thought?](https://numinous.productions/ttft/)

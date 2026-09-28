@@ -1,7 +1,7 @@
 ---
 title: Contact Form in Astro
 tags:
-  - astro
+  - Astro
 private: false
 created: 2026-05-13
 updated: 2026-05-13

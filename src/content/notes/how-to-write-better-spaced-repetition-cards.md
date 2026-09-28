@@ -2,7 +2,7 @@
 title: How to Write Better Spaced Repetition Cards
 created: 2026-09-25
 updated: 2026-09-25
-tags: [spaced-repetition augmented-learning Anki]
+tags: [spaced-repetition, augmented-learning, Anki]
 ---
 
 ## Card-writing is a core skill
@@ -22,7 +22,7 @@ A better understanding of these leads to better card design.
 
 Most questions and answers should be **atomic**: each card should test one relatively small, clearly defined piece of knowledge.
 
-A card that asks for several pieces of information at once can be deceptively difficult. If it is repeatedly forgotten, the problem may not be the learner's memory but the structure of the card.
+A card that asks for several pieces of information at once can be difficult. If it is repeatedly forgotten, the problem may not be the learner's memory but the structure of the card.
 
 For example, a technical command might initially be represented as one card asking for an entire command and its arguments. If that card is consistently forgotten, break it into smaller questions that isolate the individual components:
 
@@ -51,10 +51,22 @@ A useful pattern is therefore:
 
 Atomic cards help build reliable retrieval of individual facts or relationships; integrative cards can subsequently test understanding of how those pieces fit together.
 
-## The larger principle
+### Cards that rephrase questions may help
 
-Good spaced-repetition cards a
+Multiple cards that phrase the same question in different ways may help build a wider gateway to the answer than the narrow one a single card or phrasing provides.
+
+Re above example, in addition to the cards that break `ln -s linkname filename` into multiple cards, write a card that asks: *Write the terminal command to create a soft link from `file1` to `file2`.*
+
+## Avoid orphan cards
+
+A card is an "orphan" when it doesn't connect to anything you already know. The goal is a densely interconnected web of Q&As, not isolated facts.
+
+## Self-made cards are usually better
+
+People tend to get more out of cards they write themselves than ones written by someone else — likely because making the card is itself an act of understanding, not just packaging information. Using others' cards forfeits that benefit.
 
 ## Further reading
 
-- [How can we develop transformative tools for thought?](https://numinous.productions/ttft/)
+* [How can we develop transformative tools for thought?](https://numinous.productions/ttft/)
+* [How to write good spaced repetition prompts](https://andymatuschak.org/prompts/)
+* [Important attributes of good spaced repetition memory prompts](https://notes.andymatuschak.org/z9xavmmNq7xvNqzpnJ3HFXx)

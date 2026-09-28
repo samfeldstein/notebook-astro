@@ -3,8 +3,7 @@ title: Agent Skills
 private: false
 created: 2026-09-18
 updated: 2026-09-18
-tags:
-  - ai
+tags: [AI]
 ---
 
 You can give LLMs skill files to help them perform specific tasks.

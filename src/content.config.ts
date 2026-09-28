@@ -5,7 +5,7 @@ import { glob } from 'astro/loaders';
 
 const notes = defineCollection({
   loader: glob({
-    pattern: ['**/*.md', '**/*.mdx', '!private/agent-skills/**', '!src/contentreadwise/**'],
+    pattern: ['**/*.md', '**/*.mdx', '!private/agent-skills/**', '!private/readwise/**'],
     base: 'src/content/notes',
   }),
   schema: z.object({
@@ -26,11 +26,12 @@ const notes = defineCollection({
     created: z.coerce.date(),
     updated: z.coerce.date().optional(),
     description: z.string().optional(),
+    source: z.url().optional()
   }),
 });
 
 const letters = defineCollection({
-  loader: glob({ pattern: ['*.md', '*.mdx'], base: 'src/content/letters' }),
+  loader: glob({ pattern: ['*.md', '*.mdx'], base: 'src/content/gitignore/letters' }),
   schema: z.object({
     title: z.string(),
     created: z.coerce.date(),

@@ -4,7 +4,7 @@ alias: Personal Website Notes
 tags:
   - projects
   - web-development
-  - astro
+  - Astro
 private: false
 created: 2025-02-27
 ---

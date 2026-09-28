@@ -29,8 +29,10 @@ pnpm-debug.log*
 .vscode
 .obsidian
 private
+gitignore
 journal
 letters
 readwise
 Clippings
 .readwise-last-sync
+mcp-hidden

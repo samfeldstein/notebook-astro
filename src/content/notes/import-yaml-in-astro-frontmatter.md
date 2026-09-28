@@ -3,7 +3,7 @@ title: Import YAML in Astro Frontmatter
 aliases:
   - Import YAML in Astro Frontmatter
 tags:
-  - astro
+  - Astro
 private: false
 created: 2025-07-23
 updated: 2025-07-23

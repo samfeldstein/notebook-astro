@@ -1,6 +1,6 @@
 ---
-title: Readwise Feature Suggestion
-aliases: [Readwise Feedback]
+title: How to Submit Readwise Feature Suggestions
+aliases: [How to Submit Readwise Feedback]
 private: false
 created: 2026-09-23
 updated: 2026-09-23

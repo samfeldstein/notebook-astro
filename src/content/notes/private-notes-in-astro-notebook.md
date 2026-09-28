@@ -1,6 +1,6 @@
 ---
 title: Private Notes in Astro Notebook
-tags: [astro]
+tags: [Astro]
 private: false
 created: 2026-07-12
 updated: 2026-07-12

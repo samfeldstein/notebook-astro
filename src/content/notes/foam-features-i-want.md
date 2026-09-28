@@ -3,7 +3,7 @@ title: Foam Features I Want
 private: false
 created: 2026-09-23
 updated: 2026-09-23
-tags: [foam]
+tags: [Foam projects]
 ---
 
 ## Scrape and display external links

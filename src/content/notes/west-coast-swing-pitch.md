@@ -3,7 +3,7 @@ title: West Coast Swing Pitch
 private: false
 created: 2026-08-15
 updated: 2026-09-20
-tags: [dance west-coast-swing]
+tags: [dance, west-coast-swing]
 ---
 
 Bring your weight forward on your ankles until your toes engage.

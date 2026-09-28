@@ -1,7 +1,7 @@
 ---
 title: Switching to Foam from Obsidian
 tags:
-  - foam
+  - Foam
   - knowledge-management
 private: false
 created: 2026-09-19

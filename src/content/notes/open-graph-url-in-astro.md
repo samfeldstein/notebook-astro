@@ -2,7 +2,7 @@
 title: Open Graph URL in Astro
 tags:
   - web-development
-  - astro
+  - Astro
 private: false
 created: 2025-06-10
 updated: 2025-06-10
