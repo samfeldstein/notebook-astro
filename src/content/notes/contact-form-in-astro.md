@@ -15,7 +15,6 @@ Using [Resend](https://resend.com/astro). Configure send action in `src/actions/
 
 *Error: You can only send testing emails to your own email address (samfeld95@gmail.com). To send emails to other recipients, please verify a domain at resend.com/domains, and change the `from` address to an email using this domain.*
 
-
 ## Issues
 
 If you don't want Cloudflare to automatically process your images, add this to `astro.config.js`:
@@ -23,3 +22,7 @@ If you don't want Cloudflare to automatically process your images, add this to `
 ```js
 adapter: cloudflare({imageService: 'compile',}),
 ```
+
+## Update
+
+Used again with Presswork, and a Vue component was not necessary for it to work locally. We will see about the live site.
