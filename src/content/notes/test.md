@@ -10,3 +10,9 @@ Paste into a note. Open any Markdown note, or a throwaway test.md, and paste som
 Paste into a note. Open any Markdown note, or a throwaway test.md, and paste some text with Cmd+V.
 
 Paste into a note. Open any Markdown note, or a throwaway test.md, and paste some text with Cmd+V.
+
+Paste into a note. Open any Markdown note, or a throwaway test.md, and paste some text with Cmd+V.
+
+Paste into a note. Open any Markdown note, or a throwaway test.md, and paste some text with Cmd+V.
+
+Paste into a note. Open any Markdown note, or a throwaway test.md, and paste some text with Cmd+V.
