@@ -13,3 +13,8 @@ git log --oneline -3
 352afe9 (HEAD -> main) Oct 3, 2026, 9:41 AM
 e43e872 (origin/main, origin/HEAD) Update notes
 bef3197 Creat mcp hidden folder
+
+git log --oneline -3
+352afe9 (HEAD -> main) Oct 3, 2026, 9:41 AM
+e43e872 (origin/main, origin/HEAD) Update notes
+bef3197 Creat mcp hidden folder
