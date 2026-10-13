@@ -5,7 +5,10 @@ const TOKEN = process.env.READWISE_TOKEN;
 const OUT = './src/content/readwise';
 const STATE = './.readwise-last-sync';
 
-if (!TOKEN) throw new Error('READWISE_TOKEN is not set');
+if (!TOKEN) {
+  console.warn('READWISE_TOKEN is not set, skipping Readwise sync.');
+  process.exit(0);
+}
 
 const slug = (s) =>
   s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 80);
