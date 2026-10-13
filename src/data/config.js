@@ -6,6 +6,6 @@ export const site = {
 
 export const links = {
   mainSite: "https://samfeldstein.xyz",
-  email: "samfeldstein@pm.me",
+  email: "sam@samfeldstein.com",
   github: "https://github.com/samfeldstein"
 }
