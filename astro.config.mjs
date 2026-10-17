@@ -10,17 +10,18 @@ export default defineConfig({
   site: 'https://notes.samfeldstein.xyz',
   server: { host: true },
 
-  vite: {
-    build: {
-      // Limit inline css (default is...lower)
-      assetsInlineLimit: 14000,
-    },
+  // Match Cloudflare's directory-style URLs so links don't redirect.
+  trailingSlash: 'always',
+
+  build: {
+    // CSS is small (~2 KB gzipped), so inlining beats an extra request.
+    inlineStylesheets: 'always',
   },
 
   // https://docs.astro.build/en/guides/prefetch/
   prefetch: {
     prefetchAll: true,
-    defaultStrategy: 'viewport'
+    defaultStrategy: 'hover'
   },
 
   markdown: {
@@ -43,7 +44,7 @@ export default defineConfig({
         },
 
         // `permalink` is now e.g. `private/how-should-we-spend-our-time`.
-        hrefTemplate: (permalink) => `/notes/${permalink}`,
+        hrefTemplate: (permalink) => `/notes/${permalink}/`,
 
         aliasDivider: '|',
       }],

@@ -1,26 +1,28 @@
-/*.avif
-  Cache-Control: public, max-age=31556952, immutable
-
-/*.webp
-  Cache-Control: public, max-age=31556952, immutable
-
-/*.jpg
-  Cache-Control: public, max-age=31556952, immutable
-
-/*.png
-  Cache-Control: public, max-age=31556952, immutable
-
-/*.svg
-  Cache-Control: public, max-age=31556952, immutable
-
+# Hashed build output
 /_astro/*
-  Cache-Control: public, max-age=31556952, immutable
+  Cache-Control: public, max-age=31536000, immutable
 
-/static/fonts/*
-  Cache-Control: public, max-age=31556952, immutable
+# Fonts are versioned by filename (e.g. noto-serif.v2.woff2); rename on change.
+/fonts/*
+  Cache-Control: public, max-age=31536000, immutable
 
-/static/images/*
-  Cache-Control: public, max-age=31556952, immutable
+# Pagefind index and fragments are content-hashed
+/pagefind/fragment/*
+  Cache-Control: public, max-age=31536000, immutable
 
-/**/*.html
-  Cache-Control: public, max-age=28000
+/pagefind/index/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Unhashed icons: cache for a week
+/favicon*
+  Cache-Control: public, max-age=604800
+
+/apple-touch-icon.png
+  Cache-Control: public, max-age=604800
+
+/android-chrome-*
+  Cache-Control: public, max-age=604800
+
+# Always revalidate the service worker
+/sw.js
+  Cache-Control: no-cache

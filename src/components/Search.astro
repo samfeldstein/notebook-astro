@@ -1,7 +1,8 @@
-<script src="/pagefind/pagefind-ui.js" is:inline></script>
+<script src="/pagefind/pagefind-ui.js" is:inline defer></script>
 
 <script>
-  window.addEventListener("DOMContentLoaded", (event) => {
+  // DOMContentLoaded fires after the deferred Pagefind script has run.
+  window.addEventListener("DOMContentLoaded", () => {
     new PagefindUI({
       element: "#search",
       // showSubResults: true,
