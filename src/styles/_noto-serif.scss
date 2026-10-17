@@ -1,9 +1,22 @@
 @font-face {
   font-family: 'Noto Serif';
-  src: url('/fonts/noto-serif.woff2') format('woff2');
+  src: url('/fonts/noto-serif.v2.woff2') format('woff2');
   unicode-range:
-    U+0020-007F,
-    U+00A0-00FF;
+    U+0020-007E,
+    U+00A0-00FF,
+    U+0131,
+    U+0152-0153,
+    U+02C6,
+    U+02DA,
+    U+02DC,
+    U+2013-2014,
+    U+2018-201A,
+    U+201C-201E,
+    U+2022,
+    U+2026,
+    U+2039-203A,
+    U+20AC,
+    U+2122;
   font-weight: 100 900;
   font-style: normal;
   font-display: swap;
@@ -11,22 +24,55 @@
 
 @font-face {
   font-family: 'Noto Serif';
-  src: url('/fonts/noto-serif-italic.woff2') format('woff2');
+  src: url('/fonts/noto-serif-italic.v2.woff2') format('woff2');
   unicode-range:
-    U+0020-007F,
-    U+00A0-00FF;
+    U+0020-007E,
+    U+00A0-00FF,
+    U+0131,
+    U+0152-0153,
+    U+02C6,
+    U+02DA,
+    U+02DC,
+    U+2013-2014,
+    U+2018-201A,
+    U+201C-201E,
+    U+2022,
+    U+2026,
+    U+2039-203A,
+    U+20AC,
+    U+2122;
   font-weight: 100 900;
   font-style: italic;
   font-display: swap;
 }
 
+// Metric overrides make Georgia occupy the same space as Noto Serif, so the
+// swap causes minimal layout shift. Computed from @capsizecss/metrics 4.4.0:
+// size-adjust = (481/1000) / (913/2048)   (Latin-weighted avg char width)
+// ascent/descent-override = Noto Serif ascent 1069 / descent 293 (UPM 1000) ÷ size-adjust
 @font-face {
   font-family: 'Noto Serif Fallback';
   src: local('Georgia'); // Good support on Windows and Mac. See https://cssfontstack.com
   unicode-range:
-    U+0020-007F,
-    U+00A0-00FF;
-  font-weight: normal;
+    U+0020-007E,
+    U+00A0-00FF,
+    U+0131,
+    U+0152-0153,
+    U+02C6,
+    U+02DA,
+    U+02DC,
+    U+2013-2014,
+    U+2018-201A,
+    U+201C-201E,
+    U+2022,
+    U+2026,
+    U+2039-203A,
+    U+20AC,
+    U+2122;
   font-style: normal;
   font-display: swap;
+  size-adjust: 107.9%;
+  ascent-override: 99.08%;
+  descent-override: 27.16%;
+  line-gap-override: 0%;
 }
