@@ -5,7 +5,7 @@ const { note } = Astro.props;
 
 // Ensure tags is always an array before sorting
 const tags = Array.isArray(note.data.tags)
-  ? note.data.tags.sort((a, b) => a.localeCompare(b))
+  ? [...note.data.tags].sort((a, b) => a.localeCompare(b))
   : [];
 ---
 

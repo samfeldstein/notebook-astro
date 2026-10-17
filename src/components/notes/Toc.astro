@@ -8,7 +8,7 @@ interface Props {
 const { headings } = Astro.props;
 ---
 
-<!-- filepath: /Users/Samfeld/projects/dev/sites/notebook/src/components/TableOfContents.astro -->{
+{
   headings.length > 0 && (
     <details open>
       <summary>Contents</summary>
@@ -77,7 +77,7 @@ const { headings } = Astro.props;
   @media screen and (min-width:1024px) {
     details {
       position: sticky;
-      top: 10;
+      top: 10px;
     }
   }
 </style>
