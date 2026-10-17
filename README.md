@@ -54,7 +54,7 @@ Search works differently in production and development:
 
 ### Offline support and performance
 
-- **Service worker.** [scripts/generate-sw.js](scripts/generate-sw.js) runs before each build and stamps [scripts/sw-template.js](scripts/sw-template.js) with a timestamp. Each deploy gets a new cache name, and old caches are cleared when the new worker activates. The worker precaches the home page, tags, search, and fonts. It serves notes network-first and falls back to the cache, so notes you've already read still open offline.
+- **Service worker.** [scripts/generate-sw.js](scripts/generate-sw.js) runs before each build and stamps [scripts/sw-template.js](scripts/sw-template.js) with a hash of its contents, so caches are only cleared when the worker itself changes. The worker precaches the home page, tags, search, and the regular font. Fonts are served cache-first. Pages you open are fetched network-first and the last 100 are kept, so notes you've already read still open offline.
 - **Navigation.** Astro prefetches every link once it enters the viewport, and cross-document view transitions smooth out page changes.
 - **Fonts and caching.** The site uses a self-hosted variable Noto Serif, and the regular weight is preloaded. [public/_headers](public/_headers) sets long-lived immutable caching for hashed assets and images.
 
