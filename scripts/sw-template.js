@@ -1,13 +1,14 @@
 const CACHE_NAME = "site-cache-__VERSION__";
+const PAGE_CACHE = "pages";
+const MAX_PAGES = 100;
 
 const ASSETS = [
-  "index.html",
-  "/notes/tags/index.html",
-  "/search/index.html",
-  "/fonts/noto-serif.woff2",
-  "/fonts/noto-serif-italic.woff2",
-  "site.webmanifest",
-  "favicon.svg",
+  "/",
+  "/notes/tags/",
+  "/search/",
+  "/fonts/noto-serif.v2.woff2",
+  "/site.webmanifest",
+  "/favicon.svg",
 ];
 
 self.addEventListener("install", (event) => {
@@ -31,7 +32,7 @@ self.addEventListener("activate", (event) => {
     caches.keys().then((keys) =>
       Promise.all(
         keys
-          .filter((key) => key !== CACHE_NAME)
+          .filter((key) => key !== CACHE_NAME && key !== PAGE_CACHE)
           .map((key) => caches.delete(key))
       )
     )
@@ -40,30 +41,65 @@ self.addEventListener("activate", (event) => {
   self.clients.claim();
 });
 
+// Drop the oldest entries once the page cache grows past MAX_PAGES.
+async function trimPages() {
+  const cache = await caches.open(PAGE_CACHE);
+  const keys = await cache.keys();
+  await Promise.all(
+    keys.slice(0, Math.max(0, keys.length - MAX_PAGES)).map((key) => cache.delete(key))
+  );
+}
+
 self.addEventListener("fetch", (event) => {
-  const url = new URL(event.request.url);
+  const { request } = event;
+  const url = new URL(request.url);
 
-  const shouldCache =
-    url.pathname.startsWith("/notes") ||
-    ASSETS.includes(url.pathname);
-
-  if (!shouldCache) {
+  if (request.method !== "GET" || url.origin !== self.location.origin) {
     return;
   }
 
-  event.respondWith(
-    fetch(event.request)
-      .then((response) => {
-        const copy = response.clone();
+  // Fonts: cache first. Filenames are versioned, so entries never go stale.
+  if (url.pathname.startsWith("/fonts/")) {
+    event.respondWith(
+      caches.match(request).then(
+        (cached) =>
+          cached ||
+          fetch(request).then((response) => {
+            if (response.ok) {
+              const copy = response.clone();
+              caches.open(CACHE_NAME).then((cache) => cache.put(request, copy));
+            }
+            return response;
+          })
+      )
+    );
+    return;
+  }
 
-        caches.open(CACHE_NAME).then((cache) => {
-          cache.put(event.request, copy);
-        });
-
-        return response;
-      })
-      .catch(() => {
-        return caches.match(event.request);
-      })
-  );
+  // Pages: network first, keep a bounded copy for offline reading.
+  // Prefetches aren't navigations, so they don't fill the cache.
+  if (request.mode === "navigate") {
+    event.respondWith(
+      fetch(request)
+        .then((response) => {
+          if (response.ok && response.type === "basic") {
+            const copy = response.clone();
+            event.waitUntil(
+              caches
+                .open(PAGE_CACHE)
+                .then((cache) => cache.put(request, copy))
+                .then(trimPages)
+            );
+          }
+          return response;
+        })
+        .catch(async () => {
+          return (
+            (await caches.match(request)) ||
+            (await caches.match("/")) ||
+            Response.error()
+          );
+        })
+    );
+  }
 });
