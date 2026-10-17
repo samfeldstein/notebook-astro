@@ -4,6 +4,22 @@ import remarkWikiLink from 'remark-wiki-link'
 import remarkMath from "remark-math"
 import sitemap from '@astrojs/sitemap'
 import mdx from '@astrojs/mdx'
+import fs from 'node:fs'
+import path from 'node:path'
+
+// Map each note's URL path to its `updated` (or `created`) date for the sitemap.
+const notesDir = 'src/content/notes'
+const noteDates = new Map(
+  fs.readdirSync(notesDir)
+    .filter((file) => /\.mdx?$/.test(file))
+    .map((file) => {
+      const frontmatter = fs.readFileSync(path.join(notesDir, file), 'utf8').match(/^---\n([\s\S]*?)\n---/)?.[1] ?? ''
+      const field = (name) => frontmatter.match(new RegExp(`^${name}:\\s*["']?([^"'\\n]+)`, 'm'))?.[1]
+      const date = new Date(field('updated') ?? field('created'))
+      return [`/notes/${file.replace(/\.mdx?$/, '')}/`, date]
+    })
+    .filter(([, date]) => !isNaN(date))
+)
 
 // https://astro.build/config
 export default defineConfig({
@@ -53,5 +69,14 @@ export default defineConfig({
     ],
   },
 
-  integrations: [sitemap(), mdx()],
+  integrations: [
+    sitemap({
+      serialize(item) {
+        const date = noteDates.get(new URL(item.url).pathname)
+        if (date) item.lastmod = date.toISOString()
+        return item
+      },
+    }),
+    mdx(),
+  ],
 });

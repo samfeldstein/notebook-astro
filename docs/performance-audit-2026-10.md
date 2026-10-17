@@ -80,6 +80,4 @@ Font files aren't hashed, so **rename them when they change** (they're currently
 
 ## Remaining ideas
 
-- Load the GoogleSearch and Math MDX components only in the notes that use them, instead of through the global component map. This saves under 1 KB per note page.
-- Add `lastmod` to the sitemap using `serialize` and each note's `updated`/`created` dates.
-- Remove the duplicate mobile `main p` rule in [Main.astro](../src/components/Main.astro). [global.scss](../src/styles/global.scss) already sets it.
+All three were done on 2026-10-17: GoogleSearch and Math are imported only in the notes that use them, the sitemap has `lastmod`, and the duplicate `main p` rule is gone. Open follow-ups are tracked in [ISSUES.md](../ISSUES.md).
