@@ -5,7 +5,8 @@ import { site } from '@data/config';
 export async function GET(context) {
   const notes = (await getPublicNotes())
     .filter((note) => note.data.created)
-    .sort((a, b) => b.data.created.valueOf() - a.data.created.valueOf());
+    .sort((a, b) => b.data.created.valueOf() - a.data.created.valueOf())
+    .slice(0, 50);
 
   return rss({
     title: site.title,
