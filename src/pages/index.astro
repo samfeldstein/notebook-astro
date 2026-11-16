@@ -1,6 +1,7 @@
 ---
 import Base from "@layouts/Base.astro";
 import { site } from "@data/config";
+import Callout from "@components/notes/Callout.astro";
 
 import "@styles/pages/_home.scss";
 ---
@@ -9,6 +10,15 @@ import "@styles/pages/_home.scss";
 	<h1>Sam Feldstein’s Notebook</h1>
 
 	<div id="body">
+		<Callout>
+			<p>
+				This notebook is mostly retired. It became a hassle to separate private
+				and public notes, and I figured not too many people were looking at it
+				anyway. It stays up so old links keep working, but I rarely add to it
+				now.
+			</p>
+		</Callout>
+
 		<p>
 			Welcome to my digital notebook, also known as a <a
 				href="https://www.buildingasecondbrain.com">second brain</a
@@ -16,13 +26,6 @@ import "@styles/pages/_home.scss";
 				>digital garden</a
 			>. I call it a notebook, because a notebook is something you write in and
 			that’s what I’m doing here.
-		</p>
-
-		<p>
-			You can subscribe to my <a href="/feed.xml" data-astro-prefetch="false">rss feed</a> for updates. If you
-			prefer to subscribe by email, you can use <a
-				href="https://blogtrottr.com/">Blogtrottr</a
-			> to route the feed to your inbox.
 		</p>
 	</div>
 </Base>
