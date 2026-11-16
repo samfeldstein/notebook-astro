@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "npm run sync:readwise && astro dev",
-    "postbuild": "pagefind --site dist",
+    "postbuild": "pagefind --site dist && node check.mjs && node --test test/*.test.mjs",
     "build": "node scripts/generate-sw.js && astro build",
     "preview": "astro preview",
     "astro": "astro",

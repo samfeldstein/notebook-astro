@@ -11,7 +11,7 @@ const { headings } = Astro.props;
 {
   headings.length > 0 && (
     <details open>
-      <summary>Contents</summary>
+      <summary id="toc-heading">Contents</summary>
       <nav class="table-of-contents" aria-labelledby="toc-heading">
         <ol>
           {headings.map((heading) => (

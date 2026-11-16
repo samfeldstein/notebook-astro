@@ -1,0 +1,10 @@
+#!/bin/sh
+# Blocks a push when the site's checks fail (static-site-stack skill).
+# Turn it on once per clone: git config core.hooksPath .githooks
+#
+# npm run build ends with node check.mjs and the tests (the postbuild script),
+# so Cloudflare's build runs the same gate on every push. It builds the working
+# tree, so commit first. Skip it only in an emergency: git push --no-verify
+set -e
+cd "$(git rev-parse --show-toplevel)"
+ASTRO_TELEMETRY_DISABLED=1 npm run build

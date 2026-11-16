@@ -6,6 +6,7 @@ import { site } from "@data/config.js";
 import "@styles/global.scss";
 
 const { title, description = title } = Astro.props;
+const isNotFound = Astro.url.pathname === "/404/";
 ---
 
 <head>
@@ -29,6 +30,7 @@ const { title, description = title } = Astro.props;
   <title>{`${title} | ${site.title}`}</title>
   <meta name="author" content="Sam Feldstein" />
   <meta name="description" content={description} />
+  {!isNotFound && <link rel="canonical" href={Astro.url.href} />}
 
   <!-- Manifest -->
   <meta name="apple-mobile-web-app-title" content="Sam Feldstein" />

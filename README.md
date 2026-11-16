@@ -109,6 +109,16 @@ npm run build
 npm run preview
 ```
 
+### Checks before deploy
+
+The build ends by checking itself: `check.mjs` (from my `static-site-stack` skill, configured in `site.config.json`) reads `dist/` and fails on broken internal links, missing titles, descriptions, or canonical links, dangling `aria-*` ids, and scripts from other hosts. Then `node --test test/*.test.mjs` runs. Since Cloudflare runs `npm run build`, a failing check stops the deploy. Faults that are fine for now (links to private notes, Pagefind's script) are listed under `known` in `site.config.json` and print as warnings. Gitignored pages (`letters/`) are skipped, because they never reach Cloudflare.
+
+A pre-push hook runs the same build before anything is sent. Turn it on once per clone:
+
+```bash
+git config core.hooksPath .githooks
+```
+
 ## Reuse
 
 The code is here to learn from and borrow. The writing is mine, so please don't republish the notes as your own.

@@ -10,7 +10,7 @@ const ogImage =
 <meta property="og:title" content={title} />
 <meta property="og:description" content={description} />
 <meta property="og:type" content={ogType} />
-<meta property="og:url" content={Astro.url.href} />
+{Astro.url.pathname !== "/404/" && <meta property="og:url" content={Astro.url.href} />}
 <meta property="og:image" content={ogImage} />
 
 <!-- Twitter, etc -->
