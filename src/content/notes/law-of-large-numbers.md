@@ -7,7 +7,7 @@ created: 2024-10-26
 updated: 2024-10-26
 ---
 
-The Law of Large Numbers states that the more times an experiment is repeated, the closer the average result gets to [[the-expectation|the expectation]].
+The Law of Large Numbers states that the more times an experiment is repeated, the closer the average result gets to [[expected-value|the expectation]].
 
 Imagine you flip a fair coin. The "true" average for heads or tails is 50% because each side has an equal chance of landing up.
 

@@ -12,19 +12,14 @@
   "allowedHosts": [],
   "known": [
     {
-      "page": "notes/dance-body-matching/index.html",
-      "match": "^<a href> points at a missing file: /notes/frame-matching/",
-      "why": "link to a private or unwritten note; lands on the 404 by design (README, Graceful dead links) (Sam to approve)"
+      "page": "notes/",
+      "match": "^<a href> points at a missing file: /notes/[a-z0-9-]+(/[a-z0-9-]+)*/$",
+      "why": "links to private or unwritten notes land on the 404 by design (README, Graceful dead links); PDF links still fail (Sam, 2026-11-16)"
     },
     {
-      "page": "notes/dance-style/index.html",
-      "match": "^<a href> points at a missing file: /notes/the-style-of-no-style/",
-      "why": "link to a private or unwritten note; lands on the 404 by design (README, Graceful dead links) (Sam to approve)"
-    },
-    {
-      "page": "notes/digital-notebooks/index.html",
-      "match": "^<a href> points at a missing file: /notes/the-future-of-digital-notetaking/",
-      "why": "link to a private or unwritten note; lands on the 404 by design (README, Graceful dead links) (Sam to approve)"
+      "page": "pagefind/",
+      "match": "^refers to ",
+      "why": "host names inside Pagefind's own generated script; nothing loads from them (Sam, 2026-11-16)"
     },
     {
       "page": "notes/dungeon-world-resources/index.html",
@@ -37,41 +32,6 @@
       "why": "links to a PDF that isn't published (Sam to approve)"
     },
     {
-      "page": "notes/fascism/index.html",
-      "match": "^<a href> points at a missing file: %5Bhttps://youtu\\.be/IXR9PByA9SY\\?si=yCiOYcS7Mwa4iwyq%5D\\(https://youtu\\.be/IXR9PByA9SY\\?si=yCiOYcS7Mwa4iwyq\\)",
-      "why": "malformed Markdown link in the note; fix the note (Sam to approve)"
-    },
-    {
-      "page": "notes/foam-backlinks/index.html",
-      "match": "^<a href> points at a missing file: /notes/find-free-movies-and-shows-online/",
-      "why": "link to a private or unwritten note; lands on the 404 by design (README, Graceful dead links) (Sam to approve)"
-    },
-    {
-      "page": "notes/fvg-invalidation/index.html",
-      "match": "^<a href> points at a missing file: /notes/private/market-structure-shift/",
-      "why": "link to a private or unwritten note; lands on the 404 by design (README, Graceful dead links) (Sam to approve)"
-    },
-    {
-      "page": "notes/how-do-we-give-meaning-our-lives/index.html",
-      "match": "^<a href> points at a missing file: /notes/private/how-should-we-spend-our-time/",
-      "why": "link to a private or unwritten note; lands on the 404 by design (README, Graceful dead links) (Sam to approve)"
-    },
-    {
-      "page": "notes/law-of-large-numbers/index.html",
-      "match": "^<a href> points at a missing file: /notes/the-expectation/",
-      "why": "link to a private or unwritten note; lands on the 404 by design (README, Graceful dead links) (Sam to approve)"
-    },
-    {
-      "page": "notes/planning-ahead-in-improvisational-partner-dance/index.html",
-      "match": "^<a href> points at a missing file: /notes/how-can-we-develop-transformative-tools-for-thought/",
-      "why": "link to a private or unwritten note; lands on the 404 by design (README, Graceful dead links) (Sam to approve)"
-    },
-    {
-      "page": "notes/planning-ahead-in-improvisational-partner-dance/index.html",
-      "match": "^<a href> points at a missing file: /notes/on-writing-well/",
-      "why": "link to a private or unwritten note; lands on the 404 by design (README, Graceful dead links) (Sam to approve)"
-    },
-    {
       "page": "notes/probability-mindset/index.html",
       "match": "^<a href> points at a missing file: /notes/private/assets/neuroeconomics-camerer\\.pdf/",
       "why": "links to a PDF that isn't published (Sam to approve)"
@@ -80,16 +40,6 @@
       "page": "notes/run-a-homebrew-world-adventure/index.html",
       "match": "^<a href> points at a missing file: /notes/private/assets/homebrew-world\\.pdf/",
       "why": "links to a PDF that isn't published (Sam to approve)"
-    },
-    {
-      "page": "notes/subnet-range/index.html",
-      "match": "^<a href> points at a missing file: /notes/netmasks/",
-      "why": "link to a private or unwritten note; lands on the 404 by design (README, Graceful dead links) (Sam to approve)"
-    },
-    {
-      "page": "notes/subnet-range/index.html",
-      "match": "^<a href> points at a missing file: /notes/broadcast-address/",
-      "why": "link to a private or unwritten note; lands on the 404 by design (README, Graceful dead links) (Sam to approve)"
     },
     {
       "page": "notes/west-coast-swing-connection/index.html",
@@ -117,39 +67,9 @@
       "why": "links to a PDF that isn't published (Sam to approve)"
     },
     {
-      "page": "notes/woodworking-resources/index.html",
-      "match": "^<script src=\"https://cse\\.google\\.com/cse\\.js\\?cx=9111ce89f8dfa4bd7\">",
-      "why": "Google Custom Search embed in the note (Sam to approve)"
-    },
-    {
-      "page": "notes/woodworking-resources/index.html",
-      "match": "^<script src> loads from cse\\.google\\.com,",
-      "why": "Google Custom Search embed in the note (Sam to approve)"
-    },
-    {
       "page": "search/index.html",
       "match": "^<script src=\"/pagefind/pagefind-ui\\.js\">",
-      "why": "Pagefind's own UI script (Sam to approve)"
-    },
-    {
-      "page": "pagefind/pagefind-ui.js",
-      "match": "^refers to www\\.w3\\.org,",
-      "why": "Pagefind's own UI script (Sam to approve)"
-    },
-    {
-      "page": "pagefind/pagefind-ui.js",
-      "match": "^refers to github\\.com,",
-      "why": "Pagefind's own UI script (Sam to approve)"
-    },
-    {
-      "page": "pagefind/pagefind-ui.js",
-      "match": "^refers to yekta\\.dev,",
-      "why": "Pagefind's own UI script (Sam to approve)"
-    },
-    {
-      "page": "pagefind/pagefind-ui.js",
-      "match": "^refers to harrymkt\\.github\\.io,",
-      "why": "Pagefind's own UI script (Sam to approve)"
+      "why": "Pagefind's own UI script (Sam: keep, 2026-11-16)"
     }
   ]
 }
