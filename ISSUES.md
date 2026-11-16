@@ -1,5 +1,17 @@
 # Issues
 
+## Status (2026-11-16, session 1, pushed)
+
+The site is mostly retired: Sam's notes moved to the private `notes` project. It stays live so old links work. The home page now says so in a callout, and the RSS pitch is gone (the feed itself still works).
+
+- Done this session: `public/robots.txt` with the `Sitemap:` line (weekly live-check finding), and the home page callout.
+- **Next (Claude):** after the next weekly live check comes back clean for robots, close tracker task `live-notebook-20261116`. Otherwise, only the open items below, all low priority.
+- **Waiting on Sam:** nothing.
+- **Checkout warning:** the local checkout at `dev/sites/notebook` sits on an old side branch, `claude/epic-brown-55cc9p`, which has diverged from its remote copy (ahead 5, behind 7) and holds copies of commits already on `main`. Work went to `main` through a temporary worktree instead. Before the next edit, switch the checkout to `main`; whether the side branch holds anything not on `main` is unchecked.
+- **Sandbox limits:** Astro telemetry fails to write outside the sandbox, so build with `ASTRO_TELEMETRY_DISABLED=1`. Headless Chrome is blocked, so the callout wasn't seen rendered.
+
+## Site review (2026-10-13)
+
 Known problems and small cleanups found during a site review on 2026-10-13.
 
 - [x] **`npm run dev` fails without a Readwise token.** The `dev` script runs `sync:readwise` first, and [scripts/sync-readwise.mjs](scripts/sync-readwise.mjs) threw when `READWISE_TOKEN` was unset. It now warns and exits cleanly, so the dev server starts on a fresh clone.
