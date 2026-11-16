@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://notes.samfeldstein.xyz/sitemap-index.xml
