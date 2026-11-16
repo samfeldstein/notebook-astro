@@ -22,11 +22,6 @@
       "why": "host names inside Pagefind's own generated script; nothing loads from them (Sam, 2026-11-16)"
     },
     {
-      "page": "notes/west-coast-swing-history/index.html",
-      "match": "^<a href> points at a missing file: /notes/assets/the-history-of-west-coast-swing-my-swing\\.pdf/",
-      "why": "links to a PDF that isn't published (Sam to approve)"
-    },
-    {
       "page": "search/index.html",
       "match": "^<script src=\"/pagefind/pagefind-ui\\.js\">",
       "why": "Pagefind's own UI script (Sam: keep, 2026-11-16)"
