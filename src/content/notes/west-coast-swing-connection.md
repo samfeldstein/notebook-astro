@@ -8,7 +8,7 @@ created: 2026-06-30
 updated: 2026-09-19
 ---
 
-Attend to your partner. [[notes/private/assets/frame-matching-and-pted.pdf|Match their frame]]. Don't lead until they're ready.
+Attend to your partner. [Match their frame](https://doi.org/10.1080/14647893.2012.688943). Don't lead until they're ready.
 
 If you want your connection to feel warm, like a hug, then try to actually feel warmth toward your partner.
 

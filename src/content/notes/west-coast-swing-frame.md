@@ -29,4 +29,4 @@ The frame is more like a rising into yourself. Letting your bones fall into plac
 
 ## Further reading
 
-- [[notes/private/assets/frame-matching-and-pted.pdf|Frame Matching and PTED]]
+- [Frame Matching and PTED](https://doi.org/10.1080/14647893.2012.688943)

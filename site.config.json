@@ -22,48 +22,8 @@
       "why": "host names inside Pagefind's own generated script; nothing loads from them (Sam, 2026-11-16)"
     },
     {
-      "page": "notes/dungeon-world-resources/index.html",
-      "match": "^<a href> points at a missing file: /notes/private/assets/dungeon-world-guide\\.pdf/",
-      "why": "links to a PDF that isn't published (Sam to approve)"
-    },
-    {
-      "page": "notes/dungeon-world-resources/index.html",
-      "match": "^<a href> points at a missing file: /notes/private/assets/dungeon-world-core-book\\.pdf/",
-      "why": "links to a PDF that isn't published (Sam to approve)"
-    },
-    {
-      "page": "notes/probability-mindset/index.html",
-      "match": "^<a href> points at a missing file: /notes/private/assets/neuroeconomics-camerer\\.pdf/",
-      "why": "links to a PDF that isn't published (Sam to approve)"
-    },
-    {
-      "page": "notes/run-a-homebrew-world-adventure/index.html",
-      "match": "^<a href> points at a missing file: /notes/private/assets/homebrew-world\\.pdf/",
-      "why": "links to a PDF that isn't published (Sam to approve)"
-    },
-    {
-      "page": "notes/west-coast-swing-connection/index.html",
-      "match": "^<a href> points at a missing file: /notes/private/assets/frame-matching-and-pted\\.pdf/",
-      "why": "links to a PDF that isn't published (Sam to approve)"
-    },
-    {
-      "page": "notes/west-coast-swing-frame/index.html",
-      "match": "^<a href> points at a missing file: /notes/private/assets/frame-matching-and-pted\\.pdf/",
-      "why": "links to a PDF that isn't published (Sam to approve)"
-    },
-    {
-      "page": "notes/west-coast-swing-history/index.html",
-      "match": "^<a href> points at a missing file: /notes/assets/evolution-of-west-coast-swing\\.pdf/",
-      "why": "links to a PDF that isn't published (Sam to approve)"
-    },
-    {
       "page": "notes/west-coast-swing-history/index.html",
       "match": "^<a href> points at a missing file: /notes/assets/the-history-of-west-coast-swing-my-swing\\.pdf/",
-      "why": "links to a PDF that isn't published (Sam to approve)"
-    },
-    {
-      "page": "notes/west-coast-swing-learning-path/index.html",
-      "match": "^<a href> points at a missing file: /notes/private/assets/frame-matching-and-pted\\.pdf/",
       "why": "links to a PDF that isn't published (Sam to approve)"
     },
     {
