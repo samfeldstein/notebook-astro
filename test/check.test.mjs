@@ -3,7 +3,7 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { spawnSync } from "node:child_process";
-import { copyFileSync, mkdirSync, mkdtempSync, realpathSync, rmSync, writeFileSync } from "node:fs";
+import { copyFileSync, existsSync, mkdirSync, mkdtempSync, readFileSync, realpathSync, rmSync, writeFileSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
@@ -222,6 +222,20 @@ test("openChecks counts unticked lines in docs/checks-log.md", () => {
 test("built skips the sync step and writes no sitemap.xml", () => {
   const { problems } = run({ config: { built: true }, robots: "User-agent: *\n" });
   assert.deepEqual(problems, []);
+  const dir = mkdtempSync(join(tmpdir(), "check-built-"));
+  try {
+    const page = '<html><body><!-- shared:header --><!-- /shared:header --></body></html>';
+    mkdirSync(join(dir, "site"));
+    mkdirSync(join(dir, "shared"));
+    writeFileSync(join(dir, "site/index.html"), page);
+    writeFileSync(join(dir, "shared/header.html"), "<header>H</header>");
+    writeFileSync(join(dir, "site.config.json"), JSON.stringify({ root: "site", siteUrl: "https://example.com", built: true }));
+    assert.deepEqual(sync(loadConfig(dir)), []);
+    assert.equal(existsSync(join(dir, "site/sitemap.xml")), false);
+    assert.equal(readFileSync(join(dir, "site/index.html"), "utf8"), page);
+  } finally {
+    rmSync(dir, { recursive: true, force: true });
+  }
 });
 
 test("skipPages leaves out an exact page and a folder", () => {
@@ -242,6 +256,9 @@ test("known turns one page's matching failure into a warning, and nothing else",
   const other = run({ files, config: { known: [{ page: "index.html", match: "missing file" }], noSitemap } });
   assert.ok(has(other.problems, /^a\.html: .*\/missing\//), other.problems.join("\n"));
   assert.ok(has(run({ config: { known: [{ match: "x" }] } }).problems, /needs a "page" and a "match"/));
+  assert.ok(has(run({ config: { known: [{ page: "a.html", match: "(" }] } }).problems, /bad "match"/));
+  const cms = run({ config: { clientCms: true, known: [{ page: "clientCms", match: "." }] }, files: { "package.json": JSON.stringify({ scripts: { build: "node check.mjs" } }) } });
+  assert.ok(has(cms.problems, /^clientCms: /), cms.problems.join("\n"));
 });
 
 test("a known folder entry covers pages under it only", () => {
@@ -269,6 +286,8 @@ test("clientCms fails when a build command in the repo runs the check", () => {
     { "package.json": pkg({ postbuild: "node --test test/*.test.mjs" }) },
     { "netlify.toml": '[build]\n  command = "npm run build && node check.mjs"\n' },
     { "wrangler.jsonc": '{ "build": { "command": "node check.mjs" } }' },
+    { "netlify.toml": '[build]\n  command = "npm run netlify-build"\n', "package.json": pkg({ "netlify-build": "astro build && npm test", test: "node --test test/*.test.mjs" }) },
+    { "package.json": pkg({ build: "npm run build:all", "build:all": "astro build && node check.mjs" }) },
   ]) assert.ok(has(run({ config: { clientCms: true }, files }).problems, /^clientCms: .*CMS saves/), JSON.stringify(files));
   assert.deepEqual(run({ files: { "package.json": pkg({ build: "astro build && node check.mjs" }) } }).problems, []);
 });

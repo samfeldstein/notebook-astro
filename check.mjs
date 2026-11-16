@@ -41,7 +41,8 @@
     - "clientCms": true: the client's CMS saves deploy the site, so the check
       must never run in the host's build (a failure would stop the client's
       edit from going live). It fails if netlify.toml, wrangler's build
-      command, or the package.json build scripts run it, and inside a host
+      command, or npm run build (with its pre and post scripts and the npm
+      scripts they call) run it or the tests, and inside a host
       build (NETLIFY, WORKERS_CI or CF_PAGES set) it warns and passes
       without checking.
 
@@ -304,14 +305,23 @@ export function applyKnown(problems, known, warn) {
   const kept = [];
   const used = new Set();
   const entries = known.filter((k, i) => {
-    if (typeof k.page === "string" && typeof k.match === "string" && k.page && k.match) return true;
-    kept.push(`site.config.json: "known" entry ${i + 1} needs a "page" and a "match"`);
-    return false;
+    if (typeof k.page !== "string" || typeof k.match !== "string" || !k.page || !k.match) {
+      kept.push(`site.config.json: "known" entry ${i + 1} needs a "page" and a "match"`);
+      return false;
+    }
+    try {
+      k.re = new RegExp(k.match);
+    } catch (e) {
+      kept.push(`site.config.json: "known" entry ${i + 1} has a bad "match": ${e.message}`);
+      return false;
+    }
+    return true;
   });
   for (const line of problems) {
     const cut = line.indexOf(": ");
     const [where, message] = [line.slice(0, cut), line.slice(cut + 2)];
-    const k = entries.find((e) => (e.page.endsWith("/") ? where.startsWith(e.page) : where === e.page) && new RegExp(e.match).test(message));
+    // The clientCms guard can't be made a known failure.
+    const k = where === "clientCms" ? null : entries.find((e) => (e.page.endsWith("/") ? where.startsWith(e.page) : where === e.page) && e.re.test(message));
     if (!k) kept.push(line);
     else {
       used.add(k);
@@ -327,17 +337,30 @@ export function buildCommandProblems(dir) {
   const gate = /check\.mjs|node\s+--test|npm\s+(?:run\s+)?test\b/;
   const found = [];
   const read = (name) => (existsSync(join(dir, name)) ? readFileSync(join(dir, name), "utf8") : null);
+  const pkg = read("package.json");
+  const scripts = pkg ? (JSON.parse(pkg).scripts ?? {}) : {};
+  // A command runs its npm scripts too ("npm run x", "npm test"), with their pre and post scripts, so follow them.
+  const expand = (cmd, seen = new Set()) => {
+    let text = cmd;
+    for (const m of cmd.matchAll(/\bnpm\s+(?:run(?:-script)?\s+([\w:.-]+)|(test|start)\b)/g)) {
+      const name = m[1] ?? m[2];
+      for (const n of [`pre${name}`, name, `post${name}`]) {
+        if (scripts[n] !== undefined && !seen.has(n)) {
+          seen.add(n);
+          text += " ; " + expand(scripts[n], seen);
+        }
+      }
+    }
+    return text;
+  };
   const toml = read("netlify.toml");
-  if (toml) for (const m of toml.matchAll(/^\s*command\s*=\s*(["'])(.*?)\1/gm)) if (gate.test(m[2])) found.push(`netlify.toml command "${m[2]}"`);
+  if (toml) for (const m of toml.matchAll(/^\s*command\s*=\s*(["'])(.*?)\1/gm)) if (gate.test(expand(m[2]))) found.push(`netlify.toml command "${m[2]}"`);
   for (const name of ["wrangler.jsonc", "wrangler.json", "wrangler.toml"]) {
     const text = read(name);
-    if (text) for (const m of text.matchAll(/["']?command["']?\s*[:=]\s*(["'])(.*?)\1/g)) if (gate.test(m[2])) found.push(`${name} build command "${m[2]}"`);
+    if (text) for (const m of text.matchAll(/["']?command["']?\s*[:=]\s*(["'])(.*?)\1/g)) if (gate.test(expand(m[2]))) found.push(`${name} build command "${m[2]}"`);
   }
-  const pkg = read("package.json");
-  if (pkg) {
-    const scripts = JSON.parse(pkg).scripts ?? {};
-    for (const name of ["prebuild", "build", "postbuild"]) if (gate.test(scripts[name] ?? "")) found.push(`package.json "${name}" script "${scripts[name]}"`);
-  }
+  // Hosts usually run "npm run build"; check it as they would.
+  if (gate.test(expand("npm run build"))) found.push(`package.json "build" script (with its prebuild, postbuild, and the scripts they run) "${scripts.build ?? ""}"`);
   return found.map((f) => `${f} runs the check in the host build, which could stop the client's CMS saves from going live; run it only in the pre-push hook`);
 }
 
