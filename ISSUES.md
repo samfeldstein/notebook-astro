@@ -5,9 +5,9 @@
 The site is mostly retired: Sam's notes moved to the private `notes` project. It stays live so old links work. The home page now says so in a callout, and the RSS pitch is gone (the feed itself still works).
 
 - Done this session: `public/robots.txt` with the `Sitemap:` line (weekly live-check finding), and the home page callout.
-- **Next (Claude):** after the next weekly live check comes back clean for robots, close tracker task `live-notebook-20261116`. Otherwise, only the open items below, all low priority.
+- **Next (Claude):** only the open items below, all low priority. Robots came back clean in the 2026-11-23 weekly live check; tracker task `live-notebook-20261116` closed 2026-11-25.
 - **Waiting on Sam:** nothing.
-- **Checkout warning:** the local checkout at `dev/sites/notebook` sits on an old side branch, `claude/epic-brown-55cc9p`, which has diverged from its remote copy (ahead 5, behind 7) and holds copies of commits already on `main`. Work went to `main` through a temporary worktree instead. Before the next edit, switch the checkout to `main`; whether the side branch holds anything not on `main` is unchecked.
+- **Checkout:** switched to `main` on 2026-11-25. The old side branch `claude/epic-brown-55cc9p` is still there, diverged from its remote (ahead 7, behind 7), and holds copies of commits already on `main` plus two stray ISSUES commits from 2026-11-25 (their content is now here). Whether it holds anything else not on `main` is unchecked; don't push it.
 - **Sandbox limits:** Astro telemetry fails to write outside the sandbox, so build with `ASTRO_TELEMETRY_DISABLED=1`. Headless Chrome is blocked, so the callout wasn't seen rendered.
 
 ## Site review (2026-10-13)
